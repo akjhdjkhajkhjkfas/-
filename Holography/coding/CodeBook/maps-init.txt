@@ -1,0 +1,3377 @@
+
+Holography/release/mainwindow.o:     file format pe-x86-64
+
+
+Disassembly of section .text.startup:
+
+0000000000000000 <QBasicAtomicInteger<int>::ref() [clone .isra.0]>:
+       0:	f0 83 01 01          	lock addl $0x1,(%rcx)
+       4:	c3                   	ret
+       5:	66 66 2e 0f 1f 84 00 	data16 cs nopw 0x0(%rax,%rax,1)
+       c:	00 00 00 00 
+
+0000000000000010 <__static_initialization_and_destruction_0()>:
+      10:	41 57                	push   %r15
+      12:	b8 28 18 00 00       	mov    $0x1828,%eax
+      17:	41 56                	push   %r14
+      19:	41 55                	push   %r13
+      1b:	41 54                	push   %r12
+      1d:	55                   	push   %rbp
+      1e:	57                   	push   %rdi
+      1f:	56                   	push   %rsi
+      20:	53                   	push   %rbx
+      21:	e8 00 00 00 00       	call   26 <__static_initialization_and_destruction_0()+0x16>
+			22: IMAGE_REL_AMD64_REL32	___chkstk_ms
+      26:	48 29 c4             	sub    %rax,%rsp
+      29:	0f 29 b4 24 80 17 00 	movaps %xmm6,0x1780(%rsp)
+      30:	00 
+      31:	0f 29 bc 24 90 17 00 	movaps %xmm7,0x1790(%rsp)
+      38:	00 
+      39:	44 0f 29 84 24 a0 17 	movaps %xmm8,0x17a0(%rsp)
+      40:	00 00 
+      42:	44 0f 29 8c 24 b0 17 	movaps %xmm9,0x17b0(%rsp)
+      49:	00 00 
+      4b:	44 0f 29 94 24 c0 17 	movaps %xmm10,0x17c0(%rsp)
+      52:	00 00 
+      54:	44 0f 29 9c 24 d0 17 	movaps %xmm11,0x17d0(%rsp)
+      5b:	00 00 
+      5d:	44 0f 29 a4 24 e0 17 	movaps %xmm12,0x17e0(%rsp)
+      64:	00 00 
+      66:	44 0f 29 ac 24 f0 17 	movaps %xmm13,0x17f0(%rsp)
+      6d:	00 00 
+      6f:	44 0f 29 b4 24 00 18 	movaps %xmm14,0x1800(%rsp)
+      76:	00 00 
+      78:	44 0f 29 bc 24 10 18 	movaps %xmm15,0x1810(%rsp)
+      7f:	00 00 
+      81:	48 8d 15 30 06 00 00 	lea    0x630(%rip),%rdx        # 6b8 <__static_initialization_and_destruction_0()+0x6a8>
+			84: IMAGE_REL_AMD64_REL32	.rdata
+      88:	48 8d 0d 40 00 00 00 	lea    0x40(%rip),%rcx        # cf <__static_initialization_and_destruction_0()+0xbf>
+			8b: IMAGE_REL_AMD64_REL32	.bss
+      8f:	e8 00 00 00 00       	call   94 <__static_initialization_and_destruction_0()+0x84>
+			90: IMAGE_REL_AMD64_REL32	QString::QString(char const*)
+      94:	48 8d 0d 60 01 00 00 	lea    0x160(%rip),%rcx        # 1fb <__static_initialization_and_destruction_0()+0x1eb>
+			97: IMAGE_REL_AMD64_REL32	.text
+      9b:	e8 00 00 00 00       	call   a0 <__static_initialization_and_destruction_0()+0x90>
+			9c: IMAGE_REL_AMD64_REL32	atexit
+      a0:	48 8d 15 10 07 00 00 	lea    0x710(%rip),%rdx        # 7b7 <__static_initialization_and_destruction_0()+0x7a7>
+			a3: IMAGE_REL_AMD64_REL32	.rdata
+      a7:	48 8d 0d 20 00 00 00 	lea    0x20(%rip),%rcx        # ce <__static_initialization_and_destruction_0()+0xbe>
+			aa: IMAGE_REL_AMD64_REL32	.bss
+      ae:	e8 00 00 00 00       	call   b3 <__static_initialization_and_destruction_0()+0xa3>
+			af: IMAGE_REL_AMD64_REL32	QString::QString(char const*)
+      b3:	48 8d 9c 24 e0 02 00 	lea    0x2e0(%rsp),%rbx
+      ba:	00 
+      bb:	48 8d bc 24 30 0d 00 	lea    0xd30(%rsp),%rdi
+      c2:	00 
+      c3:	48 8d 0d 90 01 00 00 	lea    0x190(%rip),%rcx        # 25a <__static_initialization_and_destruction_0()+0x24a>
+			c6: IMAGE_REL_AMD64_REL32	.text
+      ca:	e8 00 00 00 00       	call   cf <__static_initialization_and_destruction_0()+0xbf>
+			cb: IMAGE_REL_AMD64_REL32	atexit
+      cf:	48 89 f9             	mov    %rdi,%rcx
+      d2:	48 89 da             	mov    %rbx,%rdx
+      d5:	48 89 7c 24 40       	mov    %rdi,0x40(%rsp)
+      da:	48 8d 84 24 b0 0b 00 	lea    0xbb0(%rsp),%rax
+      e1:	00 
+      e2:	48 c7 84 24 b0 0b 00 	movq   $0x0,0xbb0(%rsp)
+      e9:	00 00 00 00 00 
+      ee:	48 89 84 24 a8 00 00 	mov    %rax,0xa8(%rsp)
+      f5:	00 
+      f6:	4c 8d b4 24 10 0e 00 	lea    0xe10(%rsp),%r14
+      fd:	00 
+      fe:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     105:	00 
+     106:	4c 8d bc 24 30 0e 00 	lea    0xe30(%rsp),%r15
+     10d:	00 
+     10e:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     115:	00 02 00 00 00 
+     11a:	4c 8d a4 24 50 0e 00 	lea    0xe50(%rsp),%r12
+     121:	00 
+     122:	e8 00 00 00 00       	call   127 <__static_initialization_and_destruction_0()+0x117>
+			123: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     127:	48 8d 84 24 88 14 00 	lea    0x1488(%rsp),%rax
+     12e:	00 
+     12f:	48 89 fa             	mov    %rdi,%rdx
+     132:	c7 84 24 80 14 00 00 	movl   $0x0,0x1480(%rsp)
+     139:	00 00 00 00 
+     13d:	48 8d bc 24 50 0d 00 	lea    0xd50(%rsp),%rdi
+     144:	00 
+     145:	48 89 c1             	mov    %rax,%rcx
+     148:	48 89 84 24 28 01 00 	mov    %rax,0x128(%rsp)
+     14f:	00 
+     150:	e8 00 00 00 00       	call   155 <__static_initialization_and_destruction_0()+0x145>
+			151: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     155:	48 89 f9             	mov    %rdi,%rcx
+     158:	48 89 da             	mov    %rbx,%rdx
+     15b:	48 89 7c 24 48       	mov    %rdi,0x48(%rsp)
+     160:	48 8d 84 24 d0 0b 00 	lea    0xbd0(%rsp),%rax
+     167:	00 
+     168:	48 c7 84 24 d0 0b 00 	movq   $0x6,0xbd0(%rsp)
+     16f:	00 06 00 00 00 
+     174:	48 89 84 24 b8 00 00 	mov    %rax,0xb8(%rsp)
+     17b:	00 
+     17c:	48 8d ac 24 80 11 00 	lea    0x1180(%rsp),%rbp
+     183:	00 
+     184:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     18b:	00 
+     18c:	48 8d b4 24 80 14 00 	lea    0x1480(%rsp),%rsi
+     193:	00 
+     194:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     19b:	00 02 00 00 00 
+     1a0:	e8 00 00 00 00       	call   1a5 <__static_initialization_and_destruction_0()+0x195>
+			1a1: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     1a5:	48 8d 84 24 a8 14 00 	lea    0x14a8(%rsp),%rax
+     1ac:	00 
+     1ad:	48 89 fa             	mov    %rdi,%rdx
+     1b0:	c7 84 24 a0 14 00 00 	movl   $0x1,0x14a0(%rsp)
+     1b7:	01 00 00 00 
+     1bb:	48 8d bc 24 70 0d 00 	lea    0xd70(%rsp),%rdi
+     1c2:	00 
+     1c3:	48 89 c1             	mov    %rax,%rcx
+     1c6:	48 89 84 24 30 01 00 	mov    %rax,0x130(%rsp)
+     1cd:	00 
+     1ce:	e8 00 00 00 00       	call   1d3 <__static_initialization_and_destruction_0()+0x1c3>
+			1cf: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     1d3:	48 89 f9             	mov    %rdi,%rcx
+     1d6:	48 89 da             	mov    %rbx,%rdx
+     1d9:	48 89 7c 24 50       	mov    %rdi,0x50(%rsp)
+     1de:	48 8d 84 24 f0 0b 00 	lea    0xbf0(%rsp),%rax
+     1e5:	00 
+     1e6:	48 c7 84 24 f0 0b 00 	movq   $0xc,0xbf0(%rsp)
+     1ed:	00 0c 00 00 00 
+     1f2:	48 89 84 24 c8 00 00 	mov    %rax,0xc8(%rsp)
+     1f9:	00 
+     1fa:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     201:	00 
+     202:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     209:	00 02 00 00 00 
+     20e:	e8 00 00 00 00       	call   213 <__static_initialization_and_destruction_0()+0x203>
+			20f: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     213:	48 8d 84 24 c8 14 00 	lea    0x14c8(%rsp),%rax
+     21a:	00 
+     21b:	48 89 fa             	mov    %rdi,%rdx
+     21e:	c7 84 24 c0 14 00 00 	movl   $0x2,0x14c0(%rsp)
+     225:	02 00 00 00 
+     229:	48 8d bc 24 90 0d 00 	lea    0xd90(%rsp),%rdi
+     230:	00 
+     231:	48 89 c1             	mov    %rax,%rcx
+     234:	48 89 84 24 38 01 00 	mov    %rax,0x138(%rsp)
+     23b:	00 
+     23c:	e8 00 00 00 00       	call   241 <__static_initialization_and_destruction_0()+0x231>
+			23d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     241:	48 89 f9             	mov    %rdi,%rcx
+     244:	48 89 da             	mov    %rbx,%rdx
+     247:	48 89 7c 24 58       	mov    %rdi,0x58(%rsp)
+     24c:	48 8d 84 24 10 0c 00 	lea    0xc10(%rsp),%rax
+     253:	00 
+     254:	48 c7 84 24 10 0c 00 	movq   $0x12,0xc10(%rsp)
+     25b:	00 12 00 00 00 
+     260:	48 89 84 24 d8 00 00 	mov    %rax,0xd8(%rsp)
+     267:	00 
+     268:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     26f:	00 
+     270:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     277:	00 02 00 00 00 
+     27c:	e8 00 00 00 00       	call   281 <__static_initialization_and_destruction_0()+0x271>
+			27d: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     281:	48 8d 84 24 e8 14 00 	lea    0x14e8(%rsp),%rax
+     288:	00 
+     289:	48 89 fa             	mov    %rdi,%rdx
+     28c:	c7 84 24 e0 14 00 00 	movl   $0x3,0x14e0(%rsp)
+     293:	03 00 00 00 
+     297:	48 8d bc 24 b0 0d 00 	lea    0xdb0(%rsp),%rdi
+     29e:	00 
+     29f:	48 89 c1             	mov    %rax,%rcx
+     2a2:	48 89 84 24 40 01 00 	mov    %rax,0x140(%rsp)
+     2a9:	00 
+     2aa:	e8 00 00 00 00       	call   2af <__static_initialization_and_destruction_0()+0x29f>
+			2ab: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     2af:	48 89 f9             	mov    %rdi,%rcx
+     2b2:	48 89 da             	mov    %rbx,%rdx
+     2b5:	48 89 7c 24 28       	mov    %rdi,0x28(%rsp)
+     2ba:	48 8d 84 24 30 0c 00 	lea    0xc30(%rsp),%rax
+     2c1:	00 
+     2c2:	48 c7 84 24 30 0c 00 	movq   $0x18,0xc30(%rsp)
+     2c9:	00 18 00 00 00 
+     2ce:	48 89 84 24 e8 00 00 	mov    %rax,0xe8(%rsp)
+     2d5:	00 
+     2d6:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     2dd:	00 
+     2de:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     2e5:	00 02 00 00 00 
+     2ea:	e8 00 00 00 00       	call   2ef <__static_initialization_and_destruction_0()+0x2df>
+			2eb: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     2ef:	48 8d 84 24 08 15 00 	lea    0x1508(%rsp),%rax
+     2f6:	00 
+     2f7:	48 89 fa             	mov    %rdi,%rdx
+     2fa:	c7 84 24 00 15 00 00 	movl   $0x4,0x1500(%rsp)
+     301:	04 00 00 00 
+     305:	48 8d bc 24 d0 0d 00 	lea    0xdd0(%rsp),%rdi
+     30c:	00 
+     30d:	48 89 c1             	mov    %rax,%rcx
+     310:	48 89 84 24 48 01 00 	mov    %rax,0x148(%rsp)
+     317:	00 
+     318:	e8 00 00 00 00       	call   31d <__static_initialization_and_destruction_0()+0x30d>
+			319: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     31d:	48 89 f9             	mov    %rdi,%rcx
+     320:	48 89 da             	mov    %rbx,%rdx
+     323:	48 89 7c 24 30       	mov    %rdi,0x30(%rsp)
+     328:	48 8d 84 24 50 0c 00 	lea    0xc50(%rsp),%rax
+     32f:	00 
+     330:	48 c7 84 24 50 0c 00 	movq   $0x1e,0xc50(%rsp)
+     337:	00 1e 00 00 00 
+     33c:	48 89 84 24 f8 00 00 	mov    %rax,0xf8(%rsp)
+     343:	00 
+     344:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     34b:	00 
+     34c:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     353:	00 02 00 00 00 
+     358:	e8 00 00 00 00       	call   35d <__static_initialization_and_destruction_0()+0x34d>
+			359: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     35d:	48 8d 84 24 28 15 00 	lea    0x1528(%rsp),%rax
+     364:	00 
+     365:	48 89 fa             	mov    %rdi,%rdx
+     368:	c7 84 24 20 15 00 00 	movl   $0x5,0x1520(%rsp)
+     36f:	05 00 00 00 
+     373:	48 8d bc 24 f0 0d 00 	lea    0xdf0(%rsp),%rdi
+     37a:	00 
+     37b:	48 89 c1             	mov    %rax,%rcx
+     37e:	48 89 84 24 50 01 00 	mov    %rax,0x150(%rsp)
+     385:	00 
+     386:	e8 00 00 00 00       	call   38b <__static_initialization_and_destruction_0()+0x37b>
+			387: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     38b:	48 89 f9             	mov    %rdi,%rcx
+     38e:	48 89 da             	mov    %rbx,%rdx
+     391:	48 89 7c 24 38       	mov    %rdi,0x38(%rsp)
+     396:	48 8d 84 24 70 0c 00 	lea    0xc70(%rsp),%rax
+     39d:	00 
+     39e:	48 c7 84 24 70 0c 00 	movq   $0x24,0xc70(%rsp)
+     3a5:	00 24 00 00 00 
+     3aa:	48 89 84 24 08 01 00 	mov    %rax,0x108(%rsp)
+     3b1:	00 
+     3b2:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     3b9:	00 
+     3ba:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     3c1:	00 02 00 00 00 
+     3c6:	e8 00 00 00 00       	call   3cb <__static_initialization_and_destruction_0()+0x3bb>
+			3c7: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     3cb:	48 8d 84 24 48 15 00 	lea    0x1548(%rsp),%rax
+     3d2:	00 
+     3d3:	48 89 fa             	mov    %rdi,%rdx
+     3d6:	c7 84 24 40 15 00 00 	movl   $0x6,0x1540(%rsp)
+     3dd:	06 00 00 00 
+     3e1:	48 89 c1             	mov    %rax,%rcx
+     3e4:	48 89 84 24 58 01 00 	mov    %rax,0x158(%rsp)
+     3eb:	00 
+     3ec:	e8 00 00 00 00       	call   3f1 <__static_initialization_and_destruction_0()+0x3e1>
+			3ed: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     3f1:	48 8d 84 24 90 0c 00 	lea    0xc90(%rsp),%rax
+     3f8:	00 
+     3f9:	48 89 da             	mov    %rbx,%rdx
+     3fc:	4c 89 f1             	mov    %r14,%rcx
+     3ff:	48 89 84 24 18 01 00 	mov    %rax,0x118(%rsp)
+     406:	00 
+     407:	48 8d bc 24 80 0e 00 	lea    0xe80(%rsp),%rdi
+     40e:	00 
+     40f:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     416:	00 
+     417:	48 c7 84 24 90 0c 00 	movq   $0x2a,0xc90(%rsp)
+     41e:	00 2a 00 00 00 
+     423:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     42a:	00 02 00 00 00 
+     42f:	e8 00 00 00 00       	call   434 <__static_initialization_and_destruction_0()+0x424>
+			430: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     434:	48 8d 84 24 68 15 00 	lea    0x1568(%rsp),%rax
+     43b:	00 
+     43c:	4c 89 f2             	mov    %r14,%rdx
+     43f:	c7 84 24 60 15 00 00 	movl   $0x7,0x1560(%rsp)
+     446:	07 00 00 00 
+     44a:	48 89 c1             	mov    %rax,%rcx
+     44d:	48 89 84 24 60 01 00 	mov    %rax,0x160(%rsp)
+     454:	00 
+     455:	e8 00 00 00 00       	call   45a <__static_initialization_and_destruction_0()+0x44a>
+			456: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     45a:	48 8d 84 24 b0 0c 00 	lea    0xcb0(%rsp),%rax
+     461:	00 
+     462:	48 89 da             	mov    %rbx,%rdx
+     465:	4c 89 f9             	mov    %r15,%rcx
+     468:	48 89 44 24 68       	mov    %rax,0x68(%rsp)
+     46d:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     474:	00 
+     475:	48 c7 84 24 b0 0c 00 	movq   $0x30,0xcb0(%rsp)
+     47c:	00 30 00 00 00 
+     481:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     488:	00 02 00 00 00 
+     48d:	e8 00 00 00 00       	call   492 <__static_initialization_and_destruction_0()+0x482>
+			48e: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     492:	48 8d 84 24 88 15 00 	lea    0x1588(%rsp),%rax
+     499:	00 
+     49a:	4c 89 fa             	mov    %r15,%rdx
+     49d:	c7 84 24 80 15 00 00 	movl   $0x8,0x1580(%rsp)
+     4a4:	08 00 00 00 
+     4a8:	48 89 c1             	mov    %rax,%rcx
+     4ab:	48 89 84 24 a0 02 00 	mov    %rax,0x2a0(%rsp)
+     4b2:	00 
+     4b3:	e8 00 00 00 00       	call   4b8 <__static_initialization_and_destruction_0()+0x4a8>
+			4b4: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     4b8:	48 8d 84 24 d0 0c 00 	lea    0xcd0(%rsp),%rax
+     4bf:	00 
+     4c0:	48 89 da             	mov    %rbx,%rdx
+     4c3:	4c 89 e1             	mov    %r12,%rcx
+     4c6:	48 89 44 24 70       	mov    %rax,0x70(%rsp)
+     4cb:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     4d2:	00 
+     4d3:	48 c7 84 24 d0 0c 00 	movq   $0x36,0xcd0(%rsp)
+     4da:	00 36 00 00 00 
+     4df:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     4e6:	00 02 00 00 00 
+     4eb:	e8 00 00 00 00       	call   4f0 <__static_initialization_and_destruction_0()+0x4e0>
+			4ec: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     4f0:	48 8d 84 24 a8 15 00 	lea    0x15a8(%rsp),%rax
+     4f7:	00 
+     4f8:	4c 89 e2             	mov    %r12,%rdx
+     4fb:	c7 84 24 a0 15 00 00 	movl   $0x9,0x15a0(%rsp)
+     502:	09 00 00 00 
+     506:	48 89 c1             	mov    %rax,%rcx
+     509:	48 89 84 24 a8 02 00 	mov    %rax,0x2a8(%rsp)
+     510:	00 
+     511:	e8 00 00 00 00       	call   516 <__static_initialization_and_destruction_0()+0x506>
+			512: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     516:	48 8d 84 24 f0 0c 00 	lea    0xcf0(%rsp),%rax
+     51d:	00 
+     51e:	48 89 da             	mov    %rbx,%rdx
+     521:	48 89 f9             	mov    %rdi,%rcx
+     524:	48 89 44 24 78       	mov    %rax,0x78(%rsp)
+     529:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     530:	00 
+     531:	48 c7 84 24 f0 0c 00 	movq   $0x3c,0xcf0(%rsp)
+     538:	00 3c 00 00 00 
+     53d:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     544:	00 02 00 00 00 
+     549:	e8 00 00 00 00       	call   54e <__static_initialization_and_destruction_0()+0x53e>
+			54a: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     54e:	48 8d 84 24 c8 15 00 	lea    0x15c8(%rsp),%rax
+     555:	00 
+     556:	48 89 fa             	mov    %rdi,%rdx
+     559:	c7 84 24 c0 15 00 00 	movl   $0xa,0x15c0(%rsp)
+     560:	0a 00 00 00 
+     564:	48 89 c1             	mov    %rax,%rcx
+     567:	48 89 84 24 b0 02 00 	mov    %rax,0x2b0(%rsp)
+     56e:	00 
+     56f:	e8 00 00 00 00       	call   574 <__static_initialization_and_destruction_0()+0x564>
+			570: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     574:	48 8d 84 24 10 0d 00 	lea    0xd10(%rsp),%rax
+     57b:	00 
+     57c:	48 89 da             	mov    %rbx,%rdx
+     57f:	48 89 e9             	mov    %rbp,%rcx
+     582:	48 89 84 24 80 00 00 	mov    %rax,0x80(%rsp)
+     589:	00 
+     58a:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     591:	00 
+     592:	48 c7 84 24 10 0d 00 	movq   $0x42,0xd10(%rsp)
+     599:	00 42 00 00 00 
+     59e:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     5a5:	00 02 00 00 00 
+     5aa:	e8 00 00 00 00       	call   5af <__static_initialization_and_destruction_0()+0x59f>
+			5ab: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     5af:	48 8d 84 24 e8 15 00 	lea    0x15e8(%rsp),%rax
+     5b6:	00 
+     5b7:	48 89 ea             	mov    %rbp,%rdx
+     5ba:	c7 84 24 e0 15 00 00 	movl   $0xb,0x15e0(%rsp)
+     5c1:	0b 00 00 00 
+     5c5:	48 89 c1             	mov    %rax,%rcx
+     5c8:	48 89 84 24 b8 02 00 	mov    %rax,0x2b8(%rsp)
+     5cf:	00 
+     5d0:	e8 00 00 00 00       	call   5d5 <__static_initialization_and_destruction_0()+0x5c5>
+			5d1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     5d5:	48 8d 84 24 d0 02 00 	lea    0x2d0(%rsp),%rax
+     5dc:	00 
+     5dd:	48 89 b4 24 d0 02 00 	mov    %rsi,0x2d0(%rsp)
+     5e4:	00 
+     5e5:	48 8d 0d 10 00 00 00 	lea    0x10(%rip),%rcx        # 5fc <__static_initialization_and_destruction_0()+0x5ec>
+			5e8: IMAGE_REL_AMD64_REL32	.bss
+     5ec:	48 89 c2             	mov    %rax,%rdx
+     5ef:	48 89 44 24 60       	mov    %rax,0x60(%rsp)
+     5f4:	48 c7 84 24 d8 02 00 	movq   $0xc,0x2d8(%rsp)
+     5fb:	00 0c 00 00 00 
+     600:	e8 00 00 00 00       	call   605 <__static_initialization_and_destruction_0()+0x5f5>
+			601: IMAGE_REL_AMD64_REL32	QMap<int, QList<int> >::QMap(std::initializer_list<std::pair<int, QList<int> > >)
+     605:	4c 8d ac 24 e0 15 00 	lea    0x15e0(%rsp),%r13
+     60c:	00 
+     60d:	eb 04                	jmp    613 <__static_initialization_and_destruction_0()+0x603>
+     60f:	90                   	nop
+     610:	49 89 c5             	mov    %rax,%r13
+     613:	49 8b 45 08          	mov    0x8(%r13),%rax
+     617:	48 85 c0             	test   %rax,%rax
+     61a:	74 0f                	je     62b <__static_initialization_and_destruction_0()+0x61b>
+     61c:	f0 83 28 01          	lock subl $0x1,(%rax)
+     620:	75 09                	jne    62b <__static_initialization_and_destruction_0()+0x61b>
+     622:	49 8b 4d 08          	mov    0x8(%r13),%rcx
+     626:	e8 00 00 00 00       	call   62b <__static_initialization_and_destruction_0()+0x61b>
+			627: IMAGE_REL_AMD64_REL32	free
+     62b:	49 8d 45 e0          	lea    -0x20(%r13),%rax
+     62f:	4c 39 ee             	cmp    %r13,%rsi
+     632:	75 dc                	jne    610 <__static_initialization_and_destruction_0()+0x600>
+     634:	48 89 e9             	mov    %rbp,%rcx
+     637:	e8 00 00 00 00       	call   63c <__static_initialization_and_destruction_0()+0x62c>
+			638: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     63c:	48 89 f9             	mov    %rdi,%rcx
+     63f:	e8 00 00 00 00       	call   644 <__static_initialization_and_destruction_0()+0x634>
+			640: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     644:	4c 89 e1             	mov    %r12,%rcx
+     647:	e8 00 00 00 00       	call   64c <__static_initialization_and_destruction_0()+0x63c>
+			648: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     64c:	4c 89 f9             	mov    %r15,%rcx
+     64f:	e8 00 00 00 00       	call   654 <__static_initialization_and_destruction_0()+0x644>
+			650: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     654:	4c 89 f1             	mov    %r14,%rcx
+     657:	e8 00 00 00 00       	call   65c <__static_initialization_and_destruction_0()+0x64c>
+			658: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     65c:	4c 8b 6c 24 38       	mov    0x38(%rsp),%r13
+     661:	4c 89 e9             	mov    %r13,%rcx
+     664:	e8 00 00 00 00       	call   669 <__static_initialization_and_destruction_0()+0x659>
+			665: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     669:	48 8b 4c 24 30       	mov    0x30(%rsp),%rcx
+     66e:	e8 00 00 00 00       	call   673 <__static_initialization_and_destruction_0()+0x663>
+			66f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     673:	48 8b 4c 24 28       	mov    0x28(%rsp),%rcx
+     678:	e8 00 00 00 00       	call   67d <__static_initialization_and_destruction_0()+0x66d>
+			679: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     67d:	48 8b 4c 24 58       	mov    0x58(%rsp),%rcx
+     682:	e8 00 00 00 00       	call   687 <__static_initialization_and_destruction_0()+0x677>
+			683: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     687:	48 8b 4c 24 50       	mov    0x50(%rsp),%rcx
+     68c:	e8 00 00 00 00       	call   691 <__static_initialization_and_destruction_0()+0x681>
+			68d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     691:	48 8b 4c 24 48       	mov    0x48(%rsp),%rcx
+     696:	e8 00 00 00 00       	call   69b <__static_initialization_and_destruction_0()+0x68b>
+			697: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     69b:	48 8b 4c 24 40       	mov    0x40(%rsp),%rcx
+     6a0:	e8 00 00 00 00       	call   6a5 <__static_initialization_and_destruction_0()+0x695>
+			6a1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     6a5:	48 8d 0d 30 06 00 00 	lea    0x630(%rip),%rcx        # cdc <__static_initialization_and_destruction_0()+0xccc>
+			6a8: IMAGE_REL_AMD64_REL32	.text
+     6ac:	e8 00 00 00 00       	call   6b1 <__static_initialization_and_destruction_0()+0x6a1>
+			6ad: IMAGE_REL_AMD64_REL32	atexit
+     6b1:	48 8b 54 24 68       	mov    0x68(%rsp),%rdx
+     6b6:	48 c7 84 24 b0 0c 00 	movq   $0x0,0xcb0(%rsp)
+     6bd:	00 00 00 00 00 
+     6c2:	c7 84 24 b8 0c 00 00 	movl   $0x0,0xcb8(%rsp)
+     6c9:	00 00 00 00 
+     6cd:	48 8b 4c 24 28       	mov    0x28(%rsp),%rcx
+     6d2:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     6d9:	00 03 00 00 00 
+     6de:	48 89 94 24 e0 02 00 	mov    %rdx,0x2e0(%rsp)
+     6e5:	00 
+     6e6:	48 89 da             	mov    %rbx,%rdx
+     6e9:	e8 00 00 00 00       	call   6ee <__static_initialization_and_destruction_0()+0x6de>
+			6ea: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     6ee:	48 8b 54 24 28       	mov    0x28(%rsp),%rdx
+     6f3:	c7 84 24 80 14 00 00 	movl   $0x0,0x1480(%rsp)
+     6fa:	00 00 00 00 
+     6fe:	48 8b 8c 24 28 01 00 	mov    0x128(%rsp),%rcx
+     705:	00 
+     706:	e8 00 00 00 00       	call   70b <__static_initialization_and_destruction_0()+0x6fb>
+			707: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     70b:	48 8b 15 80 08 00 00 	mov    0x880(%rip),%rdx        # f92 <__static_initialization_and_destruction_0()+0xf82>
+			70e: IMAGE_REL_AMD64_REL32	.rdata
+     712:	c7 84 24 d8 0c 00 00 	movl   $0x0,0xcd8(%rsp)
+     719:	00 00 00 00 
+     71d:	48 8b 4c 24 30       	mov    0x30(%rsp),%rcx
+     722:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     729:	00 03 00 00 00 
+     72e:	48 89 94 24 d0 0c 00 	mov    %rdx,0xcd0(%rsp)
+     735:	00 
+     736:	48 8b 54 24 70       	mov    0x70(%rsp),%rdx
+     73b:	48 89 94 24 e0 02 00 	mov    %rdx,0x2e0(%rsp)
+     742:	00 
+     743:	48 89 da             	mov    %rbx,%rdx
+     746:	e8 00 00 00 00       	call   74b <__static_initialization_and_destruction_0()+0x73b>
+			747: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     74b:	48 8b 54 24 30       	mov    0x30(%rsp),%rdx
+     750:	c7 84 24 a0 14 00 00 	movl   $0x1,0x14a0(%rsp)
+     757:	01 00 00 00 
+     75b:	48 8b 8c 24 30 01 00 	mov    0x130(%rsp),%rcx
+     762:	00 
+     763:	e8 00 00 00 00       	call   768 <__static_initialization_and_destruction_0()+0x758>
+			764: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     768:	48 8b 54 24 78       	mov    0x78(%rsp),%rdx
+     76d:	4c 89 e9             	mov    %r13,%rcx
+     770:	48 c7 84 24 f0 0c 00 	movq   $0x4,0xcf0(%rsp)
+     777:	00 04 00 00 00 
+     77c:	c7 84 24 f8 0c 00 00 	movl   $0x0,0xcf8(%rsp)
+     783:	00 00 00 00 
+     787:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     78e:	00 03 00 00 00 
+     793:	48 89 94 24 e0 02 00 	mov    %rdx,0x2e0(%rsp)
+     79a:	00 
+     79b:	48 89 da             	mov    %rbx,%rdx
+     79e:	e8 00 00 00 00       	call   7a3 <__static_initialization_and_destruction_0()+0x793>
+			79f: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     7a3:	48 8b 8c 24 38 01 00 	mov    0x138(%rsp),%rcx
+     7aa:	00 
+     7ab:	4c 89 ea             	mov    %r13,%rdx
+     7ae:	c7 84 24 c0 14 00 00 	movl   $0x2,0x14c0(%rsp)
+     7b5:	02 00 00 00 
+     7b9:	e8 00 00 00 00       	call   7be <__static_initialization_and_destruction_0()+0x7ae>
+			7ba: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     7be:	48 8b 94 24 80 00 00 	mov    0x80(%rsp),%rdx
+     7c5:	00 
+     7c6:	4c 89 f1             	mov    %r14,%rcx
+     7c9:	c7 84 24 18 0d 00 00 	movl   $0x1,0xd18(%rsp)
+     7d0:	01 00 00 00 
+     7d4:	48 8b 05 b0 08 00 00 	mov    0x8b0(%rip),%rax        # 108b <__static_initialization_and_destruction_0()+0x107b>
+			7d7: IMAGE_REL_AMD64_REL32	.rdata
+     7db:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     7e2:	00 03 00 00 00 
+     7e7:	48 89 94 24 e0 02 00 	mov    %rdx,0x2e0(%rsp)
+     7ee:	00 
+     7ef:	48 89 da             	mov    %rbx,%rdx
+     7f2:	48 89 84 24 10 0d 00 	mov    %rax,0xd10(%rsp)
+     7f9:	00 
+     7fa:	e8 00 00 00 00       	call   7ff <__static_initialization_and_destruction_0()+0x7ef>
+			7fb: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     7ff:	48 8b 8c 24 40 01 00 	mov    0x140(%rsp),%rcx
+     806:	00 
+     807:	4c 89 f2             	mov    %r14,%rdx
+     80a:	c7 84 24 e0 14 00 00 	movl   $0x3,0x14e0(%rsp)
+     811:	03 00 00 00 
+     815:	e8 00 00 00 00       	call   81a <__static_initialization_and_destruction_0()+0x80a>
+			816: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     81a:	48 8b 05 b8 08 00 00 	mov    0x8b8(%rip),%rax        # 10d9 <__static_initialization_and_destruction_0()+0x10c9>
+			81d: IMAGE_REL_AMD64_REL32	.rdata
+     821:	48 89 da             	mov    %rbx,%rdx
+     824:	4c 89 f9             	mov    %r15,%rcx
+     827:	c7 84 24 38 0d 00 00 	movl   $0x1,0xd38(%rsp)
+     82e:	01 00 00 00 
+     832:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     839:	00 03 00 00 00 
+     83e:	48 89 84 24 30 0d 00 	mov    %rax,0xd30(%rsp)
+     845:	00 
+     846:	48 8b 44 24 40       	mov    0x40(%rsp),%rax
+     84b:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     852:	00 
+     853:	e8 00 00 00 00       	call   858 <__static_initialization_and_destruction_0()+0x848>
+			854: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     858:	48 8b 8c 24 48 01 00 	mov    0x148(%rsp),%rcx
+     85f:	00 
+     860:	4c 89 fa             	mov    %r15,%rdx
+     863:	c7 84 24 00 15 00 00 	movl   $0x4,0x1500(%rsp)
+     86a:	04 00 00 00 
+     86e:	e8 00 00 00 00       	call   873 <__static_initialization_and_destruction_0()+0x863>
+			86f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     873:	48 8b 05 c0 08 00 00 	mov    0x8c0(%rip),%rax        # 113a <__static_initialization_and_destruction_0()+0x112a>
+			876: IMAGE_REL_AMD64_REL32	.rdata
+     87a:	48 89 da             	mov    %rbx,%rdx
+     87d:	4c 89 e1             	mov    %r12,%rcx
+     880:	c7 84 24 58 0d 00 00 	movl   $0x1,0xd58(%rsp)
+     887:	01 00 00 00 
+     88b:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     892:	00 03 00 00 00 
+     897:	48 89 84 24 50 0d 00 	mov    %rax,0xd50(%rsp)
+     89e:	00 
+     89f:	48 8b 44 24 48       	mov    0x48(%rsp),%rax
+     8a4:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     8ab:	00 
+     8ac:	e8 00 00 00 00       	call   8b1 <__static_initialization_and_destruction_0()+0x8a1>
+			8ad: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     8b1:	48 8b 8c 24 50 01 00 	mov    0x150(%rsp),%rcx
+     8b8:	00 
+     8b9:	4c 89 e2             	mov    %r12,%rdx
+     8bc:	c7 84 24 20 15 00 00 	movl   $0x5,0x1520(%rsp)
+     8c3:	05 00 00 00 
+     8c7:	e8 00 00 00 00       	call   8cc <__static_initialization_and_destruction_0()+0x8bc>
+			8c8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     8cc:	48 8b 05 c8 08 00 00 	mov    0x8c8(%rip),%rax        # 119b <__static_initialization_and_destruction_0()+0x118b>
+			8cf: IMAGE_REL_AMD64_REL32	.rdata
+     8d3:	48 89 da             	mov    %rbx,%rdx
+     8d6:	48 89 f9             	mov    %rdi,%rcx
+     8d9:	c7 84 24 78 0d 00 00 	movl   $0x2,0xd78(%rsp)
+     8e0:	02 00 00 00 
+     8e4:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     8eb:	00 03 00 00 00 
+     8f0:	48 89 84 24 70 0d 00 	mov    %rax,0xd70(%rsp)
+     8f7:	00 
+     8f8:	48 8b 44 24 50       	mov    0x50(%rsp),%rax
+     8fd:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     904:	00 
+     905:	e8 00 00 00 00       	call   90a <__static_initialization_and_destruction_0()+0x8fa>
+			906: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     90a:	48 8b 8c 24 58 01 00 	mov    0x158(%rsp),%rcx
+     911:	00 
+     912:	48 89 fa             	mov    %rdi,%rdx
+     915:	c7 84 24 40 15 00 00 	movl   $0x6,0x1540(%rsp)
+     91c:	06 00 00 00 
+     920:	e8 00 00 00 00       	call   925 <__static_initialization_and_destruction_0()+0x915>
+			921: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     925:	48 8b 05 d0 08 00 00 	mov    0x8d0(%rip),%rax        # 11fc <__static_initialization_and_destruction_0()+0x11ec>
+			928: IMAGE_REL_AMD64_REL32	.rdata
+     92c:	48 89 da             	mov    %rbx,%rdx
+     92f:	48 89 e9             	mov    %rbp,%rcx
+     932:	c7 84 24 98 0d 00 00 	movl   $0x2,0xd98(%rsp)
+     939:	02 00 00 00 
+     93d:	48 c7 84 24 e8 02 00 	movq   $0x3,0x2e8(%rsp)
+     944:	00 03 00 00 00 
+     949:	48 89 84 24 90 0d 00 	mov    %rax,0xd90(%rsp)
+     950:	00 
+     951:	48 8b 44 24 58       	mov    0x58(%rsp),%rax
+     956:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     95d:	00 
+     95e:	e8 00 00 00 00       	call   963 <__static_initialization_and_destruction_0()+0x953>
+			95f: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     963:	48 8b 8c 24 60 01 00 	mov    0x160(%rsp),%rcx
+     96a:	00 
+     96b:	48 89 ea             	mov    %rbp,%rdx
+     96e:	c7 84 24 60 15 00 00 	movl   $0x7,0x1560(%rsp)
+     975:	07 00 00 00 
+     979:	e8 00 00 00 00       	call   97e <__static_initialization_and_destruction_0()+0x96e>
+			97a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     97e:	48 8b 54 24 60       	mov    0x60(%rsp),%rdx
+     983:	48 8d 0d 08 00 00 00 	lea    0x8(%rip),%rcx        # 992 <__static_initialization_and_destruction_0()+0x982>
+			986: IMAGE_REL_AMD64_REL32	.bss
+     98a:	48 89 b4 24 d0 02 00 	mov    %rsi,0x2d0(%rsp)
+     991:	00 
+     992:	48 c7 84 24 d8 02 00 	movq   $0x8,0x2d8(%rsp)
+     999:	00 08 00 00 00 
+     99e:	e8 00 00 00 00       	call   9a3 <__static_initialization_and_destruction_0()+0x993>
+			99f: IMAGE_REL_AMD64_REL32	QMap<int, QList<int> >::QMap(std::initializer_list<std::pair<int, QList<int> > >)
+     9a3:	4c 8d ac 24 60 15 00 	lea    0x1560(%rsp),%r13
+     9aa:	00 
+     9ab:	eb 06                	jmp    9b3 <__static_initialization_and_destruction_0()+0x9a3>
+     9ad:	0f 1f 00             	nopl   (%rax)
+     9b0:	49 89 c5             	mov    %rax,%r13
+     9b3:	49 8b 45 08          	mov    0x8(%r13),%rax
+     9b7:	48 85 c0             	test   %rax,%rax
+     9ba:	74 0f                	je     9cb <__static_initialization_and_destruction_0()+0x9bb>
+     9bc:	f0 83 28 01          	lock subl $0x1,(%rax)
+     9c0:	75 09                	jne    9cb <__static_initialization_and_destruction_0()+0x9bb>
+     9c2:	49 8b 4d 08          	mov    0x8(%r13),%rcx
+     9c6:	e8 00 00 00 00       	call   9cb <__static_initialization_and_destruction_0()+0x9bb>
+			9c7: IMAGE_REL_AMD64_REL32	free
+     9cb:	49 8d 45 e0          	lea    -0x20(%r13),%rax
+     9cf:	4c 39 ee             	cmp    %r13,%rsi
+     9d2:	75 dc                	jne    9b0 <__static_initialization_and_destruction_0()+0x9a0>
+     9d4:	48 89 e9             	mov    %rbp,%rcx
+     9d7:	e8 00 00 00 00       	call   9dc <__static_initialization_and_destruction_0()+0x9cc>
+			9d8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     9dc:	48 89 f9             	mov    %rdi,%rcx
+     9df:	e8 00 00 00 00       	call   9e4 <__static_initialization_and_destruction_0()+0x9d4>
+			9e0: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     9e4:	4c 89 e1             	mov    %r12,%rcx
+     9e7:	e8 00 00 00 00       	call   9ec <__static_initialization_and_destruction_0()+0x9dc>
+			9e8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     9ec:	4c 89 f9             	mov    %r15,%rcx
+     9ef:	e8 00 00 00 00       	call   9f4 <__static_initialization_and_destruction_0()+0x9e4>
+			9f0: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     9f4:	4c 89 f1             	mov    %r14,%rcx
+     9f7:	e8 00 00 00 00       	call   9fc <__static_initialization_and_destruction_0()+0x9ec>
+			9f8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     9fc:	48 8b 4c 24 38       	mov    0x38(%rsp),%rcx
+     a01:	e8 00 00 00 00       	call   a06 <__static_initialization_and_destruction_0()+0x9f6>
+			a02: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     a06:	48 8b 4c 24 30       	mov    0x30(%rsp),%rcx
+     a0b:	e8 00 00 00 00       	call   a10 <__static_initialization_and_destruction_0()+0xa00>
+			a0c: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     a10:	48 8b 4c 24 28       	mov    0x28(%rsp),%rcx
+     a15:	e8 00 00 00 00       	call   a1a <__static_initialization_and_destruction_0()+0xa0a>
+			a16: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+     a1a:	48 8d 0d a0 05 00 00 	lea    0x5a0(%rip),%rcx        # fc1 <__static_initialization_and_destruction_0()+0xfb1>
+			a1d: IMAGE_REL_AMD64_REL32	.text
+     a21:	e8 00 00 00 00       	call   a26 <__static_initialization_and_destruction_0()+0xa16>
+			a22: IMAGE_REL_AMD64_REL32	atexit
+     a26:	48 8b 05 d8 08 00 00 	mov    0x8d8(%rip),%rax        # 1305 <__static_initialization_and_destruction_0()+0x12f5>
+			a29: IMAGE_REL_AMD64_REL32	.rdata
+     a2d:	48 89 da             	mov    %rbx,%rdx
+     a30:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     a37:	00 02 00 00 00 
+     a3c:	48 89 84 24 f8 02 00 	mov    %rax,0x2f8(%rsp)
+     a43:	00 
+     a44:	48 8d 84 24 f8 02 00 	lea    0x2f8(%rsp),%rax
+     a4b:	00 
+     a4c:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     a53:	00 
+     a54:	48 8d 84 24 50 05 00 	lea    0x550(%rsp),%rax
+     a5b:	00 
+     a5c:	49 89 c5             	mov    %rax,%r13
+     a5f:	48 89 c1             	mov    %rax,%rcx
+     a62:	48 89 84 24 d0 01 00 	mov    %rax,0x1d0(%rsp)
+     a69:	00 
+     a6a:	e8 00 00 00 00       	call   a6f <__static_initialization_and_destruction_0()+0xa5f>
+			a6b: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     a6f:	48 8d 8c 24 88 0e 00 	lea    0xe88(%rsp),%rcx
+     a76:	00 
+     a77:	4c 89 ea             	mov    %r13,%rdx
+     a7a:	c7 84 24 80 0e 00 00 	movl   $0x0,0xe80(%rsp)
+     a81:	00 00 00 00 
+     a85:	e8 00 00 00 00       	call   a8a <__static_initialization_and_destruction_0()+0xa7a>
+			a86: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     a8a:	48 8d 84 24 00 03 00 	lea    0x300(%rsp),%rax
+     a91:	00 
+     a92:	48 89 da             	mov    %rbx,%rdx
+     a95:	f3 44 0f 7e 3d e0 08 	movq   0x8e0(%rip),%xmm15        # 137e <__static_initialization_and_destruction_0()+0x136e>
+     a9c:	00 00 
+			a9a: IMAGE_REL_AMD64_REL32	.rdata
+     a9e:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     aa5:	00 
+     aa6:	48 8d 84 24 70 05 00 	lea    0x570(%rsp),%rax
+     aad:	00 
+     aae:	49 89 c5             	mov    %rax,%r13
+     ab1:	48 89 c1             	mov    %rax,%rcx
+     ab4:	48 89 84 24 d8 01 00 	mov    %rax,0x1d8(%rsp)
+     abb:	00 
+     abc:	66 44 0f d6 bc 24 00 	movq   %xmm15,0x300(%rsp)
+     ac3:	03 00 00 
+     ac6:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     acd:	00 02 00 00 00 
+     ad2:	e8 00 00 00 00       	call   ad7 <__static_initialization_and_destruction_0()+0xac7>
+			ad3: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     ad7:	48 8d 8c 24 a8 0e 00 	lea    0xea8(%rsp),%rcx
+     ade:	00 
+     adf:	4c 89 ea             	mov    %r13,%rdx
+     ae2:	c7 84 24 a0 0e 00 00 	movl   $0x1,0xea0(%rsp)
+     ae9:	01 00 00 00 
+     aed:	e8 00 00 00 00       	call   af2 <__static_initialization_and_destruction_0()+0xae2>
+			aee: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     af2:	48 8b 05 e8 08 00 00 	mov    0x8e8(%rip),%rax        # 13e1 <__static_initialization_and_destruction_0()+0x13d1>
+			af5: IMAGE_REL_AMD64_REL32	.rdata
+     af9:	48 89 da             	mov    %rbx,%rdx
+     afc:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     b03:	00 02 00 00 00 
+     b08:	48 89 84 24 08 03 00 	mov    %rax,0x308(%rsp)
+     b0f:	00 
+     b10:	48 8d 84 24 08 03 00 	lea    0x308(%rsp),%rax
+     b17:	00 
+     b18:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     b1f:	00 
+     b20:	48 8d 84 24 90 05 00 	lea    0x590(%rsp),%rax
+     b27:	00 
+     b28:	49 89 c5             	mov    %rax,%r13
+     b2b:	48 89 c1             	mov    %rax,%rcx
+     b2e:	48 89 84 24 e0 01 00 	mov    %rax,0x1e0(%rsp)
+     b35:	00 
+     b36:	e8 00 00 00 00       	call   b3b <__static_initialization_and_destruction_0()+0xb2b>
+			b37: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     b3b:	48 8d 8c 24 c8 0e 00 	lea    0xec8(%rsp),%rcx
+     b42:	00 
+     b43:	4c 89 ea             	mov    %r13,%rdx
+     b46:	c7 84 24 c0 0e 00 00 	movl   $0x2,0xec0(%rsp)
+     b4d:	02 00 00 00 
+     b51:	e8 00 00 00 00       	call   b56 <__static_initialization_and_destruction_0()+0xb46>
+			b52: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     b56:	48 8d 84 24 10 03 00 	lea    0x310(%rsp),%rax
+     b5d:	00 
+     b5e:	48 89 da             	mov    %rbx,%rdx
+     b61:	f3 44 0f 7e 35 f0 08 	movq   0x8f0(%rip),%xmm14        # 145a <__static_initialization_and_destruction_0()+0x144a>
+     b68:	00 00 
+			b66: IMAGE_REL_AMD64_REL32	.rdata
+     b6a:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     b71:	00 
+     b72:	48 8d 84 24 b0 05 00 	lea    0x5b0(%rsp),%rax
+     b79:	00 
+     b7a:	49 89 c5             	mov    %rax,%r13
+     b7d:	48 89 c1             	mov    %rax,%rcx
+     b80:	48 89 84 24 e8 01 00 	mov    %rax,0x1e8(%rsp)
+     b87:	00 
+     b88:	66 44 0f d6 b4 24 10 	movq   %xmm14,0x310(%rsp)
+     b8f:	03 00 00 
+     b92:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     b99:	00 02 00 00 00 
+     b9e:	e8 00 00 00 00       	call   ba3 <__static_initialization_and_destruction_0()+0xb93>
+			b9f: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     ba3:	48 8d 8c 24 e8 0e 00 	lea    0xee8(%rsp),%rcx
+     baa:	00 
+     bab:	4c 89 ea             	mov    %r13,%rdx
+     bae:	c7 84 24 e0 0e 00 00 	movl   $0x3,0xee0(%rsp)
+     bb5:	03 00 00 00 
+     bb9:	e8 00 00 00 00       	call   bbe <__static_initialization_and_destruction_0()+0xbae>
+			bba: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     bbe:	48 8b 05 f8 08 00 00 	mov    0x8f8(%rip),%rax        # 14bd <__static_initialization_and_destruction_0()+0x14ad>
+			bc1: IMAGE_REL_AMD64_REL32	.rdata
+     bc5:	48 89 da             	mov    %rbx,%rdx
+     bc8:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     bcf:	00 02 00 00 00 
+     bd4:	48 89 84 24 18 03 00 	mov    %rax,0x318(%rsp)
+     bdb:	00 
+     bdc:	48 8d 84 24 18 03 00 	lea    0x318(%rsp),%rax
+     be3:	00 
+     be4:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     beb:	00 
+     bec:	48 8d 84 24 d0 05 00 	lea    0x5d0(%rsp),%rax
+     bf3:	00 
+     bf4:	49 89 c5             	mov    %rax,%r13
+     bf7:	48 89 c1             	mov    %rax,%rcx
+     bfa:	48 89 84 24 f0 01 00 	mov    %rax,0x1f0(%rsp)
+     c01:	00 
+     c02:	e8 00 00 00 00       	call   c07 <__static_initialization_and_destruction_0()+0xbf7>
+			c03: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     c07:	48 8d 8c 24 08 0f 00 	lea    0xf08(%rsp),%rcx
+     c0e:	00 
+     c0f:	4c 89 ea             	mov    %r13,%rdx
+     c12:	c7 84 24 00 0f 00 00 	movl   $0x4,0xf00(%rsp)
+     c19:	04 00 00 00 
+     c1d:	e8 00 00 00 00       	call   c22 <__static_initialization_and_destruction_0()+0xc12>
+			c1e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     c22:	48 8d 84 24 20 03 00 	lea    0x320(%rsp),%rax
+     c29:	00 
+     c2a:	48 89 da             	mov    %rbx,%rdx
+     c2d:	f3 44 0f 7e 2d 00 09 	movq   0x900(%rip),%xmm13        # 1536 <__static_initialization_and_destruction_0()+0x1526>
+     c34:	00 00 
+			c32: IMAGE_REL_AMD64_REL32	.rdata
+     c36:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     c3d:	00 
+     c3e:	48 8d 84 24 f0 05 00 	lea    0x5f0(%rsp),%rax
+     c45:	00 
+     c46:	49 89 c5             	mov    %rax,%r13
+     c49:	48 89 c1             	mov    %rax,%rcx
+     c4c:	48 89 84 24 f8 01 00 	mov    %rax,0x1f8(%rsp)
+     c53:	00 
+     c54:	66 44 0f d6 ac 24 20 	movq   %xmm13,0x320(%rsp)
+     c5b:	03 00 00 
+     c5e:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     c65:	00 02 00 00 00 
+     c6a:	e8 00 00 00 00       	call   c6f <__static_initialization_and_destruction_0()+0xc5f>
+			c6b: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     c6f:	48 8d 8c 24 28 0f 00 	lea    0xf28(%rsp),%rcx
+     c76:	00 
+     c77:	4c 89 ea             	mov    %r13,%rdx
+     c7a:	c7 84 24 20 0f 00 00 	movl   $0x5,0xf20(%rsp)
+     c81:	05 00 00 00 
+     c85:	e8 00 00 00 00       	call   c8a <__static_initialization_and_destruction_0()+0xc7a>
+			c86: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     c8a:	48 8b 05 08 09 00 00 	mov    0x908(%rip),%rax        # 1599 <__static_initialization_and_destruction_0()+0x1589>
+			c8d: IMAGE_REL_AMD64_REL32	.rdata
+     c91:	48 89 da             	mov    %rbx,%rdx
+     c94:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     c9b:	00 02 00 00 00 
+     ca0:	48 89 84 24 28 03 00 	mov    %rax,0x328(%rsp)
+     ca7:	00 
+     ca8:	48 8d 84 24 28 03 00 	lea    0x328(%rsp),%rax
+     caf:	00 
+     cb0:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     cb7:	00 
+     cb8:	48 8d 84 24 10 06 00 	lea    0x610(%rsp),%rax
+     cbf:	00 
+     cc0:	49 89 c5             	mov    %rax,%r13
+     cc3:	48 89 c1             	mov    %rax,%rcx
+     cc6:	48 89 84 24 00 02 00 	mov    %rax,0x200(%rsp)
+     ccd:	00 
+     cce:	e8 00 00 00 00       	call   cd3 <__static_initialization_and_destruction_0()+0xcc3>
+			ccf: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     cd3:	48 8d 8c 24 48 0f 00 	lea    0xf48(%rsp),%rcx
+     cda:	00 
+     cdb:	4c 89 ea             	mov    %r13,%rdx
+     cde:	c7 84 24 40 0f 00 00 	movl   $0x6,0xf40(%rsp)
+     ce5:	06 00 00 00 
+     ce9:	e8 00 00 00 00       	call   cee <__static_initialization_and_destruction_0()+0xcde>
+			cea: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     cee:	48 8d 84 24 30 03 00 	lea    0x330(%rsp),%rax
+     cf5:	00 
+     cf6:	48 89 da             	mov    %rbx,%rdx
+     cf9:	f3 44 0f 7e 25 10 09 	movq   0x910(%rip),%xmm12        # 1612 <__static_initialization_and_destruction_0()+0x1602>
+     d00:	00 00 
+			cfe: IMAGE_REL_AMD64_REL32	.rdata
+     d02:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     d09:	00 
+     d0a:	48 8d 84 24 30 06 00 	lea    0x630(%rsp),%rax
+     d11:	00 
+     d12:	49 89 c5             	mov    %rax,%r13
+     d15:	48 89 c1             	mov    %rax,%rcx
+     d18:	48 89 84 24 08 02 00 	mov    %rax,0x208(%rsp)
+     d1f:	00 
+     d20:	66 44 0f d6 a4 24 30 	movq   %xmm12,0x330(%rsp)
+     d27:	03 00 00 
+     d2a:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     d31:	00 02 00 00 00 
+     d36:	e8 00 00 00 00       	call   d3b <__static_initialization_and_destruction_0()+0xd2b>
+			d37: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     d3b:	48 8d 8c 24 68 0f 00 	lea    0xf68(%rsp),%rcx
+     d42:	00 
+     d43:	4c 89 ea             	mov    %r13,%rdx
+     d46:	c7 84 24 60 0f 00 00 	movl   $0x7,0xf60(%rsp)
+     d4d:	07 00 00 00 
+     d51:	e8 00 00 00 00       	call   d56 <__static_initialization_and_destruction_0()+0xd46>
+			d52: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     d56:	48 8b 05 18 09 00 00 	mov    0x918(%rip),%rax        # 1675 <__static_initialization_and_destruction_0()+0x1665>
+			d59: IMAGE_REL_AMD64_REL32	.rdata
+     d5d:	48 89 da             	mov    %rbx,%rdx
+     d60:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     d67:	00 02 00 00 00 
+     d6c:	48 89 84 24 38 03 00 	mov    %rax,0x338(%rsp)
+     d73:	00 
+     d74:	48 8d 84 24 38 03 00 	lea    0x338(%rsp),%rax
+     d7b:	00 
+     d7c:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     d83:	00 
+     d84:	48 8d 84 24 50 06 00 	lea    0x650(%rsp),%rax
+     d8b:	00 
+     d8c:	49 89 c5             	mov    %rax,%r13
+     d8f:	48 89 c1             	mov    %rax,%rcx
+     d92:	48 89 84 24 10 02 00 	mov    %rax,0x210(%rsp)
+     d99:	00 
+     d9a:	e8 00 00 00 00       	call   d9f <__static_initialization_and_destruction_0()+0xd8f>
+			d9b: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     d9f:	48 8d 8c 24 88 0f 00 	lea    0xf88(%rsp),%rcx
+     da6:	00 
+     da7:	4c 89 ea             	mov    %r13,%rdx
+     daa:	c7 84 24 80 0f 00 00 	movl   $0x8,0xf80(%rsp)
+     db1:	08 00 00 00 
+     db5:	e8 00 00 00 00       	call   dba <__static_initialization_and_destruction_0()+0xdaa>
+			db6: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     dba:	48 8b 05 20 09 00 00 	mov    0x920(%rip),%rax        # 16e1 <__static_initialization_and_destruction_0()+0x16d1>
+			dbd: IMAGE_REL_AMD64_REL32	.rdata
+     dc1:	48 89 da             	mov    %rbx,%rdx
+     dc4:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     dcb:	00 02 00 00 00 
+     dd0:	48 89 84 24 40 03 00 	mov    %rax,0x340(%rsp)
+     dd7:	00 
+     dd8:	48 8d 84 24 40 03 00 	lea    0x340(%rsp),%rax
+     ddf:	00 
+     de0:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     de7:	00 
+     de8:	48 8d 84 24 70 06 00 	lea    0x670(%rsp),%rax
+     def:	00 
+     df0:	49 89 c5             	mov    %rax,%r13
+     df3:	48 89 c1             	mov    %rax,%rcx
+     df6:	48 89 84 24 18 02 00 	mov    %rax,0x218(%rsp)
+     dfd:	00 
+     dfe:	e8 00 00 00 00       	call   e03 <__static_initialization_and_destruction_0()+0xdf3>
+			dff: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     e03:	48 8d 8c 24 a8 0f 00 	lea    0xfa8(%rsp),%rcx
+     e0a:	00 
+     e0b:	4c 89 ea             	mov    %r13,%rdx
+     e0e:	c7 84 24 a0 0f 00 00 	movl   $0x9,0xfa0(%rsp)
+     e15:	09 00 00 00 
+     e19:	e8 00 00 00 00       	call   e1e <__static_initialization_and_destruction_0()+0xe0e>
+			e1a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     e1e:	48 8d 84 24 48 03 00 	lea    0x348(%rsp),%rax
+     e25:	00 
+     e26:	48 89 da             	mov    %rbx,%rdx
+     e29:	48 c7 84 24 48 03 00 	movq   $0x0,0x348(%rsp)
+     e30:	00 00 00 00 00 
+     e35:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     e3c:	00 
+     e3d:	48 8d 84 24 90 06 00 	lea    0x690(%rsp),%rax
+     e44:	00 
+     e45:	49 89 c5             	mov    %rax,%r13
+     e48:	48 89 c1             	mov    %rax,%rcx
+     e4b:	48 89 84 24 20 02 00 	mov    %rax,0x220(%rsp)
+     e52:	00 
+     e53:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     e5a:	00 02 00 00 00 
+     e5f:	e8 00 00 00 00       	call   e64 <__static_initialization_and_destruction_0()+0xe54>
+			e60: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     e64:	48 8d 8c 24 c8 0f 00 	lea    0xfc8(%rsp),%rcx
+     e6b:	00 
+     e6c:	4c 89 ea             	mov    %r13,%rdx
+     e6f:	c7 84 24 c0 0f 00 00 	movl   $0xa,0xfc0(%rsp)
+     e76:	0a 00 00 00 
+     e7a:	e8 00 00 00 00       	call   e7f <__static_initialization_and_destruction_0()+0xe6f>
+			e7b: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     e7f:	48 8b 05 28 09 00 00 	mov    0x928(%rip),%rax        # 17ae <__static_initialization_and_destruction_0()+0x179e>
+			e82: IMAGE_REL_AMD64_REL32	.rdata
+     e86:	48 89 da             	mov    %rbx,%rdx
+     e89:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     e90:	00 02 00 00 00 
+     e95:	48 89 84 24 50 03 00 	mov    %rax,0x350(%rsp)
+     e9c:	00 
+     e9d:	48 8d 84 24 50 03 00 	lea    0x350(%rsp),%rax
+     ea4:	00 
+     ea5:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     eac:	00 
+     ead:	48 8d 84 24 b0 06 00 	lea    0x6b0(%rsp),%rax
+     eb4:	00 
+     eb5:	49 89 c5             	mov    %rax,%r13
+     eb8:	48 89 c1             	mov    %rax,%rcx
+     ebb:	48 89 84 24 30 02 00 	mov    %rax,0x230(%rsp)
+     ec2:	00 
+     ec3:	e8 00 00 00 00       	call   ec8 <__static_initialization_and_destruction_0()+0xeb8>
+			ec4: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     ec8:	48 8d 8c 24 e8 0f 00 	lea    0xfe8(%rsp),%rcx
+     ecf:	00 
+     ed0:	4c 89 ea             	mov    %r13,%rdx
+     ed3:	c7 84 24 e0 0f 00 00 	movl   $0xb,0xfe0(%rsp)
+     eda:	0b 00 00 00 
+     ede:	e8 00 00 00 00       	call   ee3 <__static_initialization_and_destruction_0()+0xed3>
+			edf: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     ee3:	48 8b 05 30 09 00 00 	mov    0x930(%rip),%rax        # 181a <__static_initialization_and_destruction_0()+0x180a>
+			ee6: IMAGE_REL_AMD64_REL32	.rdata
+     eea:	48 89 da             	mov    %rbx,%rdx
+     eed:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     ef4:	00 02 00 00 00 
+     ef9:	48 89 84 24 58 03 00 	mov    %rax,0x358(%rsp)
+     f00:	00 
+     f01:	48 8d 84 24 58 03 00 	lea    0x358(%rsp),%rax
+     f08:	00 
+     f09:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     f10:	00 
+     f11:	48 8d 84 24 d0 06 00 	lea    0x6d0(%rsp),%rax
+     f18:	00 
+     f19:	49 89 c5             	mov    %rax,%r13
+     f1c:	48 89 c1             	mov    %rax,%rcx
+     f1f:	48 89 84 24 40 02 00 	mov    %rax,0x240(%rsp)
+     f26:	00 
+     f27:	e8 00 00 00 00       	call   f2c <__static_initialization_and_destruction_0()+0xf1c>
+			f28: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     f2c:	48 8d 8c 24 08 10 00 	lea    0x1008(%rsp),%rcx
+     f33:	00 
+     f34:	4c 89 ea             	mov    %r13,%rdx
+     f37:	c7 84 24 00 10 00 00 	movl   $0xc,0x1000(%rsp)
+     f3e:	0c 00 00 00 
+     f42:	e8 00 00 00 00       	call   f47 <__static_initialization_and_destruction_0()+0xf37>
+			f43: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     f47:	48 8d 84 24 60 03 00 	lea    0x360(%rsp),%rax
+     f4e:	00 
+     f4f:	48 89 da             	mov    %rbx,%rdx
+     f52:	f3 0f 7e 3d 38 09 00 	movq   0x938(%rip),%xmm7        # 1892 <__static_initialization_and_destruction_0()+0x1882>
+     f59:	00 
+			f56: IMAGE_REL_AMD64_REL32	.rdata
+     f5a:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     f61:	00 
+     f62:	48 8d 84 24 f0 06 00 	lea    0x6f0(%rsp),%rax
+     f69:	00 
+     f6a:	49 89 c5             	mov    %rax,%r13
+     f6d:	48 89 c1             	mov    %rax,%rcx
+     f70:	48 89 84 24 58 02 00 	mov    %rax,0x258(%rsp)
+     f77:	00 
+     f78:	66 0f d6 bc 24 60 03 	movq   %xmm7,0x360(%rsp)
+     f7f:	00 00 
+     f81:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     f88:	00 02 00 00 00 
+     f8d:	e8 00 00 00 00       	call   f92 <__static_initialization_and_destruction_0()+0xf82>
+			f8e: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     f92:	48 8d 8c 24 28 10 00 	lea    0x1028(%rsp),%rcx
+     f99:	00 
+     f9a:	4c 89 ea             	mov    %r13,%rdx
+     f9d:	c7 84 24 20 10 00 00 	movl   $0xd,0x1020(%rsp)
+     fa4:	0d 00 00 00 
+     fa8:	e8 00 00 00 00       	call   fad <__static_initialization_and_destruction_0()+0xf9d>
+			fa9: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+     fad:	48 8b 05 40 09 00 00 	mov    0x940(%rip),%rax        # 18f4 <__static_initialization_and_destruction_0()+0x18e4>
+			fb0: IMAGE_REL_AMD64_REL32	.rdata
+     fb4:	48 89 da             	mov    %rbx,%rdx
+     fb7:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+     fbe:	00 02 00 00 00 
+     fc3:	48 89 84 24 68 03 00 	mov    %rax,0x368(%rsp)
+     fca:	00 
+     fcb:	48 8d 84 24 68 03 00 	lea    0x368(%rsp),%rax
+     fd2:	00 
+     fd3:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+     fda:	00 
+     fdb:	48 8d 84 24 10 07 00 	lea    0x710(%rsp),%rax
+     fe2:	00 
+     fe3:	49 89 c5             	mov    %rax,%r13
+     fe6:	48 89 c1             	mov    %rax,%rcx
+     fe9:	48 89 84 24 68 02 00 	mov    %rax,0x268(%rsp)
+     ff0:	00 
+     ff1:	e8 00 00 00 00       	call   ff6 <__static_initialization_and_destruction_0()+0xfe6>
+			ff2: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+     ff6:	48 8d 8c 24 48 10 00 	lea    0x1048(%rsp),%rcx
+     ffd:	00 
+     ffe:	4c 89 ea             	mov    %r13,%rdx
+    1001:	c7 84 24 40 10 00 00 	movl   $0xe,0x1040(%rsp)
+    1008:	0e 00 00 00 
+    100c:	e8 00 00 00 00       	call   1011 <__static_initialization_and_destruction_0()+0x1001>
+			100d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1011:	48 8d 84 24 70 03 00 	lea    0x370(%rsp),%rax
+    1018:	00 
+    1019:	48 89 da             	mov    %rbx,%rdx
+    101c:	f3 0f 7e 35 48 09 00 	movq   0x948(%rip),%xmm6        # 196c <__static_initialization_and_destruction_0()+0x195c>
+    1023:	00 
+			1020: IMAGE_REL_AMD64_REL32	.rdata
+    1024:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    102b:	00 
+    102c:	48 8d 84 24 30 07 00 	lea    0x730(%rsp),%rax
+    1033:	00 
+    1034:	49 89 c5             	mov    %rax,%r13
+    1037:	48 89 c1             	mov    %rax,%rcx
+    103a:	48 89 84 24 78 02 00 	mov    %rax,0x278(%rsp)
+    1041:	00 
+    1042:	66 0f d6 b4 24 70 03 	movq   %xmm6,0x370(%rsp)
+    1049:	00 00 
+    104b:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1052:	00 02 00 00 00 
+    1057:	e8 00 00 00 00       	call   105c <__static_initialization_and_destruction_0()+0x104c>
+			1058: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    105c:	48 8d 8c 24 68 10 00 	lea    0x1068(%rsp),%rcx
+    1063:	00 
+    1064:	4c 89 ea             	mov    %r13,%rdx
+    1067:	c7 84 24 60 10 00 00 	movl   $0xf,0x1060(%rsp)
+    106e:	0f 00 00 00 
+    1072:	e8 00 00 00 00       	call   1077 <__static_initialization_and_destruction_0()+0x1067>
+			1073: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1077:	48 8d 84 24 78 03 00 	lea    0x378(%rsp),%rax
+    107e:	00 
+    107f:	48 89 da             	mov    %rbx,%rdx
+    1082:	f3 44 0f 7e 1d 50 09 	movq   0x950(%rip),%xmm11        # 19db <__static_initialization_and_destruction_0()+0x19cb>
+    1089:	00 00 
+			1087: IMAGE_REL_AMD64_REL32	.rdata
+    108b:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1092:	00 
+    1093:	48 8d 84 24 50 07 00 	lea    0x750(%rsp),%rax
+    109a:	00 
+    109b:	49 89 c5             	mov    %rax,%r13
+    109e:	48 89 c1             	mov    %rax,%rcx
+    10a1:	48 89 84 24 88 02 00 	mov    %rax,0x288(%rsp)
+    10a8:	00 
+    10a9:	66 44 0f d6 9c 24 78 	movq   %xmm11,0x378(%rsp)
+    10b0:	03 00 00 
+    10b3:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    10ba:	00 02 00 00 00 
+    10bf:	e8 00 00 00 00       	call   10c4 <__static_initialization_and_destruction_0()+0x10b4>
+			10c0: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    10c4:	48 8d 8c 24 88 10 00 	lea    0x1088(%rsp),%rcx
+    10cb:	00 
+    10cc:	4c 89 ea             	mov    %r13,%rdx
+    10cf:	c7 84 24 80 10 00 00 	movl   $0x10,0x1080(%rsp)
+    10d6:	10 00 00 00 
+    10da:	e8 00 00 00 00       	call   10df <__static_initialization_and_destruction_0()+0x10cf>
+			10db: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    10df:	48 8b 05 58 09 00 00 	mov    0x958(%rip),%rax        # 1a3e <__static_initialization_and_destruction_0()+0x1a2e>
+			10e2: IMAGE_REL_AMD64_REL32	.rdata
+    10e6:	48 89 da             	mov    %rbx,%rdx
+    10e9:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    10f0:	00 02 00 00 00 
+    10f5:	48 89 84 24 80 03 00 	mov    %rax,0x380(%rsp)
+    10fc:	00 
+    10fd:	48 8d 84 24 80 03 00 	lea    0x380(%rsp),%rax
+    1104:	00 
+    1105:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    110c:	00 
+    110d:	48 8d 84 24 70 07 00 	lea    0x770(%rsp),%rax
+    1114:	00 
+    1115:	49 89 c5             	mov    %rax,%r13
+    1118:	48 89 c1             	mov    %rax,%rcx
+    111b:	48 89 84 24 98 02 00 	mov    %rax,0x298(%rsp)
+    1122:	00 
+    1123:	e8 00 00 00 00       	call   1128 <__static_initialization_and_destruction_0()+0x1118>
+			1124: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1128:	48 8d 8c 24 a8 10 00 	lea    0x10a8(%rsp),%rcx
+    112f:	00 
+    1130:	4c 89 ea             	mov    %r13,%rdx
+    1133:	c7 84 24 a0 10 00 00 	movl   $0x11,0x10a0(%rsp)
+    113a:	11 00 00 00 
+    113e:	e8 00 00 00 00       	call   1143 <__static_initialization_and_destruction_0()+0x1133>
+			113f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1143:	48 8d 84 24 88 03 00 	lea    0x388(%rsp),%rax
+    114a:	00 
+    114b:	48 89 da             	mov    %rbx,%rdx
+    114e:	f3 44 0f 7e 15 60 09 	movq   0x960(%rip),%xmm10        # 1ab7 <__static_initialization_and_destruction_0()+0x1aa7>
+    1155:	00 00 
+			1153: IMAGE_REL_AMD64_REL32	.rdata
+    1157:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    115e:	00 
+    115f:	48 8d 84 24 90 07 00 	lea    0x790(%rsp),%rax
+    1166:	00 
+    1167:	49 89 c5             	mov    %rax,%r13
+    116a:	48 89 c1             	mov    %rax,%rcx
+    116d:	48 89 84 24 70 01 00 	mov    %rax,0x170(%rsp)
+    1174:	00 
+    1175:	66 44 0f d6 94 24 88 	movq   %xmm10,0x388(%rsp)
+    117c:	03 00 00 
+    117f:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1186:	00 02 00 00 00 
+    118b:	e8 00 00 00 00       	call   1190 <__static_initialization_and_destruction_0()+0x1180>
+			118c: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1190:	48 8d 8c 24 c8 10 00 	lea    0x10c8(%rsp),%rcx
+    1197:	00 
+    1198:	4c 89 ea             	mov    %r13,%rdx
+    119b:	c7 84 24 c0 10 00 00 	movl   $0x12,0x10c0(%rsp)
+    11a2:	12 00 00 00 
+    11a6:	e8 00 00 00 00       	call   11ab <__static_initialization_and_destruction_0()+0x119b>
+			11a7: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    11ab:	48 8b 05 68 09 00 00 	mov    0x968(%rip),%rax        # 1b1a <__static_initialization_and_destruction_0()+0x1b0a>
+			11ae: IMAGE_REL_AMD64_REL32	.rdata
+    11b2:	48 89 da             	mov    %rbx,%rdx
+    11b5:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    11bc:	00 02 00 00 00 
+    11c1:	48 89 84 24 90 03 00 	mov    %rax,0x390(%rsp)
+    11c8:	00 
+    11c9:	48 8d 84 24 90 03 00 	lea    0x390(%rsp),%rax
+    11d0:	00 
+    11d1:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    11d8:	00 
+    11d9:	48 8d 84 24 b0 07 00 	lea    0x7b0(%rsp),%rax
+    11e0:	00 
+    11e1:	49 89 c5             	mov    %rax,%r13
+    11e4:	48 89 c1             	mov    %rax,%rcx
+    11e7:	48 89 84 24 88 01 00 	mov    %rax,0x188(%rsp)
+    11ee:	00 
+    11ef:	e8 00 00 00 00       	call   11f4 <__static_initialization_and_destruction_0()+0x11e4>
+			11f0: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    11f4:	48 8d 8c 24 e8 10 00 	lea    0x10e8(%rsp),%rcx
+    11fb:	00 
+    11fc:	4c 89 ea             	mov    %r13,%rdx
+    11ff:	c7 84 24 e0 10 00 00 	movl   $0x13,0x10e0(%rsp)
+    1206:	13 00 00 00 
+    120a:	e8 00 00 00 00       	call   120f <__static_initialization_and_destruction_0()+0x11ff>
+			120b: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    120f:	48 8d 84 24 98 03 00 	lea    0x398(%rsp),%rax
+    1216:	00 
+    1217:	48 89 da             	mov    %rbx,%rdx
+    121a:	f3 44 0f 7e 0d 70 09 	movq   0x970(%rip),%xmm9        # 1b93 <__static_initialization_and_destruction_0()+0x1b83>
+    1221:	00 00 
+			121f: IMAGE_REL_AMD64_REL32	.rdata
+    1223:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    122a:	00 
+    122b:	48 8d 84 24 d0 07 00 	lea    0x7d0(%rsp),%rax
+    1232:	00 
+    1233:	49 89 c5             	mov    %rax,%r13
+    1236:	48 89 c1             	mov    %rax,%rcx
+    1239:	48 89 84 24 98 01 00 	mov    %rax,0x198(%rsp)
+    1240:	00 
+    1241:	66 44 0f d6 8c 24 98 	movq   %xmm9,0x398(%rsp)
+    1248:	03 00 00 
+    124b:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1252:	00 02 00 00 00 
+    1257:	e8 00 00 00 00       	call   125c <__static_initialization_and_destruction_0()+0x124c>
+			1258: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    125c:	48 8d 8c 24 08 11 00 	lea    0x1108(%rsp),%rcx
+    1263:	00 
+    1264:	4c 89 ea             	mov    %r13,%rdx
+    1267:	c7 84 24 00 11 00 00 	movl   $0x14,0x1100(%rsp)
+    126e:	14 00 00 00 
+    1272:	e8 00 00 00 00       	call   1277 <__static_initialization_and_destruction_0()+0x1267>
+			1273: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1277:	48 8b 05 78 09 00 00 	mov    0x978(%rip),%rax        # 1bf6 <__static_initialization_and_destruction_0()+0x1be6>
+			127a: IMAGE_REL_AMD64_REL32	.rdata
+    127e:	48 89 da             	mov    %rbx,%rdx
+    1281:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1288:	00 02 00 00 00 
+    128d:	48 89 84 24 a0 03 00 	mov    %rax,0x3a0(%rsp)
+    1294:	00 
+    1295:	48 8d 84 24 a0 03 00 	lea    0x3a0(%rsp),%rax
+    129c:	00 
+    129d:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    12a4:	00 
+    12a5:	48 8d 84 24 f0 07 00 	lea    0x7f0(%rsp),%rax
+    12ac:	00 
+    12ad:	49 89 c5             	mov    %rax,%r13
+    12b0:	48 89 c1             	mov    %rax,%rcx
+    12b3:	48 89 84 24 a8 01 00 	mov    %rax,0x1a8(%rsp)
+    12ba:	00 
+    12bb:	e8 00 00 00 00       	call   12c0 <__static_initialization_and_destruction_0()+0x12b0>
+			12bc: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    12c0:	48 8d 8c 24 28 11 00 	lea    0x1128(%rsp),%rcx
+    12c7:	00 
+    12c8:	4c 89 ea             	mov    %r13,%rdx
+    12cb:	c7 84 24 20 11 00 00 	movl   $0x15,0x1120(%rsp)
+    12d2:	15 00 00 00 
+    12d6:	e8 00 00 00 00       	call   12db <__static_initialization_and_destruction_0()+0x12cb>
+			12d7: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    12db:	48 8d 84 24 a8 03 00 	lea    0x3a8(%rsp),%rax
+    12e2:	00 
+    12e3:	48 89 da             	mov    %rbx,%rdx
+    12e6:	f3 44 0f 7e 05 80 09 	movq   0x980(%rip),%xmm8        # 1c6f <__static_initialization_and_destruction_0()+0x1c5f>
+    12ed:	00 00 
+			12eb: IMAGE_REL_AMD64_REL32	.rdata
+    12ef:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    12f6:	00 
+    12f7:	48 8d 84 24 10 08 00 	lea    0x810(%rsp),%rax
+    12fe:	00 
+    12ff:	49 89 c5             	mov    %rax,%r13
+    1302:	48 89 c1             	mov    %rax,%rcx
+    1305:	48 89 84 24 b8 01 00 	mov    %rax,0x1b8(%rsp)
+    130c:	00 
+    130d:	66 44 0f d6 84 24 a8 	movq   %xmm8,0x3a8(%rsp)
+    1314:	03 00 00 
+    1317:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    131e:	00 02 00 00 00 
+    1323:	e8 00 00 00 00       	call   1328 <__static_initialization_and_destruction_0()+0x1318>
+			1324: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1328:	48 8d 8c 24 48 11 00 	lea    0x1148(%rsp),%rcx
+    132f:	00 
+    1330:	4c 89 ea             	mov    %r13,%rdx
+    1333:	c7 84 24 40 11 00 00 	movl   $0x16,0x1140(%rsp)
+    133a:	16 00 00 00 
+    133e:	e8 00 00 00 00       	call   1343 <__static_initialization_and_destruction_0()+0x1333>
+			133f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1343:	4c 8b 2d 88 09 00 00 	mov    0x988(%rip),%r13        # 1cd2 <__static_initialization_and_destruction_0()+0x1cc2>
+			1346: IMAGE_REL_AMD64_REL32	.rdata
+    134a:	48 8d 84 24 b0 03 00 	lea    0x3b0(%rsp),%rax
+    1351:	00 
+    1352:	48 89 da             	mov    %rbx,%rdx
+    1355:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    135c:	00 
+    135d:	48 8d 84 24 30 08 00 	lea    0x830(%rsp),%rax
+    1364:	00 
+    1365:	48 89 c1             	mov    %rax,%rcx
+    1368:	48 89 84 24 88 00 00 	mov    %rax,0x88(%rsp)
+    136f:	00 
+    1370:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1377:	00 02 00 00 00 
+    137c:	4c 89 ac 24 b0 03 00 	mov    %r13,0x3b0(%rsp)
+    1383:	00 
+    1384:	e8 00 00 00 00       	call   1389 <__static_initialization_and_destruction_0()+0x1379>
+			1385: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1389:	48 8b 94 24 88 00 00 	mov    0x88(%rsp),%rdx
+    1390:	00 
+    1391:	48 8d 8c 24 68 11 00 	lea    0x1168(%rsp),%rcx
+    1398:	00 
+    1399:	c7 84 24 60 11 00 00 	movl   $0x17,0x1160(%rsp)
+    13a0:	17 00 00 00 
+    13a4:	e8 00 00 00 00       	call   13a9 <__static_initialization_and_destruction_0()+0x1399>
+			13a5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    13a9:	48 8b 54 24 60       	mov    0x60(%rsp),%rdx
+    13ae:	48 8d 84 24 b8 03 00 	lea    0x3b8(%rsp),%rax
+    13b5:	00 
+    13b6:	48 89 bc 24 d0 02 00 	mov    %rdi,0x2d0(%rsp)
+    13bd:	00 
+    13be:	48 89 c1             	mov    %rax,%rcx
+    13c1:	48 89 84 24 50 02 00 	mov    %rax,0x250(%rsp)
+    13c8:	00 
+    13c9:	48 c7 84 24 d8 02 00 	movq   $0x18,0x2d8(%rsp)
+    13d0:	00 18 00 00 00 
+    13d5:	e8 00 00 00 00       	call   13da <__static_initialization_and_destruction_0()+0x13ca>
+			13d6: IMAGE_REL_AMD64_REL32	QMap<int, QList<int> >::QMap(std::initializer_list<std::pair<int, QList<int> > >)
+    13da:	48 8b 8c 24 b8 03 00 	mov    0x3b8(%rsp),%rcx
+    13e1:	00 
+    13e2:	c7 84 24 50 0e 00 00 	movl   $0x0,0xe50(%rsp)
+    13e9:	00 00 00 00 
+    13ed:	48 85 c9             	test   %rcx,%rcx
+    13f0:	48 89 8c 24 58 0e 00 	mov    %rcx,0xe58(%rsp)
+    13f7:	00 
+    13f8:	74 05                	je     13ff <__static_initialization_and_destruction_0()+0x13ef>
+    13fa:	e8 01 ec ff ff       	call   0 <QBasicAtomicInteger<int>::ref() [clone .isra.0]>
+    13ff:	48 8b 05 30 09 00 00 	mov    0x930(%rip),%rax        # 1d36 <__static_initialization_and_destruction_0()+0x1d26>
+			1402: IMAGE_REL_AMD64_REL32	.rdata
+    1406:	48 89 da             	mov    %rbx,%rdx
+    1409:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1410:	00 02 00 00 00 
+    1415:	48 89 84 24 c0 03 00 	mov    %rax,0x3c0(%rsp)
+    141c:	00 
+    141d:	48 8d 84 24 c0 03 00 	lea    0x3c0(%rsp),%rax
+    1424:	00 
+    1425:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    142c:	00 
+    142d:	48 8d 84 24 50 08 00 	lea    0x850(%rsp),%rax
+    1434:	00 
+    1435:	48 89 c1             	mov    %rax,%rcx
+    1438:	48 89 84 24 90 00 00 	mov    %rax,0x90(%rsp)
+    143f:	00 
+    1440:	e8 00 00 00 00       	call   1445 <__static_initialization_and_destruction_0()+0x1435>
+			1441: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1445:	48 8b 94 24 90 00 00 	mov    0x90(%rsp),%rdx
+    144c:	00 
+    144d:	48 8d 8c 24 88 11 00 	lea    0x1188(%rsp),%rcx
+    1454:	00 
+    1455:	c7 84 24 80 11 00 00 	movl   $0x0,0x1180(%rsp)
+    145c:	00 00 00 00 
+    1460:	e8 00 00 00 00       	call   1465 <__static_initialization_and_destruction_0()+0x1455>
+			1461: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1465:	48 8d 84 24 c8 03 00 	lea    0x3c8(%rsp),%rax
+    146c:	00 
+    146d:	48 89 da             	mov    %rbx,%rdx
+    1470:	66 0f d6 bc 24 c8 03 	movq   %xmm7,0x3c8(%rsp)
+    1477:	00 00 
+    1479:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1480:	00 
+    1481:	48 8d 84 24 70 08 00 	lea    0x870(%rsp),%rax
+    1488:	00 
+    1489:	48 89 c1             	mov    %rax,%rcx
+    148c:	48 89 84 24 98 00 00 	mov    %rax,0x98(%rsp)
+    1493:	00 
+    1494:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    149b:	00 02 00 00 00 
+    14a0:	e8 00 00 00 00       	call   14a5 <__static_initialization_and_destruction_0()+0x1495>
+			14a1: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    14a5:	48 8b 94 24 98 00 00 	mov    0x98(%rsp),%rdx
+    14ac:	00 
+    14ad:	48 8d 8c 24 a8 11 00 	lea    0x11a8(%rsp),%rcx
+    14b4:	00 
+    14b5:	c7 84 24 a0 11 00 00 	movl   $0x1,0x11a0(%rsp)
+    14bc:	01 00 00 00 
+    14c0:	e8 00 00 00 00       	call   14c5 <__static_initialization_and_destruction_0()+0x14b5>
+			14c1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    14c5:	48 8b 05 40 09 00 00 	mov    0x940(%rip),%rax        # 1e0c <__static_initialization_and_destruction_0()+0x1dfc>
+			14c8: IMAGE_REL_AMD64_REL32	.rdata
+    14cc:	48 89 da             	mov    %rbx,%rdx
+    14cf:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    14d6:	00 02 00 00 00 
+    14db:	48 89 84 24 d0 03 00 	mov    %rax,0x3d0(%rsp)
+    14e2:	00 
+    14e3:	48 8d 84 24 d0 03 00 	lea    0x3d0(%rsp),%rax
+    14ea:	00 
+    14eb:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    14f2:	00 
+    14f3:	48 8d 84 24 90 08 00 	lea    0x890(%rsp),%rax
+    14fa:	00 
+    14fb:	48 89 c1             	mov    %rax,%rcx
+    14fe:	48 89 84 24 a0 00 00 	mov    %rax,0xa0(%rsp)
+    1505:	00 
+    1506:	e8 00 00 00 00       	call   150b <__static_initialization_and_destruction_0()+0x14fb>
+			1507: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    150b:	48 8b 94 24 a0 00 00 	mov    0xa0(%rsp),%rdx
+    1512:	00 
+    1513:	48 8d 8c 24 c8 11 00 	lea    0x11c8(%rsp),%rcx
+    151a:	00 
+    151b:	c7 84 24 c0 11 00 00 	movl   $0x2,0x11c0(%rsp)
+    1522:	02 00 00 00 
+    1526:	e8 00 00 00 00       	call   152b <__static_initialization_and_destruction_0()+0x151b>
+			1527: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    152b:	48 8d 84 24 d8 03 00 	lea    0x3d8(%rsp),%rax
+    1532:	00 
+    1533:	48 89 da             	mov    %rbx,%rdx
+    1536:	66 0f d6 b4 24 d8 03 	movq   %xmm6,0x3d8(%rsp)
+    153d:	00 00 
+    153f:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1546:	00 
+    1547:	48 8d 84 24 b0 08 00 	lea    0x8b0(%rsp),%rax
+    154e:	00 
+    154f:	48 89 c1             	mov    %rax,%rcx
+    1552:	48 89 84 24 b0 00 00 	mov    %rax,0xb0(%rsp)
+    1559:	00 
+    155a:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1561:	00 02 00 00 00 
+    1566:	e8 00 00 00 00       	call   156b <__static_initialization_and_destruction_0()+0x155b>
+			1567: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    156b:	48 8b 94 24 b0 00 00 	mov    0xb0(%rsp),%rdx
+    1572:	00 
+    1573:	48 8d 8c 24 e8 11 00 	lea    0x11e8(%rsp),%rcx
+    157a:	00 
+    157b:	c7 84 24 e0 11 00 00 	movl   $0x3,0x11e0(%rsp)
+    1582:	03 00 00 00 
+    1586:	e8 00 00 00 00       	call   158b <__static_initialization_and_destruction_0()+0x157b>
+			1587: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    158b:	48 8d 84 24 e0 03 00 	lea    0x3e0(%rsp),%rax
+    1592:	00 
+    1593:	48 89 da             	mov    %rbx,%rdx
+    1596:	66 44 0f d6 9c 24 e0 	movq   %xmm11,0x3e0(%rsp)
+    159d:	03 00 00 
+    15a0:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    15a7:	00 
+    15a8:	48 8d 84 24 d0 08 00 	lea    0x8d0(%rsp),%rax
+    15af:	00 
+    15b0:	48 89 c1             	mov    %rax,%rcx
+    15b3:	48 89 84 24 c0 00 00 	mov    %rax,0xc0(%rsp)
+    15ba:	00 
+    15bb:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    15c2:	00 02 00 00 00 
+    15c7:	e8 00 00 00 00       	call   15cc <__static_initialization_and_destruction_0()+0x15bc>
+			15c8: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    15cc:	48 8b 94 24 c0 00 00 	mov    0xc0(%rsp),%rdx
+    15d3:	00 
+    15d4:	48 8d 8c 24 08 12 00 	lea    0x1208(%rsp),%rcx
+    15db:	00 
+    15dc:	c7 84 24 00 12 00 00 	movl   $0x4,0x1200(%rsp)
+    15e3:	04 00 00 00 
+    15e7:	e8 00 00 00 00       	call   15ec <__static_initialization_and_destruction_0()+0x15dc>
+			15e8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    15ec:	48 8b 05 58 09 00 00 	mov    0x958(%rip),%rax        # 1f4b <__static_initialization_and_destruction_0()+0x1f3b>
+			15ef: IMAGE_REL_AMD64_REL32	.rdata
+    15f3:	48 89 da             	mov    %rbx,%rdx
+    15f6:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    15fd:	00 02 00 00 00 
+    1602:	48 89 84 24 e8 03 00 	mov    %rax,0x3e8(%rsp)
+    1609:	00 
+    160a:	48 8d 84 24 e8 03 00 	lea    0x3e8(%rsp),%rax
+    1611:	00 
+    1612:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1619:	00 
+    161a:	48 8d 84 24 f0 08 00 	lea    0x8f0(%rsp),%rax
+    1621:	00 
+    1622:	48 89 c1             	mov    %rax,%rcx
+    1625:	48 89 84 24 d0 00 00 	mov    %rax,0xd0(%rsp)
+    162c:	00 
+    162d:	e8 00 00 00 00       	call   1632 <__static_initialization_and_destruction_0()+0x1622>
+			162e: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1632:	48 8b 94 24 d0 00 00 	mov    0xd0(%rsp),%rdx
+    1639:	00 
+    163a:	48 8d 8c 24 28 12 00 	lea    0x1228(%rsp),%rcx
+    1641:	00 
+    1642:	c7 84 24 20 12 00 00 	movl   $0x5,0x1220(%rsp)
+    1649:	05 00 00 00 
+    164d:	e8 00 00 00 00       	call   1652 <__static_initialization_and_destruction_0()+0x1642>
+			164e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1652:	48 8d 84 24 f0 03 00 	lea    0x3f0(%rsp),%rax
+    1659:	00 
+    165a:	48 89 da             	mov    %rbx,%rdx
+    165d:	66 44 0f d6 94 24 f0 	movq   %xmm10,0x3f0(%rsp)
+    1664:	03 00 00 
+    1667:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    166e:	00 
+    166f:	48 8d 84 24 10 09 00 	lea    0x910(%rsp),%rax
+    1676:	00 
+    1677:	48 89 c1             	mov    %rax,%rcx
+    167a:	48 89 84 24 e0 00 00 	mov    %rax,0xe0(%rsp)
+    1681:	00 
+    1682:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1689:	00 02 00 00 00 
+    168e:	e8 00 00 00 00       	call   1693 <__static_initialization_and_destruction_0()+0x1683>
+			168f: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1693:	48 8b 94 24 e0 00 00 	mov    0xe0(%rsp),%rdx
+    169a:	00 
+    169b:	48 8d 8c 24 48 12 00 	lea    0x1248(%rsp),%rcx
+    16a2:	00 
+    16a3:	c7 84 24 40 12 00 00 	movl   $0x6,0x1240(%rsp)
+    16aa:	06 00 00 00 
+    16ae:	e8 00 00 00 00       	call   16b3 <__static_initialization_and_destruction_0()+0x16a3>
+			16af: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    16b3:	48 8b 05 68 09 00 00 	mov    0x968(%rip),%rax        # 2022 <__static_initialization_and_destruction_0()+0x2012>
+			16b6: IMAGE_REL_AMD64_REL32	.rdata
+    16ba:	48 89 da             	mov    %rbx,%rdx
+    16bd:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    16c4:	00 02 00 00 00 
+    16c9:	48 89 84 24 f8 03 00 	mov    %rax,0x3f8(%rsp)
+    16d0:	00 
+    16d1:	48 8d 84 24 f8 03 00 	lea    0x3f8(%rsp),%rax
+    16d8:	00 
+    16d9:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    16e0:	00 
+    16e1:	48 8d 84 24 30 09 00 	lea    0x930(%rsp),%rax
+    16e8:	00 
+    16e9:	48 89 c1             	mov    %rax,%rcx
+    16ec:	48 89 84 24 f0 00 00 	mov    %rax,0xf0(%rsp)
+    16f3:	00 
+    16f4:	e8 00 00 00 00       	call   16f9 <__static_initialization_and_destruction_0()+0x16e9>
+			16f5: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    16f9:	48 8b 94 24 f0 00 00 	mov    0xf0(%rsp),%rdx
+    1700:	00 
+    1701:	48 8d 8c 24 68 12 00 	lea    0x1268(%rsp),%rcx
+    1708:	00 
+    1709:	c7 84 24 60 12 00 00 	movl   $0x7,0x1260(%rsp)
+    1710:	07 00 00 00 
+    1714:	e8 00 00 00 00       	call   1719 <__static_initialization_and_destruction_0()+0x1709>
+			1715: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1719:	48 8d 84 24 00 04 00 	lea    0x400(%rsp),%rax
+    1720:	00 
+    1721:	48 89 da             	mov    %rbx,%rdx
+    1724:	66 44 0f d6 8c 24 00 	movq   %xmm9,0x400(%rsp)
+    172b:	04 00 00 
+    172e:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1735:	00 
+    1736:	48 8d 84 24 50 09 00 	lea    0x950(%rsp),%rax
+    173d:	00 
+    173e:	48 89 c1             	mov    %rax,%rcx
+    1741:	48 89 84 24 00 01 00 	mov    %rax,0x100(%rsp)
+    1748:	00 
+    1749:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1750:	00 02 00 00 00 
+    1755:	e8 00 00 00 00       	call   175a <__static_initialization_and_destruction_0()+0x174a>
+			1756: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    175a:	48 8b 94 24 00 01 00 	mov    0x100(%rsp),%rdx
+    1761:	00 
+    1762:	48 8d 8c 24 88 12 00 	lea    0x1288(%rsp),%rcx
+    1769:	00 
+    176a:	c7 84 24 80 12 00 00 	movl   $0x8,0x1280(%rsp)
+    1771:	08 00 00 00 
+    1775:	e8 00 00 00 00       	call   177a <__static_initialization_and_destruction_0()+0x176a>
+			1776: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    177a:	48 8b 05 78 09 00 00 	mov    0x978(%rip),%rax        # 20f9 <__static_initialization_and_destruction_0()+0x20e9>
+			177d: IMAGE_REL_AMD64_REL32	.rdata
+    1781:	48 89 da             	mov    %rbx,%rdx
+    1784:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    178b:	00 02 00 00 00 
+    1790:	48 89 84 24 08 04 00 	mov    %rax,0x408(%rsp)
+    1797:	00 
+    1798:	48 8d 84 24 08 04 00 	lea    0x408(%rsp),%rax
+    179f:	00 
+    17a0:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    17a7:	00 
+    17a8:	48 8d 84 24 70 09 00 	lea    0x970(%rsp),%rax
+    17af:	00 
+    17b0:	48 89 c1             	mov    %rax,%rcx
+    17b3:	48 89 84 24 10 01 00 	mov    %rax,0x110(%rsp)
+    17ba:	00 
+    17bb:	e8 00 00 00 00       	call   17c0 <__static_initialization_and_destruction_0()+0x17b0>
+			17bc: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    17c0:	48 8b 94 24 10 01 00 	mov    0x110(%rsp),%rdx
+    17c7:	00 
+    17c8:	48 8d 8c 24 a8 12 00 	lea    0x12a8(%rsp),%rcx
+    17cf:	00 
+    17d0:	c7 84 24 a0 12 00 00 	movl   $0x9,0x12a0(%rsp)
+    17d7:	09 00 00 00 
+    17db:	e8 00 00 00 00       	call   17e0 <__static_initialization_and_destruction_0()+0x17d0>
+			17dc: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    17e0:	48 8d 84 24 10 04 00 	lea    0x410(%rsp),%rax
+    17e7:	00 
+    17e8:	48 89 da             	mov    %rbx,%rdx
+    17eb:	66 44 0f d6 84 24 10 	movq   %xmm8,0x410(%rsp)
+    17f2:	04 00 00 
+    17f5:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    17fc:	00 
+    17fd:	48 8d 84 24 90 09 00 	lea    0x990(%rsp),%rax
+    1804:	00 
+    1805:	48 89 c1             	mov    %rax,%rcx
+    1808:	48 89 84 24 20 01 00 	mov    %rax,0x120(%rsp)
+    180f:	00 
+    1810:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1817:	00 02 00 00 00 
+    181c:	e8 00 00 00 00       	call   1821 <__static_initialization_and_destruction_0()+0x1811>
+			181d: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1821:	48 8b 94 24 20 01 00 	mov    0x120(%rsp),%rdx
+    1828:	00 
+    1829:	48 8d 8c 24 c8 12 00 	lea    0x12c8(%rsp),%rcx
+    1830:	00 
+    1831:	c7 84 24 c0 12 00 00 	movl   $0xa,0x12c0(%rsp)
+    1838:	0a 00 00 00 
+    183c:	e8 00 00 00 00       	call   1841 <__static_initialization_and_destruction_0()+0x1831>
+			183d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1841:	48 8d 84 24 18 04 00 	lea    0x418(%rsp),%rax
+    1848:	00 
+    1849:	4c 89 ac 24 18 04 00 	mov    %r13,0x418(%rsp)
+    1850:	00 
+    1851:	48 89 da             	mov    %rbx,%rdx
+    1854:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    185b:	00 
+    185c:	48 8d 84 24 b0 09 00 	lea    0x9b0(%rsp),%rax
+    1863:	00 
+    1864:	49 89 c5             	mov    %rax,%r13
+    1867:	48 89 c1             	mov    %rax,%rcx
+    186a:	48 89 84 24 28 02 00 	mov    %rax,0x228(%rsp)
+    1871:	00 
+    1872:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1879:	00 02 00 00 00 
+    187e:	e8 00 00 00 00       	call   1883 <__static_initialization_and_destruction_0()+0x1873>
+			187f: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1883:	48 8d 8c 24 e8 12 00 	lea    0x12e8(%rsp),%rcx
+    188a:	00 
+    188b:	4c 89 ea             	mov    %r13,%rdx
+    188e:	c7 84 24 e0 12 00 00 	movl   $0xb,0x12e0(%rsp)
+    1895:	0b 00 00 00 
+    1899:	e8 00 00 00 00       	call   189e <__static_initialization_and_destruction_0()+0x188e>
+			189a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    189e:	48 8b 05 d8 08 00 00 	mov    0x8d8(%rip),%rax        # 217d <__static_initialization_and_destruction_0()+0x216d>
+			18a1: IMAGE_REL_AMD64_REL32	.rdata
+    18a5:	48 89 da             	mov    %rbx,%rdx
+    18a8:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    18af:	00 02 00 00 00 
+    18b4:	48 89 84 24 20 04 00 	mov    %rax,0x420(%rsp)
+    18bb:	00 
+    18bc:	48 8d 84 24 20 04 00 	lea    0x420(%rsp),%rax
+    18c3:	00 
+    18c4:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    18cb:	00 
+    18cc:	48 8d 84 24 d0 09 00 	lea    0x9d0(%rsp),%rax
+    18d3:	00 
+    18d4:	49 89 c5             	mov    %rax,%r13
+    18d7:	48 89 c1             	mov    %rax,%rcx
+    18da:	48 89 84 24 38 02 00 	mov    %rax,0x238(%rsp)
+    18e1:	00 
+    18e2:	e8 00 00 00 00       	call   18e7 <__static_initialization_and_destruction_0()+0x18d7>
+			18e3: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    18e7:	48 8d 8c 24 08 13 00 	lea    0x1308(%rsp),%rcx
+    18ee:	00 
+    18ef:	4c 89 ea             	mov    %r13,%rdx
+    18f2:	c7 84 24 00 13 00 00 	movl   $0xc,0x1300(%rsp)
+    18f9:	0c 00 00 00 
+    18fd:	e8 00 00 00 00       	call   1902 <__static_initialization_and_destruction_0()+0x18f2>
+			18fe: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1902:	48 8d 84 24 28 04 00 	lea    0x428(%rsp),%rax
+    1909:	00 
+    190a:	48 89 da             	mov    %rbx,%rdx
+    190d:	66 44 0f d6 bc 24 28 	movq   %xmm15,0x428(%rsp)
+    1914:	04 00 00 
+    1917:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    191e:	00 
+    191f:	48 8d 84 24 f0 09 00 	lea    0x9f0(%rsp),%rax
+    1926:	00 
+    1927:	49 89 c5             	mov    %rax,%r13
+    192a:	48 89 c1             	mov    %rax,%rcx
+    192d:	48 89 84 24 48 02 00 	mov    %rax,0x248(%rsp)
+    1934:	00 
+    1935:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    193c:	00 02 00 00 00 
+    1941:	e8 00 00 00 00       	call   1946 <__static_initialization_and_destruction_0()+0x1936>
+			1942: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1946:	48 8d 8c 24 28 13 00 	lea    0x1328(%rsp),%rcx
+    194d:	00 
+    194e:	4c 89 ea             	mov    %r13,%rdx
+    1951:	c7 84 24 20 13 00 00 	movl   $0xd,0x1320(%rsp)
+    1958:	0d 00 00 00 
+    195c:	e8 00 00 00 00       	call   1961 <__static_initialization_and_destruction_0()+0x1951>
+			195d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1961:	48 8b 05 e8 08 00 00 	mov    0x8e8(%rip),%rax        # 2250 <__static_initialization_and_destruction_0()+0x2240>
+			1964: IMAGE_REL_AMD64_REL32	.rdata
+    1968:	48 89 da             	mov    %rbx,%rdx
+    196b:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1972:	00 02 00 00 00 
+    1977:	48 89 84 24 30 04 00 	mov    %rax,0x430(%rsp)
+    197e:	00 
+    197f:	48 8d 84 24 30 04 00 	lea    0x430(%rsp),%rax
+    1986:	00 
+    1987:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    198e:	00 
+    198f:	48 8d 84 24 10 0a 00 	lea    0xa10(%rsp),%rax
+    1996:	00 
+    1997:	49 89 c5             	mov    %rax,%r13
+    199a:	48 89 c1             	mov    %rax,%rcx
+    199d:	48 89 84 24 60 02 00 	mov    %rax,0x260(%rsp)
+    19a4:	00 
+    19a5:	e8 00 00 00 00       	call   19aa <__static_initialization_and_destruction_0()+0x199a>
+			19a6: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    19aa:	48 8d 8c 24 48 13 00 	lea    0x1348(%rsp),%rcx
+    19b1:	00 
+    19b2:	4c 89 ea             	mov    %r13,%rdx
+    19b5:	c7 84 24 40 13 00 00 	movl   $0xe,0x1340(%rsp)
+    19bc:	0e 00 00 00 
+    19c0:	e8 00 00 00 00       	call   19c5 <__static_initialization_and_destruction_0()+0x19b5>
+			19c1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    19c5:	48 8d 84 24 38 04 00 	lea    0x438(%rsp),%rax
+    19cc:	00 
+    19cd:	48 89 da             	mov    %rbx,%rdx
+    19d0:	66 44 0f d6 b4 24 38 	movq   %xmm14,0x438(%rsp)
+    19d7:	04 00 00 
+    19da:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    19e1:	00 
+    19e2:	48 8d 84 24 30 0a 00 	lea    0xa30(%rsp),%rax
+    19e9:	00 
+    19ea:	49 89 c5             	mov    %rax,%r13
+    19ed:	48 89 c1             	mov    %rax,%rcx
+    19f0:	48 89 84 24 70 02 00 	mov    %rax,0x270(%rsp)
+    19f7:	00 
+    19f8:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    19ff:	00 02 00 00 00 
+    1a04:	e8 00 00 00 00       	call   1a09 <__static_initialization_and_destruction_0()+0x19f9>
+			1a05: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1a09:	48 8d 8c 24 68 13 00 	lea    0x1368(%rsp),%rcx
+    1a10:	00 
+    1a11:	4c 89 ea             	mov    %r13,%rdx
+    1a14:	c7 84 24 60 13 00 00 	movl   $0xf,0x1360(%rsp)
+    1a1b:	0f 00 00 00 
+    1a1f:	e8 00 00 00 00       	call   1a24 <__static_initialization_and_destruction_0()+0x1a14>
+			1a20: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1a24:	48 8b 05 f8 08 00 00 	mov    0x8f8(%rip),%rax        # 2323 <__static_initialization_and_destruction_0()+0x2313>
+			1a27: IMAGE_REL_AMD64_REL32	.rdata
+    1a2b:	48 89 da             	mov    %rbx,%rdx
+    1a2e:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1a35:	00 02 00 00 00 
+    1a3a:	48 89 84 24 40 04 00 	mov    %rax,0x440(%rsp)
+    1a41:	00 
+    1a42:	48 8d 84 24 40 04 00 	lea    0x440(%rsp),%rax
+    1a49:	00 
+    1a4a:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1a51:	00 
+    1a52:	48 8d 84 24 50 0a 00 	lea    0xa50(%rsp),%rax
+    1a59:	00 
+    1a5a:	49 89 c5             	mov    %rax,%r13
+    1a5d:	48 89 c1             	mov    %rax,%rcx
+    1a60:	48 89 84 24 80 02 00 	mov    %rax,0x280(%rsp)
+    1a67:	00 
+    1a68:	e8 00 00 00 00       	call   1a6d <__static_initialization_and_destruction_0()+0x1a5d>
+			1a69: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1a6d:	48 8d 8c 24 88 13 00 	lea    0x1388(%rsp),%rcx
+    1a74:	00 
+    1a75:	4c 89 ea             	mov    %r13,%rdx
+    1a78:	c7 84 24 80 13 00 00 	movl   $0x10,0x1380(%rsp)
+    1a7f:	10 00 00 00 
+    1a83:	e8 00 00 00 00       	call   1a88 <__static_initialization_and_destruction_0()+0x1a78>
+			1a84: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1a88:	48 8d 84 24 48 04 00 	lea    0x448(%rsp),%rax
+    1a8f:	00 
+    1a90:	48 89 da             	mov    %rbx,%rdx
+    1a93:	66 44 0f d6 ac 24 48 	movq   %xmm13,0x448(%rsp)
+    1a9a:	04 00 00 
+    1a9d:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1aa4:	00 
+    1aa5:	48 8d 84 24 70 0a 00 	lea    0xa70(%rsp),%rax
+    1aac:	00 
+    1aad:	49 89 c5             	mov    %rax,%r13
+    1ab0:	48 89 c1             	mov    %rax,%rcx
+    1ab3:	48 89 84 24 90 02 00 	mov    %rax,0x290(%rsp)
+    1aba:	00 
+    1abb:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1ac2:	00 02 00 00 00 
+    1ac7:	e8 00 00 00 00       	call   1acc <__static_initialization_and_destruction_0()+0x1abc>
+			1ac8: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1acc:	48 8d 8c 24 a8 13 00 	lea    0x13a8(%rsp),%rcx
+    1ad3:	00 
+    1ad4:	4c 89 ea             	mov    %r13,%rdx
+    1ad7:	c7 84 24 a0 13 00 00 	movl   $0x11,0x13a0(%rsp)
+    1ade:	11 00 00 00 
+    1ae2:	e8 00 00 00 00       	call   1ae7 <__static_initialization_and_destruction_0()+0x1ad7>
+			1ae3: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1ae7:	48 8b 05 08 09 00 00 	mov    0x908(%rip),%rax        # 23f6 <__static_initialization_and_destruction_0()+0x23e6>
+			1aea: IMAGE_REL_AMD64_REL32	.rdata
+    1aee:	48 89 da             	mov    %rbx,%rdx
+    1af1:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1af8:	00 02 00 00 00 
+    1afd:	48 89 84 24 50 04 00 	mov    %rax,0x450(%rsp)
+    1b04:	00 
+    1b05:	48 8d 84 24 50 04 00 	lea    0x450(%rsp),%rax
+    1b0c:	00 
+    1b0d:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1b14:	00 
+    1b15:	48 8d 84 24 90 0a 00 	lea    0xa90(%rsp),%rax
+    1b1c:	00 
+    1b1d:	49 89 c5             	mov    %rax,%r13
+    1b20:	48 89 c1             	mov    %rax,%rcx
+    1b23:	48 89 84 24 68 01 00 	mov    %rax,0x168(%rsp)
+    1b2a:	00 
+    1b2b:	e8 00 00 00 00       	call   1b30 <__static_initialization_and_destruction_0()+0x1b20>
+			1b2c: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1b30:	48 8d 8c 24 c8 13 00 	lea    0x13c8(%rsp),%rcx
+    1b37:	00 
+    1b38:	4c 89 ea             	mov    %r13,%rdx
+    1b3b:	c7 84 24 c0 13 00 00 	movl   $0x12,0x13c0(%rsp)
+    1b42:	12 00 00 00 
+    1b46:	e8 00 00 00 00       	call   1b4b <__static_initialization_and_destruction_0()+0x1b3b>
+			1b47: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1b4b:	48 8d 84 24 58 04 00 	lea    0x458(%rsp),%rax
+    1b52:	00 
+    1b53:	48 89 da             	mov    %rbx,%rdx
+    1b56:	66 44 0f d6 a4 24 58 	movq   %xmm12,0x458(%rsp)
+    1b5d:	04 00 00 
+    1b60:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1b67:	00 
+    1b68:	48 8d 84 24 b0 0a 00 	lea    0xab0(%rsp),%rax
+    1b6f:	00 
+    1b70:	49 89 c5             	mov    %rax,%r13
+    1b73:	48 89 c1             	mov    %rax,%rcx
+    1b76:	48 89 84 24 78 01 00 	mov    %rax,0x178(%rsp)
+    1b7d:	00 
+    1b7e:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1b85:	00 02 00 00 00 
+    1b8a:	e8 00 00 00 00       	call   1b8f <__static_initialization_and_destruction_0()+0x1b7f>
+			1b8b: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1b8f:	48 8d 8c 24 e8 13 00 	lea    0x13e8(%rsp),%rcx
+    1b96:	00 
+    1b97:	4c 89 ea             	mov    %r13,%rdx
+    1b9a:	c7 84 24 e0 13 00 00 	movl   $0x13,0x13e0(%rsp)
+    1ba1:	13 00 00 00 
+    1ba5:	e8 00 00 00 00       	call   1baa <__static_initialization_and_destruction_0()+0x1b9a>
+			1ba6: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1baa:	48 8b 05 18 09 00 00 	mov    0x918(%rip),%rax        # 24c9 <__static_initialization_and_destruction_0()+0x24b9>
+			1bad: IMAGE_REL_AMD64_REL32	.rdata
+    1bb1:	48 89 da             	mov    %rbx,%rdx
+    1bb4:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1bbb:	00 02 00 00 00 
+    1bc0:	48 89 84 24 60 04 00 	mov    %rax,0x460(%rsp)
+    1bc7:	00 
+    1bc8:	48 8d 84 24 60 04 00 	lea    0x460(%rsp),%rax
+    1bcf:	00 
+    1bd0:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1bd7:	00 
+    1bd8:	48 8d 84 24 d0 0a 00 	lea    0xad0(%rsp),%rax
+    1bdf:	00 
+    1be0:	49 89 c5             	mov    %rax,%r13
+    1be3:	48 89 c1             	mov    %rax,%rcx
+    1be6:	48 89 84 24 90 01 00 	mov    %rax,0x190(%rsp)
+    1bed:	00 
+    1bee:	e8 00 00 00 00       	call   1bf3 <__static_initialization_and_destruction_0()+0x1be3>
+			1bef: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1bf3:	48 8d 8c 24 08 14 00 	lea    0x1408(%rsp),%rcx
+    1bfa:	00 
+    1bfb:	4c 89 ea             	mov    %r13,%rdx
+    1bfe:	c7 84 24 00 14 00 00 	movl   $0x14,0x1400(%rsp)
+    1c05:	14 00 00 00 
+    1c09:	e8 00 00 00 00       	call   1c0e <__static_initialization_and_destruction_0()+0x1bfe>
+			1c0a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1c0e:	48 8b 05 20 09 00 00 	mov    0x920(%rip),%rax        # 2535 <__static_initialization_and_destruction_0()+0x2525>
+			1c11: IMAGE_REL_AMD64_REL32	.rdata
+    1c15:	48 89 da             	mov    %rbx,%rdx
+    1c18:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1c1f:	00 02 00 00 00 
+    1c24:	48 89 84 24 68 04 00 	mov    %rax,0x468(%rsp)
+    1c2b:	00 
+    1c2c:	48 8d 84 24 68 04 00 	lea    0x468(%rsp),%rax
+    1c33:	00 
+    1c34:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1c3b:	00 
+    1c3c:	48 8d 84 24 f0 0a 00 	lea    0xaf0(%rsp),%rax
+    1c43:	00 
+    1c44:	49 89 c5             	mov    %rax,%r13
+    1c47:	48 89 c1             	mov    %rax,%rcx
+    1c4a:	48 89 84 24 a0 01 00 	mov    %rax,0x1a0(%rsp)
+    1c51:	00 
+    1c52:	e8 00 00 00 00       	call   1c57 <__static_initialization_and_destruction_0()+0x1c47>
+			1c53: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1c57:	48 8d 8c 24 28 14 00 	lea    0x1428(%rsp),%rcx
+    1c5e:	00 
+    1c5f:	4c 89 ea             	mov    %r13,%rdx
+    1c62:	c7 84 24 20 14 00 00 	movl   $0x15,0x1420(%rsp)
+    1c69:	15 00 00 00 
+    1c6d:	e8 00 00 00 00       	call   1c72 <__static_initialization_and_destruction_0()+0x1c62>
+			1c6e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1c72:	48 8d 84 24 70 04 00 	lea    0x470(%rsp),%rax
+    1c79:	00 
+    1c7a:	48 89 da             	mov    %rbx,%rdx
+    1c7d:	48 c7 84 24 70 04 00 	movq   $0x0,0x470(%rsp)
+    1c84:	00 00 00 00 00 
+    1c89:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1c90:	00 
+    1c91:	48 8d 84 24 10 0b 00 	lea    0xb10(%rsp),%rax
+    1c98:	00 
+    1c99:	49 89 c5             	mov    %rax,%r13
+    1c9c:	48 89 c1             	mov    %rax,%rcx
+    1c9f:	48 89 84 24 b0 01 00 	mov    %rax,0x1b0(%rsp)
+    1ca6:	00 
+    1ca7:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1cae:	00 02 00 00 00 
+    1cb3:	e8 00 00 00 00       	call   1cb8 <__static_initialization_and_destruction_0()+0x1ca8>
+			1cb4: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1cb8:	48 8d 8c 24 48 14 00 	lea    0x1448(%rsp),%rcx
+    1cbf:	00 
+    1cc0:	4c 89 ea             	mov    %r13,%rdx
+    1cc3:	c7 84 24 40 14 00 00 	movl   $0x16,0x1440(%rsp)
+    1cca:	16 00 00 00 
+    1cce:	e8 00 00 00 00       	call   1cd3 <__static_initialization_and_destruction_0()+0x1cc3>
+			1ccf: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1cd3:	48 8b 05 28 09 00 00 	mov    0x928(%rip),%rax        # 2602 <__static_initialization_and_destruction_0()+0x25f2>
+			1cd6: IMAGE_REL_AMD64_REL32	.rdata
+    1cda:	48 89 da             	mov    %rbx,%rdx
+    1cdd:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1ce4:	00 02 00 00 00 
+    1ce9:	48 89 84 24 78 04 00 	mov    %rax,0x478(%rsp)
+    1cf0:	00 
+    1cf1:	48 8d 84 24 78 04 00 	lea    0x478(%rsp),%rax
+    1cf8:	00 
+    1cf9:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1d00:	00 
+    1d01:	48 8d 84 24 30 0b 00 	lea    0xb30(%rsp),%rax
+    1d08:	00 
+    1d09:	49 89 c5             	mov    %rax,%r13
+    1d0c:	48 89 c1             	mov    %rax,%rcx
+    1d0f:	48 89 84 24 c0 01 00 	mov    %rax,0x1c0(%rsp)
+    1d16:	00 
+    1d17:	e8 00 00 00 00       	call   1d1c <__static_initialization_and_destruction_0()+0x1d0c>
+			1d18: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1d1c:	48 8d 8c 24 68 14 00 	lea    0x1468(%rsp),%rcx
+    1d23:	00 
+    1d24:	4c 89 ea             	mov    %r13,%rdx
+    1d27:	c7 84 24 60 14 00 00 	movl   $0x17,0x1460(%rsp)
+    1d2e:	17 00 00 00 
+    1d32:	e8 00 00 00 00       	call   1d37 <__static_initialization_and_destruction_0()+0x1d27>
+			1d33: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1d37:	48 8b 54 24 60       	mov    0x60(%rsp),%rdx
+    1d3c:	48 8d 84 24 80 04 00 	lea    0x480(%rsp),%rax
+    1d43:	00 
+    1d44:	48 89 ac 24 d0 02 00 	mov    %rbp,0x2d0(%rsp)
+    1d4b:	00 
+    1d4c:	48 89 c1             	mov    %rax,%rcx
+    1d4f:	48 89 84 24 80 01 00 	mov    %rax,0x180(%rsp)
+    1d56:	00 
+    1d57:	48 c7 84 24 d8 02 00 	movq   $0x18,0x2d8(%rsp)
+    1d5e:	00 18 00 00 00 
+    1d63:	e8 00 00 00 00       	call   1d68 <__static_initialization_and_destruction_0()+0x1d58>
+			1d64: IMAGE_REL_AMD64_REL32	QMap<int, QList<int> >::QMap(std::initializer_list<std::pair<int, QList<int> > >)
+    1d68:	48 8b 8c 24 80 04 00 	mov    0x480(%rsp),%rcx
+    1d6f:	00 
+    1d70:	c7 84 24 60 0e 00 00 	movl   $0x1,0xe60(%rsp)
+    1d77:	01 00 00 00 
+    1d7b:	48 85 c9             	test   %rcx,%rcx
+    1d7e:	48 89 8c 24 68 0e 00 	mov    %rcx,0xe68(%rsp)
+    1d85:	00 
+    1d86:	74 05                	je     1d8d <__static_initialization_and_destruction_0()+0x1d7d>
+    1d88:	e8 73 e2 ff ff       	call   0 <QBasicAtomicInteger<int>::ref() [clone .isra.0]>
+    1d8d:	48 8b 05 90 09 00 00 	mov    0x990(%rip),%rax        # 2724 <__static_initialization_and_destruction_0()+0x2714>
+			1d90: IMAGE_REL_AMD64_REL32	.rdata
+    1d94:	48 89 da             	mov    %rbx,%rdx
+    1d97:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1d9e:	00 02 00 00 00 
+    1da3:	48 89 84 24 88 04 00 	mov    %rax,0x488(%rsp)
+    1daa:	00 
+    1dab:	48 8d 84 24 88 04 00 	lea    0x488(%rsp),%rax
+    1db2:	00 
+    1db3:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1dba:	00 
+    1dbb:	48 8d 84 24 50 0b 00 	lea    0xb50(%rsp),%rax
+    1dc2:	00 
+    1dc3:	48 89 c1             	mov    %rax,%rcx
+    1dc6:	49 89 c5             	mov    %rax,%r13
+    1dc9:	48 89 84 24 c8 01 00 	mov    %rax,0x1c8(%rsp)
+    1dd0:	00 
+    1dd1:	e8 00 00 00 00       	call   1dd6 <__static_initialization_and_destruction_0()+0x1dc6>
+			1dd2: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1dd6:	48 8b 8c 24 28 01 00 	mov    0x128(%rsp),%rcx
+    1ddd:	00 
+    1dde:	4c 89 ea             	mov    %r13,%rdx
+    1de1:	c7 84 24 80 14 00 00 	movl   $0x0,0x1480(%rsp)
+    1de8:	00 00 00 00 
+    1dec:	e8 00 00 00 00       	call   1df1 <__static_initialization_and_destruction_0()+0x1de1>
+			1ded: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1df1:	48 8b 05 98 09 00 00 	mov    0x998(%rip),%rax        # 2790 <__static_initialization_and_destruction_0()+0x2780>
+			1df4: IMAGE_REL_AMD64_REL32	.rdata
+    1df8:	48 89 da             	mov    %rbx,%rdx
+    1dfb:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1e02:	00 02 00 00 00 
+    1e07:	48 89 84 24 90 04 00 	mov    %rax,0x490(%rsp)
+    1e0e:	00 
+    1e0f:	48 8d 84 24 90 04 00 	lea    0x490(%rsp),%rax
+    1e16:	00 
+    1e17:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1e1e:	00 
+    1e1f:	48 8d 84 24 70 0b 00 	lea    0xb70(%rsp),%rax
+    1e26:	00 
+    1e27:	48 89 c1             	mov    %rax,%rcx
+    1e2a:	49 89 c5             	mov    %rax,%r13
+    1e2d:	48 89 84 24 28 01 00 	mov    %rax,0x128(%rsp)
+    1e34:	00 
+    1e35:	e8 00 00 00 00       	call   1e3a <__static_initialization_and_destruction_0()+0x1e2a>
+			1e36: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1e3a:	48 8b 8c 24 30 01 00 	mov    0x130(%rsp),%rcx
+    1e41:	00 
+    1e42:	4c 89 ea             	mov    %r13,%rdx
+    1e45:	c7 84 24 a0 14 00 00 	movl   $0x1,0x14a0(%rsp)
+    1e4c:	01 00 00 00 
+    1e50:	e8 00 00 00 00       	call   1e55 <__static_initialization_and_destruction_0()+0x1e45>
+			1e51: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1e55:	48 8b 05 a0 09 00 00 	mov    0x9a0(%rip),%rax        # 27fc <__static_initialization_and_destruction_0()+0x27ec>
+			1e58: IMAGE_REL_AMD64_REL32	.rdata
+    1e5c:	48 89 da             	mov    %rbx,%rdx
+    1e5f:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1e66:	00 02 00 00 00 
+    1e6b:	48 89 84 24 98 04 00 	mov    %rax,0x498(%rsp)
+    1e72:	00 
+    1e73:	48 8d 84 24 98 04 00 	lea    0x498(%rsp),%rax
+    1e7a:	00 
+    1e7b:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1e82:	00 
+    1e83:	48 8d 84 24 90 0b 00 	lea    0xb90(%rsp),%rax
+    1e8a:	00 
+    1e8b:	48 89 c1             	mov    %rax,%rcx
+    1e8e:	49 89 c5             	mov    %rax,%r13
+    1e91:	48 89 84 24 30 01 00 	mov    %rax,0x130(%rsp)
+    1e98:	00 
+    1e99:	e8 00 00 00 00       	call   1e9e <__static_initialization_and_destruction_0()+0x1e8e>
+			1e9a: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1e9e:	48 8b 8c 24 38 01 00 	mov    0x138(%rsp),%rcx
+    1ea5:	00 
+    1ea6:	4c 89 ea             	mov    %r13,%rdx
+    1ea9:	c7 84 24 c0 14 00 00 	movl   $0x2,0x14c0(%rsp)
+    1eb0:	02 00 00 00 
+    1eb4:	e8 00 00 00 00       	call   1eb9 <__static_initialization_and_destruction_0()+0x1ea9>
+			1eb5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1eb9:	4c 8b ac 24 a8 00 00 	mov    0xa8(%rsp),%r13
+    1ec0:	00 
+    1ec1:	48 89 da             	mov    %rbx,%rdx
+    1ec4:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1ecb:	00 02 00 00 00 
+    1ed0:	48 8b 05 80 08 00 00 	mov    0x880(%rip),%rax        # 2757 <__static_initialization_and_destruction_0()+0x2747>
+			1ed3: IMAGE_REL_AMD64_REL32	.rdata
+    1ed7:	4c 89 e9             	mov    %r13,%rcx
+    1eda:	48 89 84 24 a0 04 00 	mov    %rax,0x4a0(%rsp)
+    1ee1:	00 
+    1ee2:	48 8d 84 24 a0 04 00 	lea    0x4a0(%rsp),%rax
+    1ee9:	00 
+    1eea:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1ef1:	00 
+    1ef2:	e8 00 00 00 00       	call   1ef7 <__static_initialization_and_destruction_0()+0x1ee7>
+			1ef3: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1ef7:	48 8b 8c 24 40 01 00 	mov    0x140(%rsp),%rcx
+    1efe:	00 
+    1eff:	4c 89 ea             	mov    %r13,%rdx
+    1f02:	c7 84 24 e0 14 00 00 	movl   $0x3,0x14e0(%rsp)
+    1f09:	03 00 00 00 
+    1f0d:	e8 00 00 00 00       	call   1f12 <__static_initialization_and_destruction_0()+0x1f02>
+			1f0e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1f12:	4c 8b ac 24 b8 00 00 	mov    0xb8(%rsp),%r13
+    1f19:	00 
+    1f1a:	48 89 da             	mov    %rbx,%rdx
+    1f1d:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1f24:	00 02 00 00 00 
+    1f29:	48 8b 05 a8 09 00 00 	mov    0x9a8(%rip),%rax        # 28d8 <__static_initialization_and_destruction_0()+0x28c8>
+			1f2c: IMAGE_REL_AMD64_REL32	.rdata
+    1f30:	4c 89 e9             	mov    %r13,%rcx
+    1f33:	48 89 84 24 a8 04 00 	mov    %rax,0x4a8(%rsp)
+    1f3a:	00 
+    1f3b:	48 8d 84 24 a8 04 00 	lea    0x4a8(%rsp),%rax
+    1f42:	00 
+    1f43:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1f4a:	00 
+    1f4b:	e8 00 00 00 00       	call   1f50 <__static_initialization_and_destruction_0()+0x1f40>
+			1f4c: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1f50:	48 8b 8c 24 48 01 00 	mov    0x148(%rsp),%rcx
+    1f57:	00 
+    1f58:	4c 89 ea             	mov    %r13,%rdx
+    1f5b:	c7 84 24 00 15 00 00 	movl   $0x4,0x1500(%rsp)
+    1f62:	04 00 00 00 
+    1f66:	e8 00 00 00 00       	call   1f6b <__static_initialization_and_destruction_0()+0x1f5b>
+			1f67: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1f6b:	4c 8b ac 24 c8 00 00 	mov    0xc8(%rsp),%r13
+    1f72:	00 
+    1f73:	48 89 da             	mov    %rbx,%rdx
+    1f76:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1f7d:	00 02 00 00 00 
+    1f82:	48 8b 05 b0 09 00 00 	mov    0x9b0(%rip),%rax        # 2939 <__static_initialization_and_destruction_0()+0x2929>
+			1f85: IMAGE_REL_AMD64_REL32	.rdata
+    1f89:	4c 89 e9             	mov    %r13,%rcx
+    1f8c:	48 89 84 24 b0 04 00 	mov    %rax,0x4b0(%rsp)
+    1f93:	00 
+    1f94:	48 8d 84 24 b0 04 00 	lea    0x4b0(%rsp),%rax
+    1f9b:	00 
+    1f9c:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1fa3:	00 
+    1fa4:	e8 00 00 00 00       	call   1fa9 <__static_initialization_and_destruction_0()+0x1f99>
+			1fa5: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    1fa9:	48 8b 8c 24 50 01 00 	mov    0x150(%rsp),%rcx
+    1fb0:	00 
+    1fb1:	4c 89 ea             	mov    %r13,%rdx
+    1fb4:	c7 84 24 20 15 00 00 	movl   $0x5,0x1520(%rsp)
+    1fbb:	05 00 00 00 
+    1fbf:	e8 00 00 00 00       	call   1fc4 <__static_initialization_and_destruction_0()+0x1fb4>
+			1fc0: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    1fc4:	4c 8b ac 24 d8 00 00 	mov    0xd8(%rsp),%r13
+    1fcb:	00 
+    1fcc:	48 89 da             	mov    %rbx,%rdx
+    1fcf:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    1fd6:	00 02 00 00 00 
+    1fdb:	48 8b 05 b8 09 00 00 	mov    0x9b8(%rip),%rax        # 299a <__static_initialization_and_destruction_0()+0x298a>
+			1fde: IMAGE_REL_AMD64_REL32	.rdata
+    1fe2:	4c 89 e9             	mov    %r13,%rcx
+    1fe5:	48 89 84 24 b8 04 00 	mov    %rax,0x4b8(%rsp)
+    1fec:	00 
+    1fed:	48 8d 84 24 b8 04 00 	lea    0x4b8(%rsp),%rax
+    1ff4:	00 
+    1ff5:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    1ffc:	00 
+    1ffd:	e8 00 00 00 00       	call   2002 <__static_initialization_and_destruction_0()+0x1ff2>
+			1ffe: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    2002:	48 8b 8c 24 58 01 00 	mov    0x158(%rsp),%rcx
+    2009:	00 
+    200a:	4c 89 ea             	mov    %r13,%rdx
+    200d:	c7 84 24 40 15 00 00 	movl   $0x6,0x1540(%rsp)
+    2014:	06 00 00 00 
+    2018:	e8 00 00 00 00       	call   201d <__static_initialization_and_destruction_0()+0x200d>
+			2019: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    201d:	4c 8b ac 24 e8 00 00 	mov    0xe8(%rsp),%r13
+    2024:	00 
+    2025:	48 89 da             	mov    %rbx,%rdx
+    2028:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    202f:	00 02 00 00 00 
+    2034:	48 8b 05 c0 09 00 00 	mov    0x9c0(%rip),%rax        # 29fb <__static_initialization_and_destruction_0()+0x29eb>
+			2037: IMAGE_REL_AMD64_REL32	.rdata
+    203b:	4c 89 e9             	mov    %r13,%rcx
+    203e:	48 89 84 24 c0 04 00 	mov    %rax,0x4c0(%rsp)
+    2045:	00 
+    2046:	48 8d 84 24 c0 04 00 	lea    0x4c0(%rsp),%rax
+    204d:	00 
+    204e:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    2055:	00 
+    2056:	e8 00 00 00 00       	call   205b <__static_initialization_and_destruction_0()+0x204b>
+			2057: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    205b:	48 8b 8c 24 60 01 00 	mov    0x160(%rsp),%rcx
+    2062:	00 
+    2063:	4c 89 ea             	mov    %r13,%rdx
+    2066:	c7 84 24 60 15 00 00 	movl   $0x7,0x1560(%rsp)
+    206d:	07 00 00 00 
+    2071:	e8 00 00 00 00       	call   2076 <__static_initialization_and_destruction_0()+0x2066>
+			2072: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2076:	4c 8b ac 24 f8 00 00 	mov    0xf8(%rsp),%r13
+    207d:	00 
+    207e:	48 8d 84 24 c8 04 00 	lea    0x4c8(%rsp),%rax
+    2085:	00 
+    2086:	48 89 da             	mov    %rbx,%rdx
+    2089:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    2090:	00 
+    2091:	66 44 0f d6 9c 24 c8 	movq   %xmm11,0x4c8(%rsp)
+    2098:	04 00 00 
+    209b:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    20a2:	00 02 00 00 00 
+    20a7:	4c 89 e9             	mov    %r13,%rcx
+    20aa:	e8 00 00 00 00       	call   20af <__static_initialization_and_destruction_0()+0x209f>
+			20ab: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    20af:	48 8b 8c 24 a0 02 00 	mov    0x2a0(%rsp),%rcx
+    20b6:	00 
+    20b7:	4c 89 ea             	mov    %r13,%rdx
+    20ba:	c7 84 24 80 15 00 00 	movl   $0x8,0x1580(%rsp)
+    20c1:	08 00 00 00 
+    20c5:	e8 00 00 00 00       	call   20ca <__static_initialization_and_destruction_0()+0x20ba>
+			20c6: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    20ca:	4c 8b ac 24 08 01 00 	mov    0x108(%rsp),%r13
+    20d1:	00 
+    20d2:	48 8d 84 24 d0 04 00 	lea    0x4d0(%rsp),%rax
+    20d9:	00 
+    20da:	48 89 da             	mov    %rbx,%rdx
+    20dd:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    20e4:	00 
+    20e5:	66 44 0f d6 94 24 d0 	movq   %xmm10,0x4d0(%rsp)
+    20ec:	04 00 00 
+    20ef:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    20f6:	00 02 00 00 00 
+    20fb:	4c 89 e9             	mov    %r13,%rcx
+    20fe:	e8 00 00 00 00       	call   2103 <__static_initialization_and_destruction_0()+0x20f3>
+			20ff: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    2103:	48 8b 8c 24 a8 02 00 	mov    0x2a8(%rsp),%rcx
+    210a:	00 
+    210b:	4c 89 ea             	mov    %r13,%rdx
+    210e:	c7 84 24 a0 15 00 00 	movl   $0x9,0x15a0(%rsp)
+    2115:	09 00 00 00 
+    2119:	e8 00 00 00 00       	call   211e <__static_initialization_and_destruction_0()+0x210e>
+			211a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    211e:	4c 8b ac 24 18 01 00 	mov    0x118(%rsp),%r13
+    2125:	00 
+    2126:	48 8d 84 24 d8 04 00 	lea    0x4d8(%rsp),%rax
+    212d:	00 
+    212e:	48 89 da             	mov    %rbx,%rdx
+    2131:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    2138:	00 
+    2139:	66 44 0f d6 8c 24 d8 	movq   %xmm9,0x4d8(%rsp)
+    2140:	04 00 00 
+    2143:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    214a:	00 02 00 00 00 
+    214f:	4c 89 e9             	mov    %r13,%rcx
+    2152:	e8 00 00 00 00       	call   2157 <__static_initialization_and_destruction_0()+0x2147>
+			2153: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    2157:	48 8b 8c 24 b0 02 00 	mov    0x2b0(%rsp),%rcx
+    215e:	00 
+    215f:	4c 89 ea             	mov    %r13,%rdx
+    2162:	c7 84 24 c0 15 00 00 	movl   $0xa,0x15c0(%rsp)
+    2169:	0a 00 00 00 
+    216d:	e8 00 00 00 00       	call   2172 <__static_initialization_and_destruction_0()+0x2162>
+			216e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2172:	4c 8b 6c 24 68       	mov    0x68(%rsp),%r13
+    2177:	48 8d 84 24 e0 04 00 	lea    0x4e0(%rsp),%rax
+    217e:	00 
+    217f:	48 89 da             	mov    %rbx,%rdx
+    2182:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    2189:	00 
+    218a:	66 44 0f d6 84 24 e0 	movq   %xmm8,0x4e0(%rsp)
+    2191:	04 00 00 
+    2194:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    219b:	00 02 00 00 00 
+    21a0:	4c 89 e9             	mov    %r13,%rcx
+    21a3:	e8 00 00 00 00       	call   21a8 <__static_initialization_and_destruction_0()+0x2198>
+			21a4: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    21a8:	48 8b 8c 24 b8 02 00 	mov    0x2b8(%rsp),%rcx
+    21af:	00 
+    21b0:	4c 89 ea             	mov    %r13,%rdx
+    21b3:	c7 84 24 e0 15 00 00 	movl   $0xb,0x15e0(%rsp)
+    21ba:	0b 00 00 00 
+    21be:	e8 00 00 00 00       	call   21c3 <__static_initialization_and_destruction_0()+0x21b3>
+			21bf: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    21c3:	4c 8b 6c 24 70       	mov    0x70(%rsp),%r13
+    21c8:	48 8d 84 24 e8 04 00 	lea    0x4e8(%rsp),%rax
+    21cf:	00 
+    21d0:	48 89 da             	mov    %rbx,%rdx
+    21d3:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    21da:	00 
+    21db:	66 0f d6 bc 24 e8 04 	movq   %xmm7,0x4e8(%rsp)
+    21e2:	00 00 
+    21e4:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    21eb:	00 02 00 00 00 
+    21f0:	4c 89 e9             	mov    %r13,%rcx
+    21f3:	e8 00 00 00 00       	call   21f8 <__static_initialization_and_destruction_0()+0x21e8>
+			21f4: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    21f8:	48 8d 8c 24 08 16 00 	lea    0x1608(%rsp),%rcx
+    21ff:	00 
+    2200:	4c 89 ea             	mov    %r13,%rdx
+    2203:	c7 84 24 00 16 00 00 	movl   $0xc,0x1600(%rsp)
+    220a:	0c 00 00 00 
+    220e:	e8 00 00 00 00       	call   2213 <__static_initialization_and_destruction_0()+0x2203>
+			220f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2213:	4c 8b 6c 24 78       	mov    0x78(%rsp),%r13
+    2218:	48 8d 84 24 f0 04 00 	lea    0x4f0(%rsp),%rax
+    221f:	00 
+    2220:	48 89 da             	mov    %rbx,%rdx
+    2223:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    222a:	00 
+    222b:	66 0f d6 b4 24 f0 04 	movq   %xmm6,0x4f0(%rsp)
+    2232:	00 00 
+    2234:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    223b:	00 02 00 00 00 
+    2240:	4c 89 e9             	mov    %r13,%rcx
+    2243:	e8 00 00 00 00       	call   2248 <__static_initialization_and_destruction_0()+0x2238>
+			2244: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    2248:	48 8d 8c 24 28 16 00 	lea    0x1628(%rsp),%rcx
+    224f:	00 
+    2250:	4c 89 ea             	mov    %r13,%rdx
+    2253:	c7 84 24 20 16 00 00 	movl   $0xd,0x1620(%rsp)
+    225a:	0d 00 00 00 
+    225e:	e8 00 00 00 00       	call   2263 <__static_initialization_and_destruction_0()+0x2253>
+			225f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2263:	4c 8b ac 24 80 00 00 	mov    0x80(%rsp),%r13
+    226a:	00 
+    226b:	48 89 da             	mov    %rbx,%rdx
+    226e:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    2275:	00 02 00 00 00 
+    227a:	48 8b 05 58 09 00 00 	mov    0x958(%rip),%rax        # 2bd9 <__static_initialization_and_destruction_0()+0x2bc9>
+			227d: IMAGE_REL_AMD64_REL32	.rdata
+    2281:	4c 89 e9             	mov    %r13,%rcx
+    2284:	48 89 84 24 f8 04 00 	mov    %rax,0x4f8(%rsp)
+    228b:	00 
+    228c:	48 8d 84 24 f8 04 00 	lea    0x4f8(%rsp),%rax
+    2293:	00 
+    2294:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    229b:	00 
+    229c:	e8 00 00 00 00       	call   22a1 <__static_initialization_and_destruction_0()+0x2291>
+			229d: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    22a1:	48 8d 8c 24 48 16 00 	lea    0x1648(%rsp),%rcx
+    22a8:	00 
+    22a9:	4c 89 ea             	mov    %r13,%rdx
+    22ac:	c7 84 24 40 16 00 00 	movl   $0xe,0x1640(%rsp)
+    22b3:	0e 00 00 00 
+    22b7:	e8 00 00 00 00       	call   22bc <__static_initialization_and_destruction_0()+0x22ac>
+			22b8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    22bc:	4c 8b 6c 24 40       	mov    0x40(%rsp),%r13
+    22c1:	48 89 da             	mov    %rbx,%rdx
+    22c4:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    22cb:	00 02 00 00 00 
+    22d0:	48 8b 05 68 09 00 00 	mov    0x968(%rip),%rax        # 2c3f <__static_initialization_and_destruction_0()+0x2c2f>
+			22d3: IMAGE_REL_AMD64_REL32	.rdata
+    22d7:	4c 89 e9             	mov    %r13,%rcx
+    22da:	48 89 84 24 00 05 00 	mov    %rax,0x500(%rsp)
+    22e1:	00 
+    22e2:	48 8d 84 24 00 05 00 	lea    0x500(%rsp),%rax
+    22e9:	00 
+    22ea:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    22f1:	00 
+    22f2:	e8 00 00 00 00       	call   22f7 <__static_initialization_and_destruction_0()+0x22e7>
+			22f3: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    22f7:	48 8d 8c 24 68 16 00 	lea    0x1668(%rsp),%rcx
+    22fe:	00 
+    22ff:	4c 89 ea             	mov    %r13,%rdx
+    2302:	c7 84 24 60 16 00 00 	movl   $0xf,0x1660(%rsp)
+    2309:	0f 00 00 00 
+    230d:	e8 00 00 00 00       	call   2312 <__static_initialization_and_destruction_0()+0x2302>
+			230e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2312:	4c 8b 6c 24 48       	mov    0x48(%rsp),%r13
+    2317:	48 89 da             	mov    %rbx,%rdx
+    231a:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    2321:	00 02 00 00 00 
+    2326:	48 8b 05 f8 08 00 00 	mov    0x8f8(%rip),%rax        # 2c25 <__static_initialization_and_destruction_0()+0x2c15>
+			2329: IMAGE_REL_AMD64_REL32	.rdata
+    232d:	4c 89 e9             	mov    %r13,%rcx
+    2330:	48 89 84 24 08 05 00 	mov    %rax,0x508(%rsp)
+    2337:	00 
+    2338:	48 8d 84 24 08 05 00 	lea    0x508(%rsp),%rax
+    233f:	00 
+    2340:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    2347:	00 
+    2348:	e8 00 00 00 00       	call   234d <__static_initialization_and_destruction_0()+0x233d>
+			2349: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    234d:	48 8d 8c 24 88 16 00 	lea    0x1688(%rsp),%rcx
+    2354:	00 
+    2355:	4c 89 ea             	mov    %r13,%rdx
+    2358:	c7 84 24 80 16 00 00 	movl   $0x10,0x1680(%rsp)
+    235f:	10 00 00 00 
+    2363:	e8 00 00 00 00       	call   2368 <__static_initialization_and_destruction_0()+0x2358>
+			2364: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2368:	4c 8b 6c 24 50       	mov    0x50(%rsp),%r13
+    236d:	48 89 da             	mov    %rbx,%rdx
+    2370:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    2377:	00 02 00 00 00 
+    237c:	48 8b 05 08 09 00 00 	mov    0x908(%rip),%rax        # 2c8b <__static_initialization_and_destruction_0()+0x2c7b>
+			237f: IMAGE_REL_AMD64_REL32	.rdata
+    2383:	4c 89 e9             	mov    %r13,%rcx
+    2386:	48 89 84 24 10 05 00 	mov    %rax,0x510(%rsp)
+    238d:	00 
+    238e:	48 8d 84 24 10 05 00 	lea    0x510(%rsp),%rax
+    2395:	00 
+    2396:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    239d:	00 
+    239e:	e8 00 00 00 00       	call   23a3 <__static_initialization_and_destruction_0()+0x2393>
+			239f: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    23a3:	48 8d 8c 24 a8 16 00 	lea    0x16a8(%rsp),%rcx
+    23aa:	00 
+    23ab:	4c 89 ea             	mov    %r13,%rdx
+    23ae:	c7 84 24 a0 16 00 00 	movl   $0x11,0x16a0(%rsp)
+    23b5:	11 00 00 00 
+    23b9:	e8 00 00 00 00       	call   23be <__static_initialization_and_destruction_0()+0x23ae>
+			23ba: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    23be:	4c 8b 6c 24 58       	mov    0x58(%rsp),%r13
+    23c3:	48 89 da             	mov    %rbx,%rdx
+    23c6:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    23cd:	00 02 00 00 00 
+    23d2:	48 8b 05 18 09 00 00 	mov    0x918(%rip),%rax        # 2cf1 <__static_initialization_and_destruction_0()+0x2ce1>
+			23d5: IMAGE_REL_AMD64_REL32	.rdata
+    23d9:	4c 89 e9             	mov    %r13,%rcx
+    23dc:	48 89 84 24 18 05 00 	mov    %rax,0x518(%rsp)
+    23e3:	00 
+    23e4:	48 8d 84 24 18 05 00 	lea    0x518(%rsp),%rax
+    23eb:	00 
+    23ec:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    23f3:	00 
+    23f4:	e8 00 00 00 00       	call   23f9 <__static_initialization_and_destruction_0()+0x23e9>
+			23f5: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    23f9:	48 8d 8c 24 c8 16 00 	lea    0x16c8(%rsp),%rcx
+    2400:	00 
+    2401:	4c 89 ea             	mov    %r13,%rdx
+    2404:	c7 84 24 c0 16 00 00 	movl   $0x12,0x16c0(%rsp)
+    240b:	12 00 00 00 
+    240f:	e8 00 00 00 00       	call   2414 <__static_initialization_and_destruction_0()+0x2404>
+			2410: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2414:	4c 8b 6c 24 28       	mov    0x28(%rsp),%r13
+    2419:	48 8d 84 24 20 05 00 	lea    0x520(%rsp),%rax
+    2420:	00 
+    2421:	48 89 da             	mov    %rbx,%rdx
+    2424:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    242b:	00 
+    242c:	48 c7 84 24 20 05 00 	movq   $0x0,0x520(%rsp)
+    2433:	00 00 00 00 00 
+    2438:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    243f:	00 02 00 00 00 
+    2444:	4c 89 e9             	mov    %r13,%rcx
+    2447:	e8 00 00 00 00       	call   244c <__static_initialization_and_destruction_0()+0x243c>
+			2448: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    244c:	48 8d 8c 24 e8 16 00 	lea    0x16e8(%rsp),%rcx
+    2453:	00 
+    2454:	4c 89 ea             	mov    %r13,%rdx
+    2457:	c7 84 24 e0 16 00 00 	movl   $0x13,0x16e0(%rsp)
+    245e:	13 00 00 00 
+    2462:	e8 00 00 00 00       	call   2467 <__static_initialization_and_destruction_0()+0x2457>
+			2463: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2467:	4c 8b 6c 24 30       	mov    0x30(%rsp),%r13
+    246c:	48 8d 84 24 28 05 00 	lea    0x528(%rsp),%rax
+    2473:	00 
+    2474:	48 89 da             	mov    %rbx,%rdx
+    2477:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    247e:	00 
+    247f:	66 44 0f d6 bc 24 28 	movq   %xmm15,0x528(%rsp)
+    2486:	05 00 00 
+    2489:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    2490:	00 02 00 00 00 
+    2495:	4c 89 e9             	mov    %r13,%rcx
+    2498:	e8 00 00 00 00       	call   249d <__static_initialization_and_destruction_0()+0x248d>
+			2499: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    249d:	48 8d 8c 24 08 17 00 	lea    0x1708(%rsp),%rcx
+    24a4:	00 
+    24a5:	4c 89 ea             	mov    %r13,%rdx
+    24a8:	c7 84 24 00 17 00 00 	movl   $0x14,0x1700(%rsp)
+    24af:	14 00 00 00 
+    24b3:	e8 00 00 00 00       	call   24b8 <__static_initialization_and_destruction_0()+0x24a8>
+			24b4: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    24b8:	4c 8b 6c 24 38       	mov    0x38(%rsp),%r13
+    24bd:	48 8d 84 24 30 05 00 	lea    0x530(%rsp),%rax
+    24c4:	00 
+    24c5:	48 89 da             	mov    %rbx,%rdx
+    24c8:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    24cf:	00 
+    24d0:	66 44 0f d6 b4 24 30 	movq   %xmm14,0x530(%rsp)
+    24d7:	05 00 00 
+    24da:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    24e1:	00 02 00 00 00 
+    24e6:	4c 89 e9             	mov    %r13,%rcx
+    24e9:	e8 00 00 00 00       	call   24ee <__static_initialization_and_destruction_0()+0x24de>
+			24ea: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    24ee:	48 8d 8c 24 28 17 00 	lea    0x1728(%rsp),%rcx
+    24f5:	00 
+    24f6:	4c 89 ea             	mov    %r13,%rdx
+    24f9:	c7 84 24 20 17 00 00 	movl   $0x15,0x1720(%rsp)
+    2500:	15 00 00 00 
+    2504:	e8 00 00 00 00       	call   2509 <__static_initialization_and_destruction_0()+0x24f9>
+			2505: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2509:	48 8d 84 24 38 05 00 	lea    0x538(%rsp),%rax
+    2510:	00 
+    2511:	48 89 da             	mov    %rbx,%rdx
+    2514:	4c 89 f1             	mov    %r14,%rcx
+    2517:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    251e:	00 
+    251f:	66 44 0f d6 ac 24 38 	movq   %xmm13,0x538(%rsp)
+    2526:	05 00 00 
+    2529:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    2530:	00 02 00 00 00 
+    2535:	e8 00 00 00 00       	call   253a <__static_initialization_and_destruction_0()+0x252a>
+			2536: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    253a:	48 8d 8c 24 48 17 00 	lea    0x1748(%rsp),%rcx
+    2541:	00 
+    2542:	4c 89 f2             	mov    %r14,%rdx
+    2545:	c7 84 24 40 17 00 00 	movl   $0x16,0x1740(%rsp)
+    254c:	16 00 00 00 
+    2550:	e8 00 00 00 00       	call   2555 <__static_initialization_and_destruction_0()+0x2545>
+			2551: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    2555:	48 8d 84 24 40 05 00 	lea    0x540(%rsp),%rax
+    255c:	00 
+    255d:	48 89 da             	mov    %rbx,%rdx
+    2560:	4c 89 f9             	mov    %r15,%rcx
+    2563:	48 89 84 24 e0 02 00 	mov    %rax,0x2e0(%rsp)
+    256a:	00 
+    256b:	48 8d 9c 24 48 05 00 	lea    0x548(%rsp),%rbx
+    2572:	00 
+    2573:	66 44 0f d6 a4 24 40 	movq   %xmm12,0x540(%rsp)
+    257a:	05 00 00 
+    257d:	48 c7 84 24 e8 02 00 	movq   $0x2,0x2e8(%rsp)
+    2584:	00 02 00 00 00 
+    2589:	e8 00 00 00 00       	call   258e <__static_initialization_and_destruction_0()+0x257e>
+			258a: IMAGE_REL_AMD64_REL32	QList<int>::QList(std::initializer_list<int>)
+    258e:	48 8d 8c 24 68 17 00 	lea    0x1768(%rsp),%rcx
+    2595:	00 
+    2596:	4c 89 fa             	mov    %r15,%rdx
+    2599:	c7 84 24 60 17 00 00 	movl   $0x17,0x1760(%rsp)
+    25a0:	17 00 00 00 
+    25a4:	e8 00 00 00 00       	call   25a9 <__static_initialization_and_destruction_0()+0x2599>
+			25a5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::QArrayDataPointer(QArrayDataPointer<int> const&)
+    25a9:	48 8b 54 24 60       	mov    0x60(%rsp),%rdx
+    25ae:	48 89 d9             	mov    %rbx,%rcx
+    25b1:	48 89 b4 24 d0 02 00 	mov    %rsi,0x2d0(%rsp)
+    25b8:	00 
+    25b9:	48 c7 84 24 d8 02 00 	movq   $0x18,0x2d8(%rsp)
+    25c0:	00 18 00 00 00 
+    25c5:	e8 00 00 00 00       	call   25ca <__static_initialization_and_destruction_0()+0x25ba>
+			25c6: IMAGE_REL_AMD64_REL32	QMap<int, QList<int> >::QMap(std::initializer_list<std::pair<int, QList<int> > >)
+    25ca:	48 8b 8c 24 48 05 00 	mov    0x548(%rsp),%rcx
+    25d1:	00 
+    25d2:	c7 84 24 70 0e 00 00 	movl   $0x2,0xe70(%rsp)
+    25d9:	02 00 00 00 
+    25dd:	48 85 c9             	test   %rcx,%rcx
+    25e0:	48 89 8c 24 78 0e 00 	mov    %rcx,0xe78(%rsp)
+    25e7:	00 
+    25e8:	74 05                	je     25ef <__static_initialization_and_destruction_0()+0x25df>
+    25ea:	e8 11 da ff ff       	call   0 <QBasicAtomicInteger<int>::ref() [clone .isra.0]>
+    25ef:	48 8d 94 24 c0 02 00 	lea    0x2c0(%rsp),%rdx
+    25f6:	00 
+    25f7:	4c 89 a4 24 c0 02 00 	mov    %r12,0x2c0(%rsp)
+    25fe:	00 
+    25ff:	48 8d 0d 00 00 00 00 	lea    0x0(%rip),%rcx        # 2606 <__static_initialization_and_destruction_0()+0x25f6>
+			2602: IMAGE_REL_AMD64_REL32	.bss
+    2606:	48 c7 84 24 c8 02 00 	movq   $0x3,0x2c8(%rsp)
+    260d:	00 03 00 00 00 
+    2612:	e8 00 00 00 00       	call   2617 <__static_initialization_and_destruction_0()+0x2607>
+			2613: IMAGE_REL_AMD64_REL32	QMap<int, QMap<int, QList<int> > >::QMap(std::initializer_list<std::pair<int, QMap<int, QList<int> > > >)
+    2617:	48 89 5c 24 60       	mov    %rbx,0x60(%rsp)
+    261c:	49 89 fd             	mov    %rdi,%r13
+    261f:	4c 89 e3             	mov    %r12,%rbx
+    2622:	49 8b 45 f8          	mov    -0x8(%r13),%rax
+    2626:	49 83 ed 10          	sub    $0x10,%r13
+    262a:	48 85 c0             	test   %rax,%rax
+    262d:	0f 84 8d 00 00 00    	je     26c0 <__static_initialization_and_destruction_0()+0x26b0>
+    2633:	f0 83 28 01          	lock subl $0x1,(%rax)
+    2637:	0f 85 83 00 00 00    	jne    26c0 <__static_initialization_and_destruction_0()+0x26b0>
+    263d:	49 8b 4d 08          	mov    0x8(%r13),%rcx
+    2641:	48 85 c9             	test   %rcx,%rcx
+    2644:	74 7a                	je     26c0 <__static_initialization_and_destruction_0()+0x26b0>
+    2646:	4c 8b 61 18          	mov    0x18(%rcx),%r12
+    264a:	4d 85 e4             	test   %r12,%r12
+    264d:	74 63                	je     26b2 <__static_initialization_and_destruction_0()+0x26a2>
+    264f:	48 89 9c 24 40 01 00 	mov    %rbx,0x140(%rsp)
+    2656:	00 
+    2657:	4c 89 e3             	mov    %r12,%rbx
+    265a:	49 89 cc             	mov    %rcx,%r12
+    265d:	48 89 b4 24 38 01 00 	mov    %rsi,0x138(%rsp)
+    2664:	00 
+    2665:	48 8b 4b 18          	mov    0x18(%rbx),%rcx
+    2669:	48 89 de             	mov    %rbx,%rsi
+    266c:	e8 c0 01 00 00       	call   2831 <__static_initialization_and_destruction_0()+0x2821>
+			266d: IMAGE_REL_AMD64_REL32	.text
+    2671:	48 8b 56 28          	mov    0x28(%rsi),%rdx
+    2675:	48 8b 5b 10          	mov    0x10(%rbx),%rbx
+    2679:	48 85 d2             	test   %rdx,%rdx
+    267c:	74 0f                	je     268d <__static_initialization_and_destruction_0()+0x267d>
+    267e:	f0 83 2a 01          	lock subl $0x1,(%rdx)
+    2682:	75 09                	jne    268d <__static_initialization_and_destruction_0()+0x267d>
+    2684:	48 8b 4e 28          	mov    0x28(%rsi),%rcx
+    2688:	e8 00 00 00 00       	call   268d <__static_initialization_and_destruction_0()+0x267d>
+			2689: IMAGE_REL_AMD64_REL32	free
+    268d:	ba 40 00 00 00       	mov    $0x40,%edx
+    2692:	48 89 f1             	mov    %rsi,%rcx
+    2695:	e8 00 00 00 00       	call   269a <__static_initialization_and_destruction_0()+0x268a>
+			2696: IMAGE_REL_AMD64_REL32	operator delete(void*, unsigned long long)
+    269a:	48 85 db             	test   %rbx,%rbx
+    269d:	75 c6                	jne    2665 <__static_initialization_and_destruction_0()+0x2655>
+    269f:	48 8b b4 24 38 01 00 	mov    0x138(%rsp),%rsi
+    26a6:	00 
+    26a7:	4c 89 e1             	mov    %r12,%rcx
+    26aa:	48 8b 9c 24 40 01 00 	mov    0x140(%rsp),%rbx
+    26b1:	00 
+    26b2:	ba 38 00 00 00       	mov    $0x38,%edx
+    26b7:	e8 00 00 00 00       	call   26bc <__static_initialization_and_destruction_0()+0x26ac>
+			26b8: IMAGE_REL_AMD64_REL32	operator delete(void*, unsigned long long)
+    26bc:	0f 1f 40 00          	nopl   0x0(%rax)
+    26c0:	49 39 dd             	cmp    %rbx,%r13
+    26c3:	0f 85 59 ff ff ff    	jne    2622 <__static_initialization_and_destruction_0()+0x2612>
+    26c9:	48 8b 4c 24 60       	mov    0x60(%rsp),%rcx
+    26ce:	48 8d 9c 24 60 17 00 	lea    0x1760(%rsp),%rbx
+    26d5:	00 
+    26d6:	e8 00 00 00 00       	call   26db <__static_initialization_and_destruction_0()+0x26cb>
+			26d7: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    26db:	eb 06                	jmp    26e3 <__static_initialization_and_destruction_0()+0x26d3>
+    26dd:	0f 1f 00             	nopl   (%rax)
+    26e0:	48 89 c3             	mov    %rax,%rbx
+    26e3:	48 8b 43 08          	mov    0x8(%rbx),%rax
+    26e7:	48 85 c0             	test   %rax,%rax
+    26ea:	74 0f                	je     26fb <__static_initialization_and_destruction_0()+0x26eb>
+    26ec:	f0 83 28 01          	lock subl $0x1,(%rax)
+    26f0:	75 09                	jne    26fb <__static_initialization_and_destruction_0()+0x26eb>
+    26f2:	48 8b 4b 08          	mov    0x8(%rbx),%rcx
+    26f6:	e8 00 00 00 00       	call   26fb <__static_initialization_and_destruction_0()+0x26eb>
+			26f7: IMAGE_REL_AMD64_REL32	free
+    26fb:	48 8d 43 e0          	lea    -0x20(%rbx),%rax
+    26ff:	48 39 de             	cmp    %rbx,%rsi
+    2702:	75 dc                	jne    26e0 <__static_initialization_and_destruction_0()+0x26d0>
+    2704:	48 8d 9c 24 60 14 00 	lea    0x1460(%rsp),%rbx
+    270b:	00 
+    270c:	4c 89 f9             	mov    %r15,%rcx
+    270f:	e8 00 00 00 00       	call   2714 <__static_initialization_and_destruction_0()+0x2704>
+			2710: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2714:	4c 89 f1             	mov    %r14,%rcx
+    2717:	e8 00 00 00 00       	call   271c <__static_initialization_and_destruction_0()+0x270c>
+			2718: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    271c:	48 8b 4c 24 38       	mov    0x38(%rsp),%rcx
+    2721:	e8 00 00 00 00       	call   2726 <__static_initialization_and_destruction_0()+0x2716>
+			2722: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2726:	48 8b 4c 24 30       	mov    0x30(%rsp),%rcx
+    272b:	e8 00 00 00 00       	call   2730 <__static_initialization_and_destruction_0()+0x2720>
+			272c: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2730:	48 8b 4c 24 28       	mov    0x28(%rsp),%rcx
+    2735:	e8 00 00 00 00       	call   273a <__static_initialization_and_destruction_0()+0x272a>
+			2736: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    273a:	48 8b 4c 24 58       	mov    0x58(%rsp),%rcx
+    273f:	e8 00 00 00 00       	call   2744 <__static_initialization_and_destruction_0()+0x2734>
+			2740: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2744:	48 8b 4c 24 50       	mov    0x50(%rsp),%rcx
+    2749:	e8 00 00 00 00       	call   274e <__static_initialization_and_destruction_0()+0x273e>
+			274a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    274e:	48 8b 4c 24 48       	mov    0x48(%rsp),%rcx
+    2753:	e8 00 00 00 00       	call   2758 <__static_initialization_and_destruction_0()+0x2748>
+			2754: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2758:	48 8b 4c 24 40       	mov    0x40(%rsp),%rcx
+    275d:	e8 00 00 00 00       	call   2762 <__static_initialization_and_destruction_0()+0x2752>
+			275e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2762:	48 8b 8c 24 80 00 00 	mov    0x80(%rsp),%rcx
+    2769:	00 
+    276a:	e8 00 00 00 00       	call   276f <__static_initialization_and_destruction_0()+0x275f>
+			276b: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    276f:	48 8b 4c 24 78       	mov    0x78(%rsp),%rcx
+    2774:	e8 00 00 00 00       	call   2779 <__static_initialization_and_destruction_0()+0x2769>
+			2775: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2779:	48 8b 4c 24 70       	mov    0x70(%rsp),%rcx
+    277e:	e8 00 00 00 00       	call   2783 <__static_initialization_and_destruction_0()+0x2773>
+			277f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2783:	48 8b 4c 24 68       	mov    0x68(%rsp),%rcx
+    2788:	e8 00 00 00 00       	call   278d <__static_initialization_and_destruction_0()+0x277d>
+			2789: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    278d:	48 8b 8c 24 18 01 00 	mov    0x118(%rsp),%rcx
+    2794:	00 
+    2795:	e8 00 00 00 00       	call   279a <__static_initialization_and_destruction_0()+0x278a>
+			2796: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    279a:	48 8b 8c 24 08 01 00 	mov    0x108(%rsp),%rcx
+    27a1:	00 
+    27a2:	e8 00 00 00 00       	call   27a7 <__static_initialization_and_destruction_0()+0x2797>
+			27a3: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    27a7:	48 8b 8c 24 f8 00 00 	mov    0xf8(%rsp),%rcx
+    27ae:	00 
+    27af:	e8 00 00 00 00       	call   27b4 <__static_initialization_and_destruction_0()+0x27a4>
+			27b0: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    27b4:	48 8b 8c 24 e8 00 00 	mov    0xe8(%rsp),%rcx
+    27bb:	00 
+    27bc:	e8 00 00 00 00       	call   27c1 <__static_initialization_and_destruction_0()+0x27b1>
+			27bd: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    27c1:	48 8b 8c 24 d8 00 00 	mov    0xd8(%rsp),%rcx
+    27c8:	00 
+    27c9:	e8 00 00 00 00       	call   27ce <__static_initialization_and_destruction_0()+0x27be>
+			27ca: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    27ce:	48 8b 8c 24 c8 00 00 	mov    0xc8(%rsp),%rcx
+    27d5:	00 
+    27d6:	e8 00 00 00 00       	call   27db <__static_initialization_and_destruction_0()+0x27cb>
+			27d7: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    27db:	48 8b 8c 24 b8 00 00 	mov    0xb8(%rsp),%rcx
+    27e2:	00 
+    27e3:	e8 00 00 00 00       	call   27e8 <__static_initialization_and_destruction_0()+0x27d8>
+			27e4: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    27e8:	48 8b 8c 24 a8 00 00 	mov    0xa8(%rsp),%rcx
+    27ef:	00 
+    27f0:	e8 00 00 00 00       	call   27f5 <__static_initialization_and_destruction_0()+0x27e5>
+			27f1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    27f5:	48 8b 8c 24 30 01 00 	mov    0x130(%rsp),%rcx
+    27fc:	00 
+    27fd:	e8 00 00 00 00       	call   2802 <__static_initialization_and_destruction_0()+0x27f2>
+			27fe: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2802:	48 8b 8c 24 28 01 00 	mov    0x128(%rsp),%rcx
+    2809:	00 
+    280a:	e8 00 00 00 00       	call   280f <__static_initialization_and_destruction_0()+0x27ff>
+			280b: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    280f:	48 8b 8c 24 c8 01 00 	mov    0x1c8(%rsp),%rcx
+    2816:	00 
+    2817:	e8 00 00 00 00       	call   281c <__static_initialization_and_destruction_0()+0x280c>
+			2818: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    281c:	48 8b 8c 24 80 01 00 	mov    0x180(%rsp),%rcx
+    2823:	00 
+    2824:	e8 00 00 00 00       	call   2829 <__static_initialization_and_destruction_0()+0x2819>
+			2825: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    2829:	eb 08                	jmp    2833 <__static_initialization_and_destruction_0()+0x2823>
+    282b:	0f 1f 44 00 00       	nopl   0x0(%rax,%rax,1)
+    2830:	48 89 c3             	mov    %rax,%rbx
+    2833:	48 8b 43 08          	mov    0x8(%rbx),%rax
+    2837:	48 85 c0             	test   %rax,%rax
+    283a:	74 0f                	je     284b <__static_initialization_and_destruction_0()+0x283b>
+    283c:	f0 83 28 01          	lock subl $0x1,(%rax)
+    2840:	75 09                	jne    284b <__static_initialization_and_destruction_0()+0x283b>
+    2842:	48 8b 4b 08          	mov    0x8(%rbx),%rcx
+    2846:	e8 00 00 00 00       	call   284b <__static_initialization_and_destruction_0()+0x283b>
+			2847: IMAGE_REL_AMD64_REL32	free
+    284b:	48 8d 43 e0          	lea    -0x20(%rbx),%rax
+    284f:	48 39 dd             	cmp    %rbx,%rbp
+    2852:	75 dc                	jne    2830 <__static_initialization_and_destruction_0()+0x2820>
+    2854:	48 8b 8c 24 c0 01 00 	mov    0x1c0(%rsp),%rcx
+    285b:	00 
+    285c:	48 8d 9c 24 60 11 00 	lea    0x1160(%rsp),%rbx
+    2863:	00 
+    2864:	e8 00 00 00 00       	call   2869 <__static_initialization_and_destruction_0()+0x2859>
+			2865: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2869:	48 8b 8c 24 b0 01 00 	mov    0x1b0(%rsp),%rcx
+    2870:	00 
+    2871:	e8 00 00 00 00       	call   2876 <__static_initialization_and_destruction_0()+0x2866>
+			2872: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2876:	48 8b 8c 24 a0 01 00 	mov    0x1a0(%rsp),%rcx
+    287d:	00 
+    287e:	e8 00 00 00 00       	call   2883 <__static_initialization_and_destruction_0()+0x2873>
+			287f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2883:	48 8b 8c 24 90 01 00 	mov    0x190(%rsp),%rcx
+    288a:	00 
+    288b:	e8 00 00 00 00       	call   2890 <__static_initialization_and_destruction_0()+0x2880>
+			288c: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2890:	48 8b 8c 24 78 01 00 	mov    0x178(%rsp),%rcx
+    2897:	00 
+    2898:	e8 00 00 00 00       	call   289d <__static_initialization_and_destruction_0()+0x288d>
+			2899: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    289d:	48 8b 8c 24 68 01 00 	mov    0x168(%rsp),%rcx
+    28a4:	00 
+    28a5:	e8 00 00 00 00       	call   28aa <__static_initialization_and_destruction_0()+0x289a>
+			28a6: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    28aa:	48 8b 8c 24 90 02 00 	mov    0x290(%rsp),%rcx
+    28b1:	00 
+    28b2:	e8 00 00 00 00       	call   28b7 <__static_initialization_and_destruction_0()+0x28a7>
+			28b3: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    28b7:	48 8b 8c 24 80 02 00 	mov    0x280(%rsp),%rcx
+    28be:	00 
+    28bf:	e8 00 00 00 00       	call   28c4 <__static_initialization_and_destruction_0()+0x28b4>
+			28c0: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    28c4:	48 8b 8c 24 70 02 00 	mov    0x270(%rsp),%rcx
+    28cb:	00 
+    28cc:	e8 00 00 00 00       	call   28d1 <__static_initialization_and_destruction_0()+0x28c1>
+			28cd: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    28d1:	48 8b 8c 24 60 02 00 	mov    0x260(%rsp),%rcx
+    28d8:	00 
+    28d9:	e8 00 00 00 00       	call   28de <__static_initialization_and_destruction_0()+0x28ce>
+			28da: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    28de:	48 8b 8c 24 48 02 00 	mov    0x248(%rsp),%rcx
+    28e5:	00 
+    28e6:	e8 00 00 00 00       	call   28eb <__static_initialization_and_destruction_0()+0x28db>
+			28e7: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    28eb:	48 8b 8c 24 38 02 00 	mov    0x238(%rsp),%rcx
+    28f2:	00 
+    28f3:	e8 00 00 00 00       	call   28f8 <__static_initialization_and_destruction_0()+0x28e8>
+			28f4: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    28f8:	48 8b 8c 24 28 02 00 	mov    0x228(%rsp),%rcx
+    28ff:	00 
+    2900:	e8 00 00 00 00       	call   2905 <__static_initialization_and_destruction_0()+0x28f5>
+			2901: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2905:	48 8b 8c 24 20 01 00 	mov    0x120(%rsp),%rcx
+    290c:	00 
+    290d:	e8 00 00 00 00       	call   2912 <__static_initialization_and_destruction_0()+0x2902>
+			290e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2912:	48 8b 8c 24 10 01 00 	mov    0x110(%rsp),%rcx
+    2919:	00 
+    291a:	e8 00 00 00 00       	call   291f <__static_initialization_and_destruction_0()+0x290f>
+			291b: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    291f:	48 8b 8c 24 00 01 00 	mov    0x100(%rsp),%rcx
+    2926:	00 
+    2927:	e8 00 00 00 00       	call   292c <__static_initialization_and_destruction_0()+0x291c>
+			2928: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    292c:	48 8b 8c 24 f0 00 00 	mov    0xf0(%rsp),%rcx
+    2933:	00 
+    2934:	e8 00 00 00 00       	call   2939 <__static_initialization_and_destruction_0()+0x2929>
+			2935: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2939:	48 8b 8c 24 e0 00 00 	mov    0xe0(%rsp),%rcx
+    2940:	00 
+    2941:	e8 00 00 00 00       	call   2946 <__static_initialization_and_destruction_0()+0x2936>
+			2942: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2946:	48 8b 8c 24 d0 00 00 	mov    0xd0(%rsp),%rcx
+    294d:	00 
+    294e:	e8 00 00 00 00       	call   2953 <__static_initialization_and_destruction_0()+0x2943>
+			294f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2953:	48 8b 8c 24 c0 00 00 	mov    0xc0(%rsp),%rcx
+    295a:	00 
+    295b:	e8 00 00 00 00       	call   2960 <__static_initialization_and_destruction_0()+0x2950>
+			295c: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2960:	48 8b 8c 24 b0 00 00 	mov    0xb0(%rsp),%rcx
+    2967:	00 
+    2968:	e8 00 00 00 00       	call   296d <__static_initialization_and_destruction_0()+0x295d>
+			2969: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    296d:	48 8b 8c 24 a0 00 00 	mov    0xa0(%rsp),%rcx
+    2974:	00 
+    2975:	e8 00 00 00 00       	call   297a <__static_initialization_and_destruction_0()+0x296a>
+			2976: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    297a:	48 8b 8c 24 98 00 00 	mov    0x98(%rsp),%rcx
+    2981:	00 
+    2982:	e8 00 00 00 00       	call   2987 <__static_initialization_and_destruction_0()+0x2977>
+			2983: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2987:	48 8b 8c 24 90 00 00 	mov    0x90(%rsp),%rcx
+    298e:	00 
+    298f:	e8 00 00 00 00       	call   2994 <__static_initialization_and_destruction_0()+0x2984>
+			2990: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2994:	48 8b 8c 24 50 02 00 	mov    0x250(%rsp),%rcx
+    299b:	00 
+    299c:	e8 00 00 00 00       	call   29a1 <__static_initialization_and_destruction_0()+0x2991>
+			299d: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    29a1:	eb 08                	jmp    29ab <__static_initialization_and_destruction_0()+0x299b>
+    29a3:	0f 1f 44 00 00       	nopl   0x0(%rax,%rax,1)
+    29a8:	48 89 c3             	mov    %rax,%rbx
+    29ab:	48 8b 43 08          	mov    0x8(%rbx),%rax
+    29af:	48 85 c0             	test   %rax,%rax
+    29b2:	74 0f                	je     29c3 <__static_initialization_and_destruction_0()+0x29b3>
+    29b4:	f0 83 28 01          	lock subl $0x1,(%rax)
+    29b8:	75 09                	jne    29c3 <__static_initialization_and_destruction_0()+0x29b3>
+    29ba:	48 8b 4b 08          	mov    0x8(%rbx),%rcx
+    29be:	e8 00 00 00 00       	call   29c3 <__static_initialization_and_destruction_0()+0x29b3>
+			29bf: IMAGE_REL_AMD64_REL32	free
+    29c3:	48 8d 43 e0          	lea    -0x20(%rbx),%rax
+    29c7:	48 39 df             	cmp    %rbx,%rdi
+    29ca:	75 dc                	jne    29a8 <__static_initialization_and_destruction_0()+0x2998>
+    29cc:	48 8b 8c 24 88 00 00 	mov    0x88(%rsp),%rcx
+    29d3:	00 
+    29d4:	e8 00 00 00 00       	call   29d9 <__static_initialization_and_destruction_0()+0x29c9>
+			29d5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    29d9:	48 8b 8c 24 b8 01 00 	mov    0x1b8(%rsp),%rcx
+    29e0:	00 
+    29e1:	e8 00 00 00 00       	call   29e6 <__static_initialization_and_destruction_0()+0x29d6>
+			29e2: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    29e6:	48 8b 8c 24 a8 01 00 	mov    0x1a8(%rsp),%rcx
+    29ed:	00 
+    29ee:	e8 00 00 00 00       	call   29f3 <__static_initialization_and_destruction_0()+0x29e3>
+			29ef: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    29f3:	48 8b 8c 24 98 01 00 	mov    0x198(%rsp),%rcx
+    29fa:	00 
+    29fb:	e8 00 00 00 00       	call   2a00 <__static_initialization_and_destruction_0()+0x29f0>
+			29fc: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a00:	48 8b 8c 24 88 01 00 	mov    0x188(%rsp),%rcx
+    2a07:	00 
+    2a08:	e8 00 00 00 00       	call   2a0d <__static_initialization_and_destruction_0()+0x29fd>
+			2a09: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a0d:	48 8b 8c 24 70 01 00 	mov    0x170(%rsp),%rcx
+    2a14:	00 
+    2a15:	e8 00 00 00 00       	call   2a1a <__static_initialization_and_destruction_0()+0x2a0a>
+			2a16: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a1a:	48 8b 8c 24 98 02 00 	mov    0x298(%rsp),%rcx
+    2a21:	00 
+    2a22:	e8 00 00 00 00       	call   2a27 <__static_initialization_and_destruction_0()+0x2a17>
+			2a23: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a27:	48 8b 8c 24 88 02 00 	mov    0x288(%rsp),%rcx
+    2a2e:	00 
+    2a2f:	e8 00 00 00 00       	call   2a34 <__static_initialization_and_destruction_0()+0x2a24>
+			2a30: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a34:	48 8b 8c 24 78 02 00 	mov    0x278(%rsp),%rcx
+    2a3b:	00 
+    2a3c:	e8 00 00 00 00       	call   2a41 <__static_initialization_and_destruction_0()+0x2a31>
+			2a3d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a41:	48 8b 8c 24 68 02 00 	mov    0x268(%rsp),%rcx
+    2a48:	00 
+    2a49:	e8 00 00 00 00       	call   2a4e <__static_initialization_and_destruction_0()+0x2a3e>
+			2a4a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a4e:	48 8b 8c 24 58 02 00 	mov    0x258(%rsp),%rcx
+    2a55:	00 
+    2a56:	e8 00 00 00 00       	call   2a5b <__static_initialization_and_destruction_0()+0x2a4b>
+			2a57: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a5b:	48 8b 8c 24 40 02 00 	mov    0x240(%rsp),%rcx
+    2a62:	00 
+    2a63:	e8 00 00 00 00       	call   2a68 <__static_initialization_and_destruction_0()+0x2a58>
+			2a64: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a68:	48 8b 8c 24 30 02 00 	mov    0x230(%rsp),%rcx
+    2a6f:	00 
+    2a70:	e8 00 00 00 00       	call   2a75 <__static_initialization_and_destruction_0()+0x2a65>
+			2a71: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a75:	48 8b 8c 24 20 02 00 	mov    0x220(%rsp),%rcx
+    2a7c:	00 
+    2a7d:	e8 00 00 00 00       	call   2a82 <__static_initialization_and_destruction_0()+0x2a72>
+			2a7e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a82:	48 8b 8c 24 18 02 00 	mov    0x218(%rsp),%rcx
+    2a89:	00 
+    2a8a:	e8 00 00 00 00       	call   2a8f <__static_initialization_and_destruction_0()+0x2a7f>
+			2a8b: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a8f:	48 8b 8c 24 10 02 00 	mov    0x210(%rsp),%rcx
+    2a96:	00 
+    2a97:	e8 00 00 00 00       	call   2a9c <__static_initialization_and_destruction_0()+0x2a8c>
+			2a98: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2a9c:	48 8b 8c 24 08 02 00 	mov    0x208(%rsp),%rcx
+    2aa3:	00 
+    2aa4:	e8 00 00 00 00       	call   2aa9 <__static_initialization_and_destruction_0()+0x2a99>
+			2aa5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2aa9:	48 8b 8c 24 00 02 00 	mov    0x200(%rsp),%rcx
+    2ab0:	00 
+    2ab1:	e8 00 00 00 00       	call   2ab6 <__static_initialization_and_destruction_0()+0x2aa6>
+			2ab2: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ab6:	48 8b 8c 24 f8 01 00 	mov    0x1f8(%rsp),%rcx
+    2abd:	00 
+    2abe:	e8 00 00 00 00       	call   2ac3 <__static_initialization_and_destruction_0()+0x2ab3>
+			2abf: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ac3:	48 8b 8c 24 f0 01 00 	mov    0x1f0(%rsp),%rcx
+    2aca:	00 
+    2acb:	e8 00 00 00 00       	call   2ad0 <__static_initialization_and_destruction_0()+0x2ac0>
+			2acc: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ad0:	48 8b 8c 24 e8 01 00 	mov    0x1e8(%rsp),%rcx
+    2ad7:	00 
+    2ad8:	e8 00 00 00 00       	call   2add <__static_initialization_and_destruction_0()+0x2acd>
+			2ad9: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2add:	48 8b 8c 24 e0 01 00 	mov    0x1e0(%rsp),%rcx
+    2ae4:	00 
+    2ae5:	e8 00 00 00 00       	call   2aea <__static_initialization_and_destruction_0()+0x2ada>
+			2ae6: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2aea:	48 8b 8c 24 d8 01 00 	mov    0x1d8(%rsp),%rcx
+    2af1:	00 
+    2af2:	e8 00 00 00 00       	call   2af7 <__static_initialization_and_destruction_0()+0x2ae7>
+			2af3: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2af7:	48 8b 8c 24 d0 01 00 	mov    0x1d0(%rsp),%rcx
+    2afe:	00 
+    2aff:	e8 00 00 00 00       	call   2b04 <__static_initialization_and_destruction_0()+0x2af4>
+			2b00: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2b04:	90                   	nop
+    2b05:	0f 28 b4 24 80 17 00 	movaps 0x1780(%rsp),%xmm6
+    2b0c:	00 
+    2b0d:	48 8d 0d 80 08 00 00 	lea    0x880(%rip),%rcx        # 3394 <_GLOBAL__sub_I_CntBtuConnectedQss+0x294>
+			2b10: IMAGE_REL_AMD64_REL32	.text
+    2b14:	0f 28 bc 24 90 17 00 	movaps 0x1790(%rsp),%xmm7
+    2b1b:	00 
+    2b1c:	44 0f 28 84 24 a0 17 	movaps 0x17a0(%rsp),%xmm8
+    2b23:	00 00 
+    2b25:	44 0f 28 8c 24 b0 17 	movaps 0x17b0(%rsp),%xmm9
+    2b2c:	00 00 
+    2b2e:	44 0f 28 94 24 c0 17 	movaps 0x17c0(%rsp),%xmm10
+    2b35:	00 00 
+    2b37:	44 0f 28 9c 24 d0 17 	movaps 0x17d0(%rsp),%xmm11
+    2b3e:	00 00 
+    2b40:	44 0f 28 a4 24 e0 17 	movaps 0x17e0(%rsp),%xmm12
+    2b47:	00 00 
+    2b49:	44 0f 28 ac 24 f0 17 	movaps 0x17f0(%rsp),%xmm13
+    2b50:	00 00 
+    2b52:	44 0f 28 b4 24 00 18 	movaps 0x1800(%rsp),%xmm14
+    2b59:	00 00 
+    2b5b:	44 0f 28 bc 24 10 18 	movaps 0x1810(%rsp),%xmm15
+    2b62:	00 00 
+    2b64:	48 81 c4 28 18 00 00 	add    $0x1828,%rsp
+    2b6b:	5b                   	pop    %rbx
+    2b6c:	5e                   	pop    %rsi
+    2b6d:	5f                   	pop    %rdi
+    2b6e:	5d                   	pop    %rbp
+    2b6f:	41 5c                	pop    %r12
+    2b71:	41 5d                	pop    %r13
+    2b73:	41 5e                	pop    %r14
+    2b75:	41 5f                	pop    %r15
+    2b77:	e9 00 00 00 00       	jmp    2b7c <__static_initialization_and_destruction_0()+0x2b6c>
+			2b78: IMAGE_REL_AMD64_REL32	atexit
+    2b7c:	48 8d 8c 24 78 0e 00 	lea    0xe78(%rsp),%rcx
+    2b83:	00 
+    2b84:	49 89 c5             	mov    %rax,%r13
+    2b87:	e8 00 00 00 00       	call   2b8c <__static_initialization_and_destruction_0()+0x2b7c>
+			2b88: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    2b8c:	48 8d 8c 24 68 0e 00 	lea    0xe68(%rsp),%rcx
+    2b93:	00 
+    2b94:	e8 00 00 00 00       	call   2b99 <__static_initialization_and_destruction_0()+0x2b89>
+			2b95: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    2b99:	48 8d 8c 24 58 0e 00 	lea    0xe58(%rsp),%rcx
+    2ba0:	00 
+    2ba1:	e8 00 00 00 00       	call   2ba6 <__static_initialization_and_destruction_0()+0x2b96>
+			2ba2: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    2ba6:	48 89 d9             	mov    %rbx,%rcx
+    2ba9:	bb 02 00 00 00       	mov    $0x2,%ebx
+    2bae:	e8 00 00 00 00       	call   2bb3 <__static_initialization_and_destruction_0()+0x2ba3>
+			2baf: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    2bb3:	4c 89 6c 24 60       	mov    %r13,0x60(%rsp)
+    2bb8:	48 8d 84 24 80 17 00 	lea    0x1780(%rsp),%rax
+    2bbf:	00 
+    2bc0:	49 89 c5             	mov    %rax,%r13
+    2bc3:	49 83 ed 20          	sub    $0x20,%r13
+    2bc7:	49 8d 4d 08          	lea    0x8(%r13),%rcx
+    2bcb:	e8 00 00 00 00       	call   2bd0 <__static_initialization_and_destruction_0()+0x2bc0>
+			2bcc: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2bd0:	49 39 f5             	cmp    %rsi,%r13
+    2bd3:	75 ee                	jne    2bc3 <__static_initialization_and_destruction_0()+0x2bb3>
+    2bd5:	4c 89 f9             	mov    %r15,%rcx
+    2bd8:	e8 00 00 00 00       	call   2bdd <__static_initialization_and_destruction_0()+0x2bcd>
+			2bd9: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2bdd:	4c 89 f1             	mov    %r14,%rcx
+    2be0:	e8 00 00 00 00       	call   2be5 <__static_initialization_and_destruction_0()+0x2bd5>
+			2be1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2be5:	48 8b 4c 24 38       	mov    0x38(%rsp),%rcx
+    2bea:	e8 00 00 00 00       	call   2bef <__static_initialization_and_destruction_0()+0x2bdf>
+			2beb: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2bef:	48 8b 4c 24 30       	mov    0x30(%rsp),%rcx
+    2bf4:	e8 00 00 00 00       	call   2bf9 <__static_initialization_and_destruction_0()+0x2be9>
+			2bf5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2bf9:	48 8b 4c 24 28       	mov    0x28(%rsp),%rcx
+    2bfe:	e8 00 00 00 00       	call   2c03 <__static_initialization_and_destruction_0()+0x2bf3>
+			2bff: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c03:	48 8b 4c 24 58       	mov    0x58(%rsp),%rcx
+    2c08:	e8 00 00 00 00       	call   2c0d <__static_initialization_and_destruction_0()+0x2bfd>
+			2c09: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c0d:	48 8b 4c 24 50       	mov    0x50(%rsp),%rcx
+    2c12:	e8 00 00 00 00       	call   2c17 <__static_initialization_and_destruction_0()+0x2c07>
+			2c13: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c17:	48 8b 4c 24 48       	mov    0x48(%rsp),%rcx
+    2c1c:	e8 00 00 00 00       	call   2c21 <__static_initialization_and_destruction_0()+0x2c11>
+			2c1d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c21:	48 8b 4c 24 40       	mov    0x40(%rsp),%rcx
+    2c26:	e8 00 00 00 00       	call   2c2b <__static_initialization_and_destruction_0()+0x2c1b>
+			2c27: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c2b:	48 8b 8c 24 80 00 00 	mov    0x80(%rsp),%rcx
+    2c32:	00 
+    2c33:	e8 00 00 00 00       	call   2c38 <__static_initialization_and_destruction_0()+0x2c28>
+			2c34: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c38:	48 8b 4c 24 78       	mov    0x78(%rsp),%rcx
+    2c3d:	e8 00 00 00 00       	call   2c42 <__static_initialization_and_destruction_0()+0x2c32>
+			2c3e: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c42:	48 8b 4c 24 70       	mov    0x70(%rsp),%rcx
+    2c47:	e8 00 00 00 00       	call   2c4c <__static_initialization_and_destruction_0()+0x2c3c>
+			2c48: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c4c:	48 8b 4c 24 68       	mov    0x68(%rsp),%rcx
+    2c51:	e8 00 00 00 00       	call   2c56 <__static_initialization_and_destruction_0()+0x2c46>
+			2c52: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c56:	48 8b 8c 24 18 01 00 	mov    0x118(%rsp),%rcx
+    2c5d:	00 
+    2c5e:	e8 00 00 00 00       	call   2c63 <__static_initialization_and_destruction_0()+0x2c53>
+			2c5f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c63:	48 8b 8c 24 08 01 00 	mov    0x108(%rsp),%rcx
+    2c6a:	00 
+    2c6b:	e8 00 00 00 00       	call   2c70 <__static_initialization_and_destruction_0()+0x2c60>
+			2c6c: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c70:	48 8b 8c 24 f8 00 00 	mov    0xf8(%rsp),%rcx
+    2c77:	00 
+    2c78:	e8 00 00 00 00       	call   2c7d <__static_initialization_and_destruction_0()+0x2c6d>
+			2c79: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c7d:	48 8b 8c 24 e8 00 00 	mov    0xe8(%rsp),%rcx
+    2c84:	00 
+    2c85:	e8 00 00 00 00       	call   2c8a <__static_initialization_and_destruction_0()+0x2c7a>
+			2c86: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c8a:	48 8b 8c 24 d8 00 00 	mov    0xd8(%rsp),%rcx
+    2c91:	00 
+    2c92:	e8 00 00 00 00       	call   2c97 <__static_initialization_and_destruction_0()+0x2c87>
+			2c93: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2c97:	48 8b 8c 24 c8 00 00 	mov    0xc8(%rsp),%rcx
+    2c9e:	00 
+    2c9f:	e8 00 00 00 00       	call   2ca4 <__static_initialization_and_destruction_0()+0x2c94>
+			2ca0: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ca4:	48 8b 8c 24 b8 00 00 	mov    0xb8(%rsp),%rcx
+    2cab:	00 
+    2cac:	e8 00 00 00 00       	call   2cb1 <__static_initialization_and_destruction_0()+0x2ca1>
+			2cad: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2cb1:	48 8b 8c 24 a8 00 00 	mov    0xa8(%rsp),%rcx
+    2cb8:	00 
+    2cb9:	e8 00 00 00 00       	call   2cbe <__static_initialization_and_destruction_0()+0x2cae>
+			2cba: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2cbe:	48 8b 8c 24 30 01 00 	mov    0x130(%rsp),%rcx
+    2cc5:	00 
+    2cc6:	e8 00 00 00 00       	call   2ccb <__static_initialization_and_destruction_0()+0x2cbb>
+			2cc7: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ccb:	48 8b 8c 24 28 01 00 	mov    0x128(%rsp),%rcx
+    2cd2:	00 
+    2cd3:	e8 00 00 00 00       	call   2cd8 <__static_initialization_and_destruction_0()+0x2cc8>
+			2cd4: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2cd8:	48 8b 8c 24 c8 01 00 	mov    0x1c8(%rsp),%rcx
+    2cdf:	00 
+    2ce0:	e8 00 00 00 00       	call   2ce5 <__static_initialization_and_destruction_0()+0x2cd5>
+			2ce1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ce5:	48 8b 8c 24 80 01 00 	mov    0x180(%rsp),%rcx
+    2cec:	00 
+    2ced:	e8 00 00 00 00       	call   2cf2 <__static_initialization_and_destruction_0()+0x2ce2>
+			2cee: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    2cf2:	4c 8b 6c 24 60       	mov    0x60(%rsp),%r13
+    2cf7:	48 83 ee 20          	sub    $0x20,%rsi
+    2cfb:	48 8d 4e 08          	lea    0x8(%rsi),%rcx
+    2cff:	e8 00 00 00 00       	call   2d04 <__static_initialization_and_destruction_0()+0x2cf4>
+			2d00: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d04:	48 39 ee             	cmp    %rbp,%rsi
+    2d07:	75 ee                	jne    2cf7 <__static_initialization_and_destruction_0()+0x2ce7>
+    2d09:	48 8b 8c 24 c0 01 00 	mov    0x1c0(%rsp),%rcx
+    2d10:	00 
+    2d11:	e8 00 00 00 00       	call   2d16 <__static_initialization_and_destruction_0()+0x2d06>
+			2d12: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d16:	48 8b 8c 24 b0 01 00 	mov    0x1b0(%rsp),%rcx
+    2d1d:	00 
+    2d1e:	e8 00 00 00 00       	call   2d23 <__static_initialization_and_destruction_0()+0x2d13>
+			2d1f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d23:	48 8b 8c 24 a0 01 00 	mov    0x1a0(%rsp),%rcx
+    2d2a:	00 
+    2d2b:	e8 00 00 00 00       	call   2d30 <__static_initialization_and_destruction_0()+0x2d20>
+			2d2c: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d30:	48 8b 8c 24 90 01 00 	mov    0x190(%rsp),%rcx
+    2d37:	00 
+    2d38:	e8 00 00 00 00       	call   2d3d <__static_initialization_and_destruction_0()+0x2d2d>
+			2d39: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d3d:	48 8b 8c 24 78 01 00 	mov    0x178(%rsp),%rcx
+    2d44:	00 
+    2d45:	e8 00 00 00 00       	call   2d4a <__static_initialization_and_destruction_0()+0x2d3a>
+			2d46: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d4a:	48 8b 8c 24 68 01 00 	mov    0x168(%rsp),%rcx
+    2d51:	00 
+    2d52:	e8 00 00 00 00       	call   2d57 <__static_initialization_and_destruction_0()+0x2d47>
+			2d53: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d57:	48 8b 8c 24 90 02 00 	mov    0x290(%rsp),%rcx
+    2d5e:	00 
+    2d5f:	e8 00 00 00 00       	call   2d64 <__static_initialization_and_destruction_0()+0x2d54>
+			2d60: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d64:	48 8b 8c 24 80 02 00 	mov    0x280(%rsp),%rcx
+    2d6b:	00 
+    2d6c:	e8 00 00 00 00       	call   2d71 <__static_initialization_and_destruction_0()+0x2d61>
+			2d6d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d71:	48 8b 8c 24 70 02 00 	mov    0x270(%rsp),%rcx
+    2d78:	00 
+    2d79:	e8 00 00 00 00       	call   2d7e <__static_initialization_and_destruction_0()+0x2d6e>
+			2d7a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d7e:	48 8b 8c 24 60 02 00 	mov    0x260(%rsp),%rcx
+    2d85:	00 
+    2d86:	e8 00 00 00 00       	call   2d8b <__static_initialization_and_destruction_0()+0x2d7b>
+			2d87: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d8b:	48 8b 8c 24 48 02 00 	mov    0x248(%rsp),%rcx
+    2d92:	00 
+    2d93:	e8 00 00 00 00       	call   2d98 <__static_initialization_and_destruction_0()+0x2d88>
+			2d94: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2d98:	48 8b 8c 24 38 02 00 	mov    0x238(%rsp),%rcx
+    2d9f:	00 
+    2da0:	e8 00 00 00 00       	call   2da5 <__static_initialization_and_destruction_0()+0x2d95>
+			2da1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2da5:	48 8b 8c 24 28 02 00 	mov    0x228(%rsp),%rcx
+    2dac:	00 
+    2dad:	e8 00 00 00 00       	call   2db2 <__static_initialization_and_destruction_0()+0x2da2>
+			2dae: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2db2:	48 8b 8c 24 20 01 00 	mov    0x120(%rsp),%rcx
+    2db9:	00 
+    2dba:	e8 00 00 00 00       	call   2dbf <__static_initialization_and_destruction_0()+0x2daf>
+			2dbb: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2dbf:	48 8b 8c 24 10 01 00 	mov    0x110(%rsp),%rcx
+    2dc6:	00 
+    2dc7:	e8 00 00 00 00       	call   2dcc <__static_initialization_and_destruction_0()+0x2dbc>
+			2dc8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2dcc:	48 8b 8c 24 00 01 00 	mov    0x100(%rsp),%rcx
+    2dd3:	00 
+    2dd4:	e8 00 00 00 00       	call   2dd9 <__static_initialization_and_destruction_0()+0x2dc9>
+			2dd5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2dd9:	48 8b 8c 24 f0 00 00 	mov    0xf0(%rsp),%rcx
+    2de0:	00 
+    2de1:	e8 00 00 00 00       	call   2de6 <__static_initialization_and_destruction_0()+0x2dd6>
+			2de2: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2de6:	48 8b 8c 24 e0 00 00 	mov    0xe0(%rsp),%rcx
+    2ded:	00 
+    2dee:	e8 00 00 00 00       	call   2df3 <__static_initialization_and_destruction_0()+0x2de3>
+			2def: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2df3:	48 8b 8c 24 d0 00 00 	mov    0xd0(%rsp),%rcx
+    2dfa:	00 
+    2dfb:	e8 00 00 00 00       	call   2e00 <__static_initialization_and_destruction_0()+0x2df0>
+			2dfc: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e00:	48 8b 8c 24 c0 00 00 	mov    0xc0(%rsp),%rcx
+    2e07:	00 
+    2e08:	e8 00 00 00 00       	call   2e0d <__static_initialization_and_destruction_0()+0x2dfd>
+			2e09: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e0d:	48 8b 8c 24 b0 00 00 	mov    0xb0(%rsp),%rcx
+    2e14:	00 
+    2e15:	e8 00 00 00 00       	call   2e1a <__static_initialization_and_destruction_0()+0x2e0a>
+			2e16: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e1a:	48 8b 8c 24 a0 00 00 	mov    0xa0(%rsp),%rcx
+    2e21:	00 
+    2e22:	e8 00 00 00 00       	call   2e27 <__static_initialization_and_destruction_0()+0x2e17>
+			2e23: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e27:	48 8b 8c 24 98 00 00 	mov    0x98(%rsp),%rcx
+    2e2e:	00 
+    2e2f:	e8 00 00 00 00       	call   2e34 <__static_initialization_and_destruction_0()+0x2e24>
+			2e30: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e34:	48 8b 8c 24 90 00 00 	mov    0x90(%rsp),%rcx
+    2e3b:	00 
+    2e3c:	e8 00 00 00 00       	call   2e41 <__static_initialization_and_destruction_0()+0x2e31>
+			2e3d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e41:	48 8b 8c 24 50 02 00 	mov    0x250(%rsp),%rcx
+    2e48:	00 
+    2e49:	e8 00 00 00 00       	call   2e4e <__static_initialization_and_destruction_0()+0x2e3e>
+			2e4a: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    2e4e:	48 83 ed 20          	sub    $0x20,%rbp
+    2e52:	48 8d 4d 08          	lea    0x8(%rbp),%rcx
+    2e56:	e8 00 00 00 00       	call   2e5b <__static_initialization_and_destruction_0()+0x2e4b>
+			2e57: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e5b:	48 39 fd             	cmp    %rdi,%rbp
+    2e5e:	75 ee                	jne    2e4e <__static_initialization_and_destruction_0()+0x2e3e>
+    2e60:	48 8b 8c 24 88 00 00 	mov    0x88(%rsp),%rcx
+    2e67:	00 
+    2e68:	e8 00 00 00 00       	call   2e6d <__static_initialization_and_destruction_0()+0x2e5d>
+			2e69: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e6d:	48 8b 8c 24 b8 01 00 	mov    0x1b8(%rsp),%rcx
+    2e74:	00 
+    2e75:	e8 00 00 00 00       	call   2e7a <__static_initialization_and_destruction_0()+0x2e6a>
+			2e76: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e7a:	48 8b 8c 24 a8 01 00 	mov    0x1a8(%rsp),%rcx
+    2e81:	00 
+    2e82:	e8 00 00 00 00       	call   2e87 <__static_initialization_and_destruction_0()+0x2e77>
+			2e83: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e87:	48 8b 8c 24 98 01 00 	mov    0x198(%rsp),%rcx
+    2e8e:	00 
+    2e8f:	e8 00 00 00 00       	call   2e94 <__static_initialization_and_destruction_0()+0x2e84>
+			2e90: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2e94:	48 8b 8c 24 88 01 00 	mov    0x188(%rsp),%rcx
+    2e9b:	00 
+    2e9c:	e8 00 00 00 00       	call   2ea1 <__static_initialization_and_destruction_0()+0x2e91>
+			2e9d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ea1:	48 8b 8c 24 70 01 00 	mov    0x170(%rsp),%rcx
+    2ea8:	00 
+    2ea9:	e8 00 00 00 00       	call   2eae <__static_initialization_and_destruction_0()+0x2e9e>
+			2eaa: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2eae:	48 8b 8c 24 98 02 00 	mov    0x298(%rsp),%rcx
+    2eb5:	00 
+    2eb6:	e8 00 00 00 00       	call   2ebb <__static_initialization_and_destruction_0()+0x2eab>
+			2eb7: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ebb:	48 8b 8c 24 88 02 00 	mov    0x288(%rsp),%rcx
+    2ec2:	00 
+    2ec3:	e8 00 00 00 00       	call   2ec8 <__static_initialization_and_destruction_0()+0x2eb8>
+			2ec4: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ec8:	48 8b 8c 24 78 02 00 	mov    0x278(%rsp),%rcx
+    2ecf:	00 
+    2ed0:	e8 00 00 00 00       	call   2ed5 <__static_initialization_and_destruction_0()+0x2ec5>
+			2ed1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ed5:	48 8b 8c 24 68 02 00 	mov    0x268(%rsp),%rcx
+    2edc:	00 
+    2edd:	e8 00 00 00 00       	call   2ee2 <__static_initialization_and_destruction_0()+0x2ed2>
+			2ede: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ee2:	48 8b 8c 24 58 02 00 	mov    0x258(%rsp),%rcx
+    2ee9:	00 
+    2eea:	e8 00 00 00 00       	call   2eef <__static_initialization_and_destruction_0()+0x2edf>
+			2eeb: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2eef:	48 8b 8c 24 40 02 00 	mov    0x240(%rsp),%rcx
+    2ef6:	00 
+    2ef7:	e8 00 00 00 00       	call   2efc <__static_initialization_and_destruction_0()+0x2eec>
+			2ef8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2efc:	48 8b 8c 24 30 02 00 	mov    0x230(%rsp),%rcx
+    2f03:	00 
+    2f04:	e8 00 00 00 00       	call   2f09 <__static_initialization_and_destruction_0()+0x2ef9>
+			2f05: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f09:	48 8b 8c 24 20 02 00 	mov    0x220(%rsp),%rcx
+    2f10:	00 
+    2f11:	e8 00 00 00 00       	call   2f16 <__static_initialization_and_destruction_0()+0x2f06>
+			2f12: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f16:	48 8b 8c 24 18 02 00 	mov    0x218(%rsp),%rcx
+    2f1d:	00 
+    2f1e:	e8 00 00 00 00       	call   2f23 <__static_initialization_and_destruction_0()+0x2f13>
+			2f1f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f23:	48 8b 8c 24 10 02 00 	mov    0x210(%rsp),%rcx
+    2f2a:	00 
+    2f2b:	e8 00 00 00 00       	call   2f30 <__static_initialization_and_destruction_0()+0x2f20>
+			2f2c: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f30:	48 8b 8c 24 08 02 00 	mov    0x208(%rsp),%rcx
+    2f37:	00 
+    2f38:	e8 00 00 00 00       	call   2f3d <__static_initialization_and_destruction_0()+0x2f2d>
+			2f39: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f3d:	48 8b 8c 24 00 02 00 	mov    0x200(%rsp),%rcx
+    2f44:	00 
+    2f45:	e8 00 00 00 00       	call   2f4a <__static_initialization_and_destruction_0()+0x2f3a>
+			2f46: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f4a:	48 8b 8c 24 f8 01 00 	mov    0x1f8(%rsp),%rcx
+    2f51:	00 
+    2f52:	e8 00 00 00 00       	call   2f57 <__static_initialization_and_destruction_0()+0x2f47>
+			2f53: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f57:	48 8b 8c 24 f0 01 00 	mov    0x1f0(%rsp),%rcx
+    2f5e:	00 
+    2f5f:	e8 00 00 00 00       	call   2f64 <__static_initialization_and_destruction_0()+0x2f54>
+			2f60: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f64:	48 8b 8c 24 e8 01 00 	mov    0x1e8(%rsp),%rcx
+    2f6b:	00 
+    2f6c:	e8 00 00 00 00       	call   2f71 <__static_initialization_and_destruction_0()+0x2f61>
+			2f6d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f71:	48 8b 8c 24 e0 01 00 	mov    0x1e0(%rsp),%rcx
+    2f78:	00 
+    2f79:	e8 00 00 00 00       	call   2f7e <__static_initialization_and_destruction_0()+0x2f6e>
+			2f7a: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f7e:	48 8b 8c 24 d8 01 00 	mov    0x1d8(%rsp),%rcx
+    2f85:	00 
+    2f86:	e8 00 00 00 00       	call   2f8b <__static_initialization_and_destruction_0()+0x2f7b>
+			2f87: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f8b:	48 8b 8c 24 d0 01 00 	mov    0x1d0(%rsp),%rcx
+    2f92:	00 
+    2f93:	e8 00 00 00 00       	call   2f98 <__static_initialization_and_destruction_0()+0x2f88>
+			2f94: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2f98:	b8 02 00 00 00       	mov    $0x2,%eax
+    2f9d:	48 29 d8             	sub    %rbx,%rax
+    2fa0:	48 c1 e0 04          	shl    $0x4,%rax
+    2fa4:	48 89 c3             	mov    %rax,%rbx
+    2fa7:	4c 01 e3             	add    %r12,%rbx
+    2faa:	4c 39 e3             	cmp    %r12,%rbx
+    2fad:	0f 85 2c 01 00 00    	jne    30df <__static_initialization_and_destruction_0()+0x30cf>
+    2fb3:	4c 89 e9             	mov    %r13,%rcx
+    2fb6:	e8 00 00 00 00       	call   2fbb <__static_initialization_and_destruction_0()+0x2fab>
+			2fb7: IMAGE_REL_AMD64_REL32	_Unwind_Resume
+    2fbb:	48 89 44 24 60       	mov    %rax,0x60(%rsp)
+    2fc0:	31 db                	xor    %ebx,%ebx
+    2fc2:	e9 f1 fb ff ff       	jmp    2bb8 <__static_initialization_and_destruction_0()+0x2ba8>
+    2fc7:	49 89 c5             	mov    %rax,%r13
+    2fca:	bb 01 00 00 00       	mov    $0x1,%ebx
+    2fcf:	e9 23 fd ff ff       	jmp    2cf7 <__static_initialization_and_destruction_0()+0x2ce7>
+    2fd4:	4c 8d ac 24 80 15 00 	lea    0x1580(%rsp),%r13
+    2fdb:	00 
+    2fdc:	48 89 c3             	mov    %rax,%rbx
+    2fdf:	49 83 ed 20          	sub    $0x20,%r13
+    2fe3:	49 8d 4d 08          	lea    0x8(%r13),%rcx
+    2fe7:	e8 00 00 00 00       	call   2fec <__static_initialization_and_destruction_0()+0x2fdc>
+			2fe8: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2fec:	49 39 f5             	cmp    %rsi,%r13
+    2fef:	75 ee                	jne    2fdf <__static_initialization_and_destruction_0()+0x2fcf>
+    2ff1:	48 89 e9             	mov    %rbp,%rcx
+    2ff4:	e8 00 00 00 00       	call   2ff9 <__static_initialization_and_destruction_0()+0x2fe9>
+			2ff5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    2ff9:	48 89 f9             	mov    %rdi,%rcx
+    2ffc:	e8 00 00 00 00       	call   3001 <__static_initialization_and_destruction_0()+0x2ff1>
+			2ffd: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3001:	4c 89 e1             	mov    %r12,%rcx
+    3004:	e8 00 00 00 00       	call   3009 <__static_initialization_and_destruction_0()+0x2ff9>
+			3005: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3009:	4c 89 f9             	mov    %r15,%rcx
+    300c:	e8 00 00 00 00       	call   3011 <__static_initialization_and_destruction_0()+0x3001>
+			300d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3011:	4c 89 f1             	mov    %r14,%rcx
+    3014:	e8 00 00 00 00       	call   3019 <__static_initialization_and_destruction_0()+0x3009>
+			3015: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3019:	48 8b 4c 24 38       	mov    0x38(%rsp),%rcx
+    301e:	e8 00 00 00 00       	call   3023 <__static_initialization_and_destruction_0()+0x3013>
+			301f: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3023:	48 8b 4c 24 30       	mov    0x30(%rsp),%rcx
+    3028:	e8 00 00 00 00       	call   302d <__static_initialization_and_destruction_0()+0x301d>
+			3029: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    302d:	48 8b 4c 24 28       	mov    0x28(%rsp),%rcx
+    3032:	e8 00 00 00 00       	call   3037 <__static_initialization_and_destruction_0()+0x3027>
+			3033: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3037:	48 89 d9             	mov    %rbx,%rcx
+    303a:	e8 00 00 00 00       	call   303f <__static_initialization_and_destruction_0()+0x302f>
+			303b: IMAGE_REL_AMD64_REL32	_Unwind_Resume
+    303f:	49 89 c5             	mov    %rax,%r13
+    3042:	bb 02 00 00 00       	mov    $0x2,%ebx
+    3047:	e9 02 fe ff ff       	jmp    2e4e <__static_initialization_and_destruction_0()+0x2e3e>
+    304c:	4c 8d ac 24 00 16 00 	lea    0x1600(%rsp),%r13
+    3053:	00 
+    3054:	48 89 c3             	mov    %rax,%rbx
+    3057:	49 83 ed 20          	sub    $0x20,%r13
+    305b:	49 8d 4d 08          	lea    0x8(%r13),%rcx
+    305f:	e8 00 00 00 00       	call   3064 <__static_initialization_and_destruction_0()+0x3054>
+			3060: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3064:	49 39 f5             	cmp    %rsi,%r13
+    3067:	75 ee                	jne    3057 <__static_initialization_and_destruction_0()+0x3047>
+    3069:	48 89 e9             	mov    %rbp,%rcx
+    306c:	e8 00 00 00 00       	call   3071 <__static_initialization_and_destruction_0()+0x3061>
+			306d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3071:	48 89 f9             	mov    %rdi,%rcx
+    3074:	e8 00 00 00 00       	call   3079 <__static_initialization_and_destruction_0()+0x3069>
+			3075: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3079:	4c 89 e1             	mov    %r12,%rcx
+    307c:	e8 00 00 00 00       	call   3081 <__static_initialization_and_destruction_0()+0x3071>
+			307d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3081:	4c 89 f9             	mov    %r15,%rcx
+    3084:	e8 00 00 00 00       	call   3089 <__static_initialization_and_destruction_0()+0x3079>
+			3085: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3089:	4c 89 f1             	mov    %r14,%rcx
+    308c:	e8 00 00 00 00       	call   3091 <__static_initialization_and_destruction_0()+0x3081>
+			308d: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    3091:	48 8b 4c 24 38       	mov    0x38(%rsp),%rcx
+    3096:	e8 00 00 00 00       	call   309b <__static_initialization_and_destruction_0()+0x308b>
+			3097: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    309b:	48 8b 4c 24 30       	mov    0x30(%rsp),%rcx
+    30a0:	e8 00 00 00 00       	call   30a5 <__static_initialization_and_destruction_0()+0x3095>
+			30a1: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    30a5:	48 8b 4c 24 28       	mov    0x28(%rsp),%rcx
+    30aa:	e8 00 00 00 00       	call   30af <__static_initialization_and_destruction_0()+0x309f>
+			30ab: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    30af:	48 8b 4c 24 58       	mov    0x58(%rsp),%rcx
+    30b4:	e8 00 00 00 00       	call   30b9 <__static_initialization_and_destruction_0()+0x30a9>
+			30b5: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    30b9:	48 8b 4c 24 50       	mov    0x50(%rsp),%rcx
+    30be:	e8 00 00 00 00       	call   30c3 <__static_initialization_and_destruction_0()+0x30b3>
+			30bf: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    30c3:	48 8b 4c 24 48       	mov    0x48(%rsp),%rcx
+    30c8:	e8 00 00 00 00       	call   30cd <__static_initialization_and_destruction_0()+0x30bd>
+			30c9: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    30cd:	48 8b 4c 24 40       	mov    0x40(%rsp),%rcx
+    30d2:	e8 00 00 00 00       	call   30d7 <__static_initialization_and_destruction_0()+0x30c7>
+			30d3: IMAGE_REL_AMD64_REL32	QArrayDataPointer<int>::~QArrayDataPointer()
+    30d7:	48 89 d9             	mov    %rbx,%rcx
+    30da:	e8 00 00 00 00       	call   30df <__static_initialization_and_destruction_0()+0x30cf>
+			30db: IMAGE_REL_AMD64_REL32	_Unwind_Resume
+    30df:	48 83 eb 10          	sub    $0x10,%rbx
+    30e3:	48 8d 4b 08          	lea    0x8(%rbx),%rcx
+    30e7:	e8 00 00 00 00       	call   30ec <__static_initialization_and_destruction_0()+0x30dc>
+			30e8: IMAGE_REL_AMD64_REL32	QtPrivate::QExplicitlySharedDataPointerV2<QMapData<std::map<int, QList<int>, std::less<int>, std::allocator<std::pair<int const, QList<int> > > > > >::~QExplicitlySharedDataPointerV2()
+    30ec:	e9 b9 fe ff ff       	jmp    2faa <__static_initialization_and_destruction_0()+0x2f9a>
+    30f1:	66 66 2e 0f 1f 84 00 	data16 cs nopw 0x0(%rax,%rax,1)
+    30f8:	00 00 00 00 
+    30fc:	0f 1f 40 00          	nopl   0x0(%rax)
+
+0000000000003100 <_GLOBAL__sub_I_CntBtuConnectedQss>:
+    3100:	e9 0b cf ff ff       	jmp    10 <__static_initialization_and_destruction_0()>
+    3105:	90                   	nop
+    3106:	90                   	nop
+    3107:	90                   	nop
+    3108:	90                   	nop
+    3109:	90                   	nop
+    310a:	90                   	nop
+    310b:	90                   	nop
+    310c:	90                   	nop
+    310d:	90                   	nop
+    310e:	90                   	nop
+    310f:	90                   	nop

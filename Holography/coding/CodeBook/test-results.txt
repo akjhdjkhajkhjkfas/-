@@ -1,0 +1,5 @@
+PASS: 40x64 CSV import/export round trip, 2560 cells
+PASS: non-binary, blank and wrong dimensions rejected
+PASS: all 2560 cell colors and positions; three window sizes without clipping
+PASS: edit toggle, bottom-right cell hit test, outside-grid click
+PASS: UI defaults 192.168.1.10:5001, connect/send/disconnect buttons, exact preview payload and OK log

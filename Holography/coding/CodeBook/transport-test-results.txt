@@ -1,0 +1,6 @@
+PASS: all 2560 one-hot channels, MSB-first row order, 320-byte length, zero/one and known vectors
+PASS: persistent TCP connection, repeated exact 320-byte sends, fragmented OK/ERROR replies
+PASS: reply timeout closes connection, concurrent sends rejected, no automatic retry
+PASS: optional no-reply mode; remote close cannot be reported as execution success
+PASS: unknown reply rejected, reconnect restores sending
+PASS: disconnected send and invalid IP rejected

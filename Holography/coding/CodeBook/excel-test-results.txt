@@ -1,0 +1,4 @@
+PASS: .xls import, all 2560 values match
+PASS: .xlsx import, all 2560 values match
+PASS: original 72x32 XLS rejected explicitly; no automatic cropping or reshaping
+Verified using Microsoft Excel COM outside the sandbox (sandbox COM session unavailable).
